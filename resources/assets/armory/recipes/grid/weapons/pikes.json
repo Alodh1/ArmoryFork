@@ -1,0 +1,37 @@
+[
+  {
+    "ingredientPattern": "S,H",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:spearhead-*",
+        "quantity": 1,
+        "name": "material",
+        "allowedVariants": [
+          "tinbronze",
+          "bismuthbronze",
+          "blackbronze",
+          "iron",
+          "meteoriciron",
+          "steel"
+        ]
+      },
+      "H": {
+        "type": "item",
+        "code": "armory:handle-long"
+      }
+    },
+    "copyAttributesFrom": "S",
+    "width": 1,
+    "height": 2,
+    "name": "pike",
+    "output": {
+      "type": "item",
+      "code": "armory:pike-plain-{material}",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "ingredientPattern": "KBS",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:metalnailsandstrips-*",
+        "quantity": 2,
+        "name": "metal",
+        "allowedVariants": [
+          "copper",
+          "tinbronze",
+          "bismuthbronze",
+          "blackbronze",
+          "iron",
+          "meteoriciron"
+        ]
+      },
+      "B": {
+        "type": "block",
+        "code": "game:log-placed-*-ud",
+        "name": "wood",
+        "quantity": 1
+      },
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "quantity": 1,
+        "isTool": true
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "name": "club",
+    "output": {
+      "type": "item",
+      "code": "armory:club-plain-{metal}",
+      "attributes": {
+        "handleTexture": "game:block/wood/debarked/{wood}"
+      },
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "S,H",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "armory:part-hammerhead-steel",
+        "quantity": 1
+      },
+      "H": {
+        "type": "item",
+        "code": "armory:handle-long"
+      }
+    },
+    "copyAttributesFrom": "S",
+    "width": 1,
+    "height": 2,
+    "name": "club",
+    "output": {
+      "type": "item",
+      "code": "armory:club-plain-steel",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  }
+]

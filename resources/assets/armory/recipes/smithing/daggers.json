@@ -1,0 +1,31 @@
+[
+  {
+    "ingredient": {
+      "type": "item",
+      "code": "game:ingot-*",
+      "name": "metal",
+      "allowedVariants": [
+        "iron",
+        "meteoriciron",
+        "steel"
+      ]
+    },
+    "name": "dagger",
+    "pattern": [
+      [
+        "__#####",
+        "#######",
+        "__#####"
+      ],
+      [
+        "_______",
+        "__#####",
+        "_______"
+      ]
+    ],
+    "output": {
+      "type": "item",
+      "code": "armory:part-dagger-{metal}"
+    }
+  }
+]

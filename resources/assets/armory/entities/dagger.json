@@ -1,0 +1,89 @@
+{
+  "code": "dagger",
+  "class": "CombatOverhaul:Projectile",
+  "variantgroups": [
+    {
+      "code": "handling",
+      "states": [
+        "long"
+      ]
+    },
+    {
+      "code": "type",
+      "states": [
+        "plain"
+      ]
+    },
+    {
+      "code": "material",
+      "states": [
+        "iron",
+        "meteoriciron",
+        "steel"
+      ]
+    }
+  ],
+  "hitboxSize": {
+    "x": 0.1,
+    "y": 0.1
+  },
+  "client": {
+    "size": 0.65,
+    "renderer": "Shape",
+    "shapeByType": {
+      "*-steel": {
+        "base": "armory:daggers/dagger-straightguard-{type}"
+      },
+      "*-iron": {
+        "base": "armory:daggers/dagger-balls-{type}"
+      },
+      "*-meteoriciron": {
+        "base": "armory:daggers/dagger-rondel-{type}"
+      }
+    },
+    "texturesByType": {
+      "*-steel": {
+        "blade": {
+          "base": "game:block/metal/plate/{material}"
+        },
+        "handle": {
+          "base": "game:block/leather/plain"
+        }
+      },
+      "*": {
+        "blade": {
+          "base": "game:block/metal/plate/{material}"
+        },
+        "handle": {
+          "base": "game:block/wood/debarked/oak"
+        }
+      }
+    },
+    "behaviors": [
+      {
+        "code": "CombatOverhaul:ProjectilePhysics",
+        "groundDragFactor": 1,
+        "airDragFactor": 1.8,
+        "gravityFactor": 2
+      },
+      {
+        "code": "interpolateposition"
+      }
+    ]
+  },
+  "server": {
+    "behaviors": [
+      {
+        "code": "CombatOverhaul:ProjectilePhysics",
+        "groundDragFactor": 1,
+        "airDragFactor": 2.2,
+        "gravityFactor": 2
+      },
+      {
+        "code": "despawn",
+        "minSeconds": 600
+      }
+    ]
+  },
+  "sounds": {}
+}

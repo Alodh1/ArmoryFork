@@ -1,0 +1,218 @@
+[
+  {
+    "ingredientPattern": "KBS",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:metalnailsandstrips-copper",
+        "quantity": 2
+      },
+      "B": {
+        "type": "block",
+        "code": "floralzonesneozeylandicregion:log-placed-*-ud",
+        "name": "wood",
+        "quantity": 1
+      },
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "quantity": 1,
+        "isTool": true
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "name": "club",
+    "output": {
+      "type": "item",
+      "code": "armory:club-plain-copper",
+      "attributes": {
+        "handleTexture": "game:block/wood/debarked/{wood}"
+      },
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "KBS",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:metalnailsandstrips-tinbronze",
+        "quantity": 2
+      },
+      "B": {
+        "type": "block",
+        "code": "floralzonesneozeylandicregion:log-placed-*-ud",
+        "name": "wood",
+        "quantity": 1
+      },
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "quantity": 1,
+        "isTool": true
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "name": "club",
+    "output": {
+      "type": "item",
+      "code": "armory:club-plain-tinbronze",
+      "attributes": {
+        "handleTexture": "game:block/wood/debarked/{wood}"
+      },
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "KBS",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:metalnailsandstrips-bismuthbronze",
+        "quantity": 2
+      },
+      "B": {
+        "type": "block",
+        "code": "floralzonesneozeylandicregion:log-placed-*-ud",
+        "name": "wood",
+        "quantity": 1
+      },
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "quantity": 1,
+        "isTool": true
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "name": "club",
+    "output": {
+      "type": "item",
+      "code": "armory:club-plain-bismuthbronze",
+      "attributes": {
+        "handleTexture": "game:block/wood/debarked/{wood}"
+      },
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "KBS",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:metalnailsandstrips-blackbronze",
+        "quantity": 2
+      },
+      "B": {
+        "type": "block",
+        "code": "floralzonesneozeylandicregion:log-placed-*-ud",
+        "name": "wood",
+        "quantity": 1
+      },
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "quantity": 1,
+        "isTool": true
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "name": "club",
+    "output": {
+      "type": "item",
+      "code": "armory:club-plain-blackbronze",
+      "attributes": {
+        "handleTexture": "game:block/wood/debarked/{wood}"
+      },
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "KBS",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:metalnailsandstrips-iron",
+        "quantity": 2
+      },
+      "B": {
+        "type": "block",
+        "code": "floralzonesneozeylandicregion:log-placed-*-ud",
+        "name": "wood",
+        "quantity": 1
+      },
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "quantity": 1,
+        "isTool": true
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "name": "club",
+    "output": {
+      "type": "item",
+      "code": "armory:club-plain-iron",
+      "attributes": {
+        "handleTexture": "game:block/wood/debarked/{wood}"
+      },
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "KBS",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:metalnailsandstrips-meteoriciron",
+        "quantity": 2
+      },
+      "B": {
+        "type": "block",
+        "code": "floralzonesneozeylandicregion:log-placed-*-ud",
+        "name": "wood",
+        "quantity": 1
+      },
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "quantity": 1,
+        "isTool": true
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "name": "club",
+    "output": {
+      "type": "item",
+      "code": "armory:club-plain-meteoriciron",
+      "attributes": {
+        "handleTexture": "game:block/wood/debarked/{wood}"
+      },
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  }
+]
