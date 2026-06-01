@@ -274,15 +274,12 @@
   },
   "attributesByType": {
     "*-iron": {
-      "forgable": true,
       "quenchBuffKind": "armor"
     },
     "*-meteoriciron": {
-      "forgable": true,
       "quenchBuffKind": "armor"
     },
     "*-steel": {
-      "forgable": true,
       "quenchBuffKind": "armor"
     }
   }
