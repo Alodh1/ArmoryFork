@@ -29,6 +29,9 @@
     },
     "*-steel": {
       "base": "swords/parts/sword-long"
+    },
+    "*-meteoricsteel": {
+      "base": "swords/parts/sword-long"
     }
   },
   "textures": {
@@ -123,6 +126,24 @@
         "z": 1.2
       },
       "scale": 1.87
+    },
+    "*-meteoricsteel": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -23,
+        "y": 118,
+        "z": -6
+      },
+      "origin": {
+        "x": 1.03,
+        "y": 0.3,
+        "z": 0.8
+      },
+      "scale": 1.69
     }
   },
   "tpHandTransform": {
@@ -214,6 +235,32 @@
         }
       }
     ],
+    "*-meteoricsteel": [
+      {
+        "name": "GroundStorable",
+        "properties": {
+          "layout": "Quadrants",
+          "placeRemoveSound": "sounds/player/build",
+          "collisionBox": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 0.1,
+            "z2": 1
+          }
+        }
+      },
+      {
+        "name": "Buffable"
+      },
+      {
+        "name": "Quenchable",
+        "properties": {
+          "metalVariantgroupCode": "material"
+        }
+      }
+    ],
     "*-steel": [
       {
         "name": "GroundStorable",
@@ -269,6 +316,11 @@
       "meltingDuration": 30,
       "requiresContainer": false
     },
+    "*-meteoricsteel": {
+      "meltingPoint": 1502,
+      "meltingDuration": 30,
+      "requiresContainer": false
+    },
     "*-steel": {
       "meltingPoint": 1502,
       "meltingDuration": 30,
@@ -281,6 +333,10 @@
       "quenchBuffKind": "weapon"
     },
     "*-meteoriciron": {
+      "forgable": true,
+      "quenchBuffKind": "weapon"
+    },
+    "*-meteoricsteel": {
       "forgable": true,
       "quenchBuffKind": "weapon"
     },

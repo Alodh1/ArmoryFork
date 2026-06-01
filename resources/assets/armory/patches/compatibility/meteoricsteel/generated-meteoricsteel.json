@@ -1,0 +1,3449 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:entities/dagger",
+    "op": "addmerge",
+    "path": "/variantgroups/2/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:entities/javelin",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/armor/brigandine",
+    "op": "addmerge",
+    "path": "/variantgroups/2/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/armor/chain",
+    "op": "addmerge",
+    "path": "/variantgroups/2/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/armor/chain-coif",
+    "op": "addmerge",
+    "path": "/variantgroups/2/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/armor/plate",
+    "op": "addmerge",
+    "path": "/variantgroups/2/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/armor/plate-helmets",
+    "op": "addmerge",
+    "path": "/variantgroups/2/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/armor/scale",
+    "op": "addmerge",
+    "path": "/variantgroups/2/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/armor",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/dagger",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/greatsword",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/halberd",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/javelinhead",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/longaxe",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/longsword",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/macehead",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/sabre",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/shortsword",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/axe-long",
+    "op": "addmerge",
+    "path": "/variantgroups/2/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/club",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/dagger",
+    "op": "addmerge",
+    "path": "/variantgroups/2/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/halberd",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/javelin",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/mace",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/pike",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/quarterstaff",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/sabre",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/shield-heavy",
+    "op": "addmerge",
+    "path": "/variantgroups/2/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/sword-arming",
+    "op": "addmerge",
+    "path": "/variantgroups/2/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/sword-great",
+    "op": "addmerge",
+    "path": "/variantgroups/2/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/sword-long",
+    "op": "addmerge",
+    "path": "/variantgroups/2/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/sword-short",
+    "op": "addmerge",
+    "path": "/variantgroups/2/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/brigandine",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "AP",
+      "recipeGroup": 2,
+      "ingredients": {
+        "A": {
+          "type": "item",
+          "code": "armory:armor-torso-brigandine-*-vanilla",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "P": {
+          "type": "item",
+          "code": "game:metalplate-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "copyAttributesFrom": "P",
+      "averageDurability": false,
+      "name": "brigandine armor repair",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-torso-brigandine-{material}-vanilla",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/brigandine",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "AP",
+      "recipeGroup": 2,
+      "ingredients": {
+        "A": {
+          "type": "item",
+          "code": "armory:armor-arms-brigandine-*-vanilla",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "P": {
+          "type": "item",
+          "code": "game:metalplate-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "copyAttributesFrom": "P",
+      "averageDurability": false,
+      "name": "brigandine armor repair",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-arms-brigandine-{material}-vanilla",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/brigandine",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "AP",
+      "recipeGroup": 2,
+      "ingredients": {
+        "A": {
+          "type": "item",
+          "code": "armory:armor-hands-brigandine-*-vanilla",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "P": {
+          "type": "item",
+          "code": "game:metalplate-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "copyAttributesFrom": "P",
+      "averageDurability": false,
+      "name": "brigandine armor repair",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-hands-brigandine-{material}-vanilla",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/brigandine",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "AP",
+      "recipeGroup": 2,
+      "ingredients": {
+        "A": {
+          "type": "item",
+          "code": "armory:armor-legs-brigandine-*-vanilla",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "P": {
+          "type": "item",
+          "code": "game:metalplate-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "copyAttributesFrom": "P",
+      "averageDurability": false,
+      "name": "brigandine armor repair",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-legs-brigandine-{material}-vanilla",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/brigandine",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "AP",
+      "recipeGroup": 2,
+      "ingredients": {
+        "A": {
+          "type": "item",
+          "code": "armory:armor-feet-brigandine-*-vanilla",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "P": {
+          "type": "item",
+          "code": "game:metalplate-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "copyAttributesFrom": "P",
+      "averageDurability": false,
+      "name": "brigandine armor repair",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-feet-brigandine-{material}-vanilla",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/brigandine",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "L_L,PLP,LLL",
+      "recipeGroup": 1,
+      "ingredients": {
+        "L": {
+          "type": "item",
+          "code": "game:leather-normal-plain",
+          "quantity": 1
+        },
+        "P": {
+          "type": "item",
+          "code": "game:metalplate-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 3,
+      "height": 3,
+      "name": "brigandine armor",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-torso-brigandine-{material}-vanilla",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      },
+      "copyAttributesFrom": "P"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/brigandine",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "LPL,L_L",
+      "recipeGroup": 1,
+      "ingredients": {
+        "L": {
+          "type": "item",
+          "code": "game:leather-normal-plain",
+          "quantity": 1
+        },
+        "P": {
+          "type": "item",
+          "code": "game:metalplate-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "name": "brigandine armor",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-arms-brigandine-{material}-vanilla",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      },
+      "copyAttributesFrom": "P"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/brigandine",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "L_L,LPL",
+      "recipeGroup": 1,
+      "ingredients": {
+        "L": {
+          "type": "item",
+          "code": "game:leather-normal-plain",
+          "quantity": 1
+        },
+        "P": {
+          "type": "item",
+          "code": "game:metalplate-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "name": "brigandine armor",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-hands-brigandine-{material}-vanilla",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      },
+      "copyAttributesFrom": "P"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/brigandine",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "LPL,L_L,L_L",
+      "recipeGroup": 1,
+      "ingredients": {
+        "L": {
+          "type": "item",
+          "code": "game:leather-normal-plain",
+          "quantity": 1
+        },
+        "P": {
+          "type": "item",
+          "code": "game:metalplate-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 3,
+      "height": 3,
+      "name": "brigandine armor",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-legs-brigandine-{material}-vanilla",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      },
+      "copyAttributesFrom": "P"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/brigandine",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "L_L,LPL,L_L",
+      "recipeGroup": 1,
+      "ingredients": {
+        "L": {
+          "type": "item",
+          "code": "game:leather-normal-plain",
+          "quantity": 1
+        },
+        "P": {
+          "type": "item",
+          "code": "game:metalplate-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 3,
+      "height": 3,
+      "name": "brigandine armor",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-feet-brigandine-{material}-vanilla",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      },
+      "copyAttributesFrom": "P"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/chain",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "TAH",
+      "recipeGroup": 1,
+      "ingredients": {
+        "T": {
+          "type": "item",
+          "code": "armory:armor-torso-chain-*-vanilla",
+          "quantity": 1,
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "A": {
+          "type": "item",
+          "code": "armory:armor-arms-chain-*-vanilla",
+          "quantity": 1,
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "H": {
+          "type": "item",
+          "code": "armory:armor-hands-chain-*-vanilla",
+          "quantity": 1,
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 3,
+      "height": 1,
+      "shapeless": true,
+      "name": "chain armor",
+      "copyAttributesFrom": "T",
+      "output": {
+        "type": "item",
+        "code": "game:armor-body-chain-{material}",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/chain",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "P_P,_P_",
+      "recipeGroup": 1,
+      "ingredients": {
+        "P": {
+          "type": "item",
+          "code": "game:metalchain-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "T": {
+          "type": "item",
+          "code": "game:metalchain-*",
+          "name": "material",
+          "quantity": 2,
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "name": "chain armor",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-head-chain-{material}-coif",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      },
+      "copyAttributesFrom": "P"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/chain",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "TPT,_P_",
+      "recipeGroup": 1,
+      "ingredients": {
+        "P": {
+          "type": "item",
+          "code": "game:metalchain-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "T": {
+          "type": "item",
+          "code": "game:metalchain-*",
+          "name": "material",
+          "quantity": 2,
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "name": "chain armor",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-torso-chain-{material}-vanilla",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      },
+      "copyAttributesFrom": "P"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/chain",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "P_,_T",
+      "recipeGroup": 1,
+      "ingredients": {
+        "P": {
+          "type": "item",
+          "code": "game:metalchain-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "T": {
+          "type": "item",
+          "code": "game:metalchain-*",
+          "name": "material",
+          "quantity": 2,
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 2,
+      "height": 2,
+      "name": "chain armor",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-hands-chain-{material}-vanilla",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      },
+      "copyAttributesFrom": "P"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/chain",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "_P,T_",
+      "recipeGroup": 1,
+      "ingredients": {
+        "P": {
+          "type": "item",
+          "code": "game:metalchain-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "T": {
+          "type": "item",
+          "code": "game:metalchain-*",
+          "name": "material",
+          "quantity": 2,
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 2,
+      "height": 2,
+      "name": "chain armor",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-arms-chain-{material}-vanilla",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      },
+      "copyAttributesFrom": "P"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/chain",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "AP",
+      "recipeGroup": 2,
+      "ingredients": {
+        "A": {
+          "type": "item",
+          "code": "armory:armor-head-chain-*-coif",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "P": {
+          "type": "item",
+          "code": "game:metalchain-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "copyAttributesFrom": "P",
+      "averageDurability": false,
+      "name": "chain armor repair",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-head-chain-{material}-coif",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/chain",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "AP",
+      "recipeGroup": 2,
+      "ingredients": {
+        "A": {
+          "type": "item",
+          "code": "armory:armor-torso-chain-*-vanilla",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "P": {
+          "type": "item",
+          "code": "game:metalchain-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "copyAttributesFrom": "P",
+      "averageDurability": false,
+      "name": "chain armor repair",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-torso-chain-{material}-vanilla",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/chain",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "AP",
+      "recipeGroup": 2,
+      "ingredients": {
+        "A": {
+          "type": "item",
+          "code": "armory:armor-arms-chain-*-vanilla",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "P": {
+          "type": "item",
+          "code": "game:metalchain-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "copyAttributesFrom": "P",
+      "averageDurability": false,
+      "name": "chain armor repair",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-arms-chain-{material}-vanilla",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/chain",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "AP",
+      "recipeGroup": 2,
+      "ingredients": {
+        "A": {
+          "type": "item",
+          "code": "armory:armor-hands-chain-*-vanilla",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "P": {
+          "type": "item",
+          "code": "game:metalchain-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "copyAttributesFrom": "P",
+      "averageDurability": false,
+      "name": "chain armor repair",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-hands-chain-{material}-vanilla",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/plate/plate-combination",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "TAH",
+      "recipeGroup": 1,
+      "ingredients": {
+        "T": {
+          "type": "item",
+          "code": "armory:armor-torso-plate-{material}-vanilla"
+        },
+        "A": {
+          "type": "item",
+          "code": "armory:armor-arms-plate-{material}-vanilla"
+        },
+        "H": {
+          "type": "item",
+          "code": "armory:armor-hands-plate-{material}-vanilla"
+        }
+      },
+      "allowedVariants": {
+        "material": [
+          "copper",
+          "tinbronze",
+          "bismuthbronze",
+          "blackbronze",
+          "iron",
+          "meteoricsteel",
+          "steel",
+          "gold",
+          "silver"
+        ]
+      },
+      "width": 3,
+      "height": 1,
+      "shapeless": true,
+      "name": "plate armor",
+      "averageDurability": true,
+      "output": {
+        "type": "item",
+        "code": "game:armor-body-plate-{material}",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/plate/plate-combination",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "L,F",
+      "recipeGroup": 1,
+      "ingredients": {
+        "L": {
+          "type": "item",
+          "code": "armory:armor-legs-plate-{material}-vanilla"
+        },
+        "F": {
+          "type": "item",
+          "code": "armory:armor-feet-plate-{material}-vanilla"
+        }
+      },
+      "allowedVariants": {
+        "material": [
+          "copper",
+          "tinbronze",
+          "bismuthbronze",
+          "blackbronze",
+          "iron",
+          "meteoricsteel",
+          "steel",
+          "gold",
+          "silver"
+        ]
+      },
+      "width": 1,
+      "height": 2,
+      "shapeless": true,
+      "name": "plate armor",
+      "averageDurability": true,
+      "output": {
+        "type": "item",
+        "code": "game:armor-legs-plate-{material}",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/plate/plate-from-plates",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "PLP",
+      "recipeGroup": 1,
+      "ingredients": {
+        "L": {
+          "type": "item",
+          "code": "game:leather-normal-plain",
+          "quantity": 1
+        },
+        "P": {
+          "type": "item",
+          "code": "armory:part-breastplate-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 3,
+      "height": 1,
+      "name": "plate armor",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-torso-plate-{material}-vanilla",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      },
+      "copyAttributesFrom": "P"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/plate/plate-from-plates",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "PLP",
+      "recipeGroup": 1,
+      "ingredients": {
+        "L": {
+          "type": "item",
+          "code": "game:flaxtwine",
+          "quantity": 2
+        },
+        "P": {
+          "type": "item",
+          "code": "armory:part-breastplate-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 3,
+      "height": 1,
+      "name": "plate armor",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-torso-plate-{material}-vanilla",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      },
+      "copyAttributesFrom": "P"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/plate/plate-from-plates",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "PLP",
+      "recipeGroup": 1,
+      "ingredients": {
+        "L": {
+          "type": "item",
+          "code": "game:leather-normal-plain",
+          "quantity": 1
+        },
+        "P": {
+          "type": "item",
+          "code": "armory:part-smallarmorplate-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 3,
+      "height": 1,
+      "name": "plate armor",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-arms-plate-{material}-vanilla",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      },
+      "copyAttributesFrom": "P"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/plate/plate-from-plates",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "PLP",
+      "recipeGroup": 1,
+      "ingredients": {
+        "L": {
+          "type": "item",
+          "code": "game:flaxtwine",
+          "quantity": 2
+        },
+        "P": {
+          "type": "item",
+          "code": "armory:part-smallarmorplate-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 3,
+      "height": 1,
+      "name": "plate armor",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-arms-plate-{material}-vanilla",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      },
+      "copyAttributesFrom": "P"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/plate/plate-from-plates",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "P,L,P",
+      "recipeGroup": 1,
+      "ingredients": {
+        "L": {
+          "type": "item",
+          "code": "game:leather-normal-plain",
+          "quantity": 1
+        },
+        "P": {
+          "type": "item",
+          "code": "armory:part-smallarmorplate-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 3,
+      "name": "plate armor",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-hands-plate-{material}-vanilla",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      },
+      "copyAttributesFrom": "P"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/plate/plate-from-plates",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "P,L,P",
+      "recipeGroup": 1,
+      "ingredients": {
+        "L": {
+          "type": "item",
+          "code": "game:flaxtwine",
+          "quantity": 2
+        },
+        "P": {
+          "type": "item",
+          "code": "armory:part-smallarmorplate-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 3,
+      "name": "plate armor",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-hands-plate-{material}-vanilla",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      },
+      "copyAttributesFrom": "P"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/plate/plate-from-plates",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "PPL",
+      "recipeGroup": 1,
+      "ingredients": {
+        "L": {
+          "type": "item",
+          "code": "game:leather-normal-plain",
+          "quantity": 1
+        },
+        "P": {
+          "type": "item",
+          "code": "armory:part-smallarmorplate-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 3,
+      "height": 1,
+      "name": "plate armor",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-legs-plate-{material}-vanilla",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      },
+      "copyAttributesFrom": "P"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/plate/plate-from-plates",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "PPL",
+      "recipeGroup": 1,
+      "ingredients": {
+        "L": {
+          "type": "item",
+          "code": "game:flaxtwine",
+          "quantity": 2
+        },
+        "P": {
+          "type": "item",
+          "code": "armory:part-smallarmorplate-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 3,
+      "height": 1,
+      "name": "plate armor",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-legs-plate-{material}-vanilla",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      },
+      "copyAttributesFrom": "P"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/plate/plate-from-plates",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "P,P,L",
+      "recipeGroup": 1,
+      "ingredients": {
+        "L": {
+          "type": "item",
+          "code": "game:leather-normal-plain",
+          "quantity": 1
+        },
+        "P": {
+          "type": "item",
+          "code": "armory:part-smallarmorplate-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 3,
+      "name": "plate armor",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-feet-plate-{material}-vanilla",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      },
+      "copyAttributesFrom": "P"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/plate/plate-from-plates",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "P,P,L",
+      "recipeGroup": 1,
+      "ingredients": {
+        "L": {
+          "type": "item",
+          "code": "game:flaxtwine",
+          "quantity": 2
+        },
+        "P": {
+          "type": "item",
+          "code": "armory:part-smallarmorplate-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 3,
+      "name": "plate armor",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-feet-plate-{material}-vanilla",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      },
+      "copyAttributesFrom": "P"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/plate/repair",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "AP",
+      "recipeGroup": 2,
+      "ingredients": {
+        "A": {
+          "type": "item",
+          "code": "armory:armor-{type}-plate-{material}-vanilla"
+        },
+        "P": {
+          "type": "item",
+          "code": "game:metalplate-{material}"
+        }
+      },
+      "allowedVariants": {
+        "material": [
+          "copper",
+          "tinbronze",
+          "bismuthbronze",
+          "blackbronze",
+          "iron",
+          "meteoricsteel",
+          "steel"
+        ]
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "copyAttributesFrom": "P",
+      "averageDurability": false,
+      "name": "plate armor repair",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-{type}-plate-{material}-vanilla",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/riveted",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "PPP,M_M",
+      "recipeGroup": 1,
+      "ingredients": {
+        "P": {
+          "type": "item",
+          "code": "game:metalnailsandstrips-*",
+          "quantity": 2,
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "M": {
+          "type": "item",
+          "code": "game:metalnailsandstrips-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "name": "riveted armor",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-head-plate-{material}-riveted",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      },
+      "copyAttributesFrom": "P"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/riveted",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "AP",
+      "recipeGroup": 2,
+      "ingredients": {
+        "A": {
+          "type": "item",
+          "code": "armory:armor-head-plate-*-riveted",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "P": {
+          "type": "item",
+          "code": "game:metalnailsandstrips-*",
+          "quantity": 2,
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "copyAttributesFrom": "P",
+      "averageDurability": false,
+      "name": "riveted armor repair",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-head-plate-{material}-riveted",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/scale",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "TA",
+      "recipeGroup": 1,
+      "ingredients": {
+        "T": {
+          "type": "item",
+          "code": "armory:armor-torso-scale-*-vanilla",
+          "quantity": 1,
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "A": {
+          "type": "item",
+          "code": "armory:armor-armshands-scale-*-vanilla",
+          "quantity": 1,
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "name": "scale armor",
+      "copyAttributesFrom": "T",
+      "output": {
+        "type": "item",
+        "code": "game:armor-body-scale-{material}",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/scale",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "SSS,FSF",
+      "recipeGroup": 1,
+      "ingredients": {
+        "S": {
+          "type": "item",
+          "code": "game:metalscale-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "F": {
+          "type": "item",
+          "code": "game:flaxtwine"
+        }
+      },
+      "width": 3,
+      "height": 2,
+      "name": "scale armor",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-torso-scale-{material}-vanilla",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      },
+      "copyAttributesFrom": "S"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/scale",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "SFS",
+      "recipeGroup": 1,
+      "ingredients": {
+        "S": {
+          "type": "item",
+          "code": "game:metalscale-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "F": {
+          "type": "item",
+          "code": "game:flaxtwine"
+        }
+      },
+      "width": 3,
+      "height": 1,
+      "name": "scale armor",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-armshands-scale-{material}-vanilla",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      },
+      "copyAttributesFrom": "S"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/scale",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "AP",
+      "recipeGroup": 2,
+      "ingredients": {
+        "A": {
+          "type": "item",
+          "code": "armory:armor-torso-scale-*-vanilla",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "P": {
+          "type": "item",
+          "code": "game:metalscale-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "copyAttributesFrom": "P",
+      "averageDurability": false,
+      "name": "scale armor repair",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-torso-scale-{material}-vanilla",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/scale",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "AP",
+      "recipeGroup": 2,
+      "ingredients": {
+        "A": {
+          "type": "item",
+          "code": "armory:armor-armshands-scale-*-vanilla",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "P": {
+          "type": "item",
+          "code": "game:metalscale-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "copyAttributesFrom": "P",
+      "averageDurability": false,
+      "name": "scale armor repair",
+      "output": {
+        "type": "item",
+        "code": "armory:armor-armshands-scale-{material}-vanilla",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/weapons/clubs",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "KBS",
+      "recipeGroup": 1,
+      "ingredients": {
+        "S": {
+          "type": "item",
+          "code": "game:metalnailsandstrips-*",
+          "quantity": 2,
+          "name": "metal",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "B": {
+          "type": "block",
+          "code": "game:log-placed-*-ud",
+          "name": "wood",
+          "quantity": 1
+        },
+        "K": {
+          "type": "item",
+          "code": "game:knife-*",
+          "quantity": 1,
+          "isTool": true
+        }
+      },
+      "width": 3,
+      "height": 1,
+      "name": "club",
+      "output": {
+        "type": "item",
+        "code": "armory:club-plain-{metal}",
+        "attributes": {
+          "handleTexture": "game:block/wood/debarked/{wood}"
+        },
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/weapons/daggers",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "D,H",
+      "recipeGroup": 1,
+      "ingredients": {
+        "D": {
+          "type": "item",
+          "code": "armory:part-dagger-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "H": {
+          "type": "item",
+          "code": "armory:handle-short"
+        }
+      },
+      "copyAttributesFrom": "D",
+      "width": 1,
+      "height": 2,
+      "name": "dagger",
+      "output": {
+        "type": "item",
+        "code": "armory:dagger-long-plain-{material}",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/weapons/halberd",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "S,H",
+      "recipeGroup": 1,
+      "ingredients": {
+        "S": {
+          "type": "item",
+          "code": "armory:part-halberd-*",
+          "quantity": 1,
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "H": {
+          "type": "item",
+          "code": "armory:handle-long"
+        }
+      },
+      "copyAttributesFrom": "S",
+      "width": 1,
+      "height": 2,
+      "name": "halberd",
+      "output": {
+        "type": "item",
+        "code": "armory:halberd-plain-{material}",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/weapons/heavy-shields",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "PHP,PBP,_P_",
+      "recipeGroup": 1,
+      "ingredients": {
+        "H": {
+          "type": "item",
+          "code": "game:leather-*",
+          "quantity": 2
+        },
+        "B": {
+          "type": "item",
+          "code": "game:metalnailsandstrips-meteoricsteel",
+          "quantity": 4
+        },
+        "P": {
+          "type": "item",
+          "code": "game:plank-*",
+          "quantity": 2
+        }
+      },
+      "width": 3,
+      "height": 3,
+      "name": "sheild",
+      "output": {
+        "type": "item",
+        "code": "armory:shield-heavy-plain-meteoricsteel",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      },
+      "copyAttributesFrom": "B"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/weapons/javelins",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "S,C",
+      "recipeGroup": 1,
+      "ingredients": {
+        "S": {
+          "type": "item",
+          "code": "armory:part-javelinhead-*",
+          "quantity": 1,
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "C": {
+          "type": "item",
+          "code": "game:stick",
+          "quantity": 1
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "name": "javelin",
+      "output": {
+        "type": "item",
+        "code": "armory:javelin-plain-{material}",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      },
+      "copyAttributesFrom": "S"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/weapons/longaxe",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "S,H",
+      "recipeGroup": 1,
+      "ingredients": {
+        "S": {
+          "type": "item",
+          "code": "armory:part-longaxehead-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "H": {
+          "type": "item",
+          "code": "armory:handle-medium"
+        }
+      },
+      "copyAttributesFrom": "S",
+      "width": 1,
+      "height": 2,
+      "name": "axe",
+      "output": {
+        "type": "item",
+        "code": "armory:axe-long-plain-{material}",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/weapons/maces",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "S,H",
+      "recipeGroup": 1,
+      "ingredients": {
+        "S": {
+          "type": "item",
+          "code": "armory:part-macehead-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "H": {
+          "type": "item",
+          "code": "armory:handle-short"
+        }
+      },
+      "copyAttributesFrom": "S",
+      "width": 1,
+      "height": 2,
+      "name": "club",
+      "output": {
+        "type": "item",
+        "code": "armory:mace-plain-{material}",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/weapons/pikes",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "S,H",
+      "recipeGroup": 1,
+      "ingredients": {
+        "S": {
+          "type": "item",
+          "code": "game:spearhead-*",
+          "quantity": 1,
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "H": {
+          "type": "item",
+          "code": "armory:handle-long"
+        }
+      },
+      "copyAttributesFrom": "S",
+      "width": 1,
+      "height": 2,
+      "name": "pike",
+      "output": {
+        "type": "item",
+        "code": "armory:pike-plain-{material}",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/weapons/quarterstaff",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "S,H",
+      "recipeGroup": 1,
+      "ingredients": {
+        "S": {
+          "type": "item",
+          "code": "game:metalnailsandstrips-*",
+          "quantity": 2,
+          "name": "metal",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "H": {
+          "type": "item",
+          "code": "armory:handle-long"
+        }
+      },
+      "copyAttributesFrom": "S",
+      "width": 1,
+      "height": 2,
+      "name": "staff",
+      "output": {
+        "type": "item",
+        "code": "armory:quarterstaff-plain-{metal}",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/weapons/sabre",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "S,H",
+      "recipeGroup": 1,
+      "ingredients": {
+        "S": {
+          "type": "item",
+          "code": "armory:part-sabre-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "H": {
+          "type": "item",
+          "code": "armory:handle-short"
+        }
+      },
+      "copyAttributesFrom": "S",
+      "width": 1,
+      "height": 2,
+      "name": "sword",
+      "output": {
+        "type": "item",
+        "code": "armory:sabre-plain-{material}",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/weapons/spears",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "S,H",
+      "ingredients": {
+        "S": {
+          "type": "item",
+          "code": "game:spearhead-*",
+          "quantity": 1,
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "H": {
+          "type": "item",
+          "code": "armory:handle-medium"
+        }
+      },
+      "copyAttributesFrom": "S",
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "game:spear-generic-{material}",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/weapons/swords",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "S,H",
+      "recipeGroup": 1,
+      "ingredients": {
+        "S": {
+          "type": "item",
+          "code": "armory:part-shortsword-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "H": {
+          "type": "item",
+          "code": "armory:handle-short"
+        }
+      },
+      "copyAttributesFrom": "S",
+      "width": 1,
+      "height": 2,
+      "name": "sword",
+      "output": {
+        "type": "item",
+        "code": "armory:sword-short-plain-{material}",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/weapons/swords",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "S,H,P",
+      "recipeGroup": 1,
+      "ingredients": {
+        "S": {
+          "type": "item",
+          "code": "armory:part-shortsword-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "H": {
+          "type": "item",
+          "code": "armory:handle-short"
+        },
+        "P": {
+          "type": "item",
+          "code": "game:leather-normal-*",
+          "quantity": 1,
+          "name": "color"
+        }
+      },
+      "copyAttributesFrom": "S",
+      "width": 1,
+      "height": 3,
+      "name": "sword",
+      "output": {
+        "type": "item",
+        "code": "armory:sword-arming-plain-{material}",
+        "attributes": {
+          "handleTexture": "game:block/leather/{color}"
+        },
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/weapons/swords",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "S,H,P",
+      "recipeGroup": 1,
+      "ingredients": {
+        "S": {
+          "type": "item",
+          "code": "armory:part-shortsword-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "H": {
+          "type": "item",
+          "code": "armory:handle-short"
+        },
+        "P": {
+          "type": "item",
+          "code": "game:leather-normal-plain"
+        }
+      },
+      "copyAttributesFrom": "S",
+      "width": 1,
+      "height": 3,
+      "name": "sword",
+      "output": {
+        "type": "item",
+        "code": "armory:sword-arming-plain-{material}",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/weapons/swords",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "S,H",
+      "recipeGroup": 1,
+      "ingredients": {
+        "S": {
+          "type": "item",
+          "code": "armory:part-longsword-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "H": {
+          "type": "item",
+          "code": "armory:handle-short"
+        }
+      },
+      "copyAttributesFrom": "S",
+      "width": 1,
+      "height": 2,
+      "name": "sword",
+      "output": {
+        "type": "item",
+        "code": "armory:sword-long-plain-{material}",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/weapons/swords",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "B,P",
+      "recipeGroup": 1,
+      "ingredients": {
+        "B": {
+          "type": "item",
+          "code": "armory:part-greatsword-meteoricsteel"
+        },
+        "P": {
+          "type": "item",
+          "code": "game:leather-normal-*",
+          "quantity": 1,
+          "name": "color"
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "name": "sword",
+      "output": {
+        "type": "item",
+        "code": "armory:sword-great-plain-meteoricsteel",
+        "attributes": {
+          "handleTexture": "game:block/leather/{color}"
+        },
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      },
+      "copyAttributesFrom": "B"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/weapons/swords",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "B,P",
+      "recipeGroup": 1,
+      "ingredients": {
+        "B": {
+          "type": "item",
+          "code": "armory:part-greatsword-meteoricsteel"
+        },
+        "P": {
+          "type": "item",
+          "code": "game:leather-normal-plain"
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "name": "sword",
+      "output": {
+        "type": "item",
+        "code": "armory:sword-great-plain-meteoricsteel",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      },
+      "copyAttributesFrom": "B"
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/smithing/armor/plate",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredient": {
+        "type": "item",
+        "code": "game:ingot-*",
+        "name": "metal",
+        "allowedVariants": [
+          "meteoricsteel"
+        ]
+      },
+      "name": "armor",
+      "pattern": [
+        [
+          "________________",
+          "__##________##__",
+          "__##________##__",
+          "__###______###__",
+          "__############__",
+          "__############__",
+          "__############__",
+          "__############__",
+          "__############__",
+          "__############__",
+          "__############__",
+          "__############__",
+          "__############__",
+          "__############__",
+          "__############__",
+          "________________"
+        ]
+      ],
+      "output": {
+        "type": "item",
+        "code": "armory:part-breastplate-{metal}"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/smithing/armor/plate",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredient": {
+        "type": "item",
+        "code": "game:ingot-*",
+        "name": "metal",
+        "allowedVariants": [
+          "meteoricsteel"
+        ]
+      },
+      "name": "armor",
+      "pattern": [
+        [
+          "__###########_",
+          "__###########_",
+          "__###########_",
+          "__###########_",
+          "__###########_"
+        ],
+        [
+          "__###########_",
+          "______________",
+          "______________",
+          "______________",
+          "__###########_"
+        ]
+      ],
+      "output": {
+        "type": "item",
+        "code": "armory:part-smallarmorplate-{metal}"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/smithing/armor/plate",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredient": {
+        "type": "item",
+        "code": "game:ingot-*",
+        "name": "metal",
+        "allowedVariants": [
+          "meteoricsteel"
+        ]
+      },
+      "name": "armor",
+      "pattern": [
+        [
+          "___########___",
+          "__##########__",
+          "__##########__",
+          "__##########__",
+          "__##########__",
+          "__##########__",
+          "__##########__",
+          "__##########__",
+          "__##########__",
+          "___########___"
+        ],
+        [
+          "___########___",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "___########___"
+        ],
+        [
+          "___########___",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "______________"
+        ]
+      ],
+      "output": {
+        "type": "item",
+        "code": "armory:armor-head-plate-{metal}-open"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/smithing/armor/plate",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredient": {
+        "type": "item",
+        "code": "game:ingot-*",
+        "name": "metal",
+        "allowedVariants": [
+          "meteoricsteel"
+        ]
+      },
+      "name": "armor",
+      "pattern": [
+        [
+          "___########___",
+          "__##########__",
+          "__##########__",
+          "__##########__",
+          "__##########__",
+          "__##########__",
+          "__##########__",
+          "__##########__",
+          "__##########__",
+          "___########___"
+        ],
+        [
+          "___########___",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "___########___"
+        ],
+        [
+          "___########___",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "______________"
+        ]
+      ],
+      "output": {
+        "type": "item",
+        "code": "armory:armor-head-plate-{metal}-light"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/smithing/armor/plate",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredient": {
+        "type": "item",
+        "code": "game:ingot-*",
+        "name": "metal",
+        "allowedVariants": [
+          "meteoricsteel"
+        ]
+      },
+      "name": "armor",
+      "pattern": [
+        [
+          "__##########__",
+          "__##########__",
+          "__##########__",
+          "__##########__",
+          "__##########__",
+          "__##########__",
+          "__##########__",
+          "__##########__",
+          "__##########__",
+          "__##########__"
+        ],
+        [
+          "__##########__",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "__##########__"
+        ],
+        [
+          "__##########__",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "__#________#__",
+          "__##__##__##__"
+        ]
+      ],
+      "output": {
+        "type": "item",
+        "code": "game:armor-head-plate-{metal}"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/smithing/daggers",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredient": {
+        "type": "item",
+        "code": "game:ingot-*",
+        "name": "metal",
+        "allowedVariants": [
+          "meteoricsteel"
+        ]
+      },
+      "name": "dagger",
+      "pattern": [
+        [
+          "__#####",
+          "#######",
+          "__#####"
+        ],
+        [
+          "_______",
+          "__#####",
+          "_______"
+        ]
+      ],
+      "output": {
+        "type": "item",
+        "code": "armory:part-dagger-{metal}"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/smithing/halberd",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredient": {
+        "type": "item",
+        "code": "game:ingot-*",
+        "name": "metal",
+        "allowedVariants": [
+          "meteoricsteel"
+        ]
+      },
+      "pattern": [
+        [
+          "##############",
+          "#######_______",
+          "#######_______",
+          "#######_______",
+          "#######_______"
+        ]
+      ],
+      "output": {
+        "type": "item",
+        "code": "armory:part-halberd-{metal}",
+        "quantity": 1
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/smithing/javelinhead",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredient": {
+        "type": "item",
+        "code": "game:ingot-*",
+        "name": "metal",
+        "allowedVariants": [
+          "meteoricsteel"
+        ]
+      },
+      "pattern": [
+        [
+          "_###_#_#_###_",
+          "######_######",
+          "_###_#_#_###_"
+        ]
+      ],
+      "output": {
+        "type": "item",
+        "code": "armory:part-javelinhead-{metal}",
+        "quantity": 2
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/smithing/javelinhead",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredient": {
+        "type": "item",
+        "code": "game:ingot-*",
+        "name": "metal",
+        "allowedVariants": [
+          "meteoricsteel"
+        ]
+      },
+      "pattern": [
+        [
+          "_###_#__",
+          "######__",
+          "_###_#__",
+          "__#_###_",
+          "__######",
+          "__#_###_",
+          "_###_#__",
+          "######__",
+          "_###_#__"
+        ]
+      ],
+      "output": {
+        "type": "item",
+        "code": "armory:part-javelinhead-{metal}",
+        "quantity": 3
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/smithing/longaxehead",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredient": {
+        "type": "item",
+        "code": "game:ingot-*",
+        "name": "metal",
+        "allowedVariants": [
+          "meteoricsteel"
+        ]
+      },
+      "name": "mace head",
+      "pattern": [
+        [
+          "_________",
+          "#########",
+          "#########",
+          "#####__##",
+          "_______##"
+        ],
+        [
+          "_________",
+          "#####____",
+          "#####____",
+          "#####____",
+          "_________"
+        ]
+      ],
+      "output": {
+        "type": "item",
+        "code": "armory:part-longaxehead-{metal}"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/smithing/macehead",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredient": {
+        "type": "item",
+        "code": "game:ingot-*",
+        "name": "metal",
+        "allowedVariants": [
+          "meteoricsteel"
+        ]
+      },
+      "name": "mace head",
+      "pattern": [
+        [
+          "__#_#__",
+          "__#_#__",
+          "#######",
+          "__#_#__",
+          "#######",
+          "__#_#__",
+          "__#_#__"
+        ],
+        [
+          "_______",
+          "__#_#__",
+          "_#####_",
+          "__#_#__",
+          "_#####_",
+          "__#_#__",
+          "_______"
+        ]
+      ],
+      "output": {
+        "type": "item",
+        "code": "armory:part-macehead-{metal}"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/smithing/swords",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredient": {
+        "type": "item",
+        "code": "game:ingot-*",
+        "name": "metal",
+        "allowedVariants": [
+          "meteoricsteel"
+        ]
+      },
+      "name": "sword",
+      "pattern": [
+        [
+          "__#########",
+          "###########",
+          "__#########"
+        ],
+        [
+          "___________",
+          "__#########",
+          "___________"
+        ]
+      ],
+      "output": {
+        "type": "item",
+        "code": "armory:part-shortsword-{metal}"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/smithing/swords",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredient": {
+        "type": "item",
+        "code": "game:ingot-*",
+        "name": "metal",
+        "allowedVariants": [
+          "meteoricsteel"
+        ]
+      },
+      "name": "sword",
+      "pattern": [
+        [
+          "__############",
+          "##############",
+          "__############"
+        ],
+        [
+          "______________",
+          "__############",
+          "______________"
+        ]
+      ],
+      "output": {
+        "type": "item",
+        "code": "armory:part-longsword-{metal}"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/smithing/swords",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredient": {
+        "type": "item",
+        "code": "game:ingot-*",
+        "name": "metal",
+        "allowedVariants": [
+          "meteoricsteel"
+        ]
+      },
+      "name": "sword",
+      "pattern": [
+        [
+          "___###########",
+          "##############",
+          "#####_________"
+        ],
+        [
+          "______________",
+          "____##########",
+          "_####_________"
+        ]
+      ],
+      "output": {
+        "type": "item",
+        "code": "armory:part-sabre-{metal}"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/smithing/swords",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredient": {
+        "type": "item",
+        "code": "game:ingot-*",
+        "name": "metal",
+        "allowedVariants": [
+          "meteoricsteel"
+        ]
+      },
+      "name": "sword",
+      "pattern": [
+        [
+          "__##############",
+          "################",
+          "__##############"
+        ],
+        [
+          "________________",
+          "__##############",
+          "________________"
+        ]
+      ],
+      "output": {
+        "type": "item",
+        "code": "armory:part-greatsword-{metal}"
+      }
+    }
+  }
+]

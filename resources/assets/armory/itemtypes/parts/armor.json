@@ -225,7 +225,76 @@
         }
       }
     ],
+    "*-meteoricsteel": [
+      {
+        "name": "GroundStorable",
+        "properties": {
+          "layout": "Quadrants",
+          "placeRemoveSound": "sounds/player/build",
+          "collisionBox": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 0.1,
+            "z2": 1
+          }
+        }
+      },
+      {
+        "name": "Quenchable",
+        "properties": {
+          "metalVariantgroupCode": "material"
+        }
+      }
+    ],
     "*-steel": [
+      {
+        "name": "GroundStorable",
+        "properties": {
+          "layout": "Quadrants",
+          "placeRemoveSound": "sounds/player/build",
+          "collisionBox": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 0.1,
+            "z2": 1
+          }
+        }
+      },
+      {
+        "name": "Quenchable",
+        "properties": {
+          "metalVariantgroupCode": "material"
+        }
+      }
+    ],
+    "*-steelgoldplated": [
+      {
+        "name": "GroundStorable",
+        "properties": {
+          "layout": "Quadrants",
+          "placeRemoveSound": "sounds/player/build",
+          "collisionBox": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 0.1,
+            "z2": 1
+          }
+        }
+      },
+      {
+        "name": "Quenchable",
+        "properties": {
+          "metalVariantgroupCode": "material"
+        }
+      }
+    ],
+    "*-steelsilverplated": [
       {
         "name": "GroundStorable",
         "properties": {
@@ -260,7 +329,22 @@
       "meltingDuration": 30,
       "requiresContainer": false
     },
+    "*-meteoricsteel": {
+      "meltingPoint": 1502,
+      "meltingDuration": 30,
+      "requiresContainer": false
+    },
     "*-steel": {
+      "meltingPoint": 1502,
+      "meltingDuration": 30,
+      "requiresContainer": false
+    },
+    "*-steelgoldplated": {
+      "meltingPoint": 1502,
+      "meltingDuration": 30,
+      "requiresContainer": false
+    },
+    "*-steelsilverplated": {
       "meltingPoint": 1502,
       "meltingDuration": 30,
       "requiresContainer": false
@@ -275,7 +359,19 @@
       "forgable": true,
       "quenchBuffKind": "armor"
     },
+    "*-meteoricsteel": {
+      "forgable": true,
+      "quenchBuffKind": "armor"
+    },
     "*-steel": {
+      "forgable": true,
+      "quenchBuffKind": "armor"
+    },
+    "*-steelgoldplated": {
+      "forgable": true,
+      "quenchBuffKind": "armor"
+    },
+    "*-steelsilverplated": {
       "forgable": true,
       "quenchBuffKind": "armor"
     }

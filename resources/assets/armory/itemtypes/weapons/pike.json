@@ -111,8 +111,16 @@
           "Enabled": true,
           "TargetFilter": "HostileOnly",
           "MaxTargetVolume": 3.0,
-          "HoldOffset": [0, 0, 1.75],
-          "TargetOffset": [0, -0.6, 0],
+          "HoldOffset": [
+            0,
+            0,
+            1.75
+          ],
+          "TargetOffset": [
+            0,
+            -0.6,
+            0
+          ],
           "ThrowVelocity": 14,
           "ThrowUpBias": 0.15
         },
@@ -212,6 +220,25 @@
               ]
             }
           ],
+          "*-meteoricsteel": [
+            {
+              "Damage": {
+                "DamageType": "PiercingAttack",
+                "Tier": 7,
+                "Damage": 8
+              },
+              "Knockback": 1,
+              "DurabilityDamage": 1,
+              "Collider": [
+                0,
+                0,
+                0.5,
+                1.2,
+                0,
+                0.5
+              ]
+            }
+          ],
           "*-steel": [
             {
               "Damage": {
@@ -285,6 +312,7 @@
     "*-blackbronze": 650,
     "*-iron": 600,
     "*-meteoriciron": 750,
+    "*-meteoricsteel": 1400,
     "*-steel": 1250
   },
   "creativeinventory": {
@@ -470,6 +498,66 @@
         "name": "Buffable"
       }
     ],
+    "*-meteoricsteel": [
+      {
+        "name": "GroundStorable",
+        "properties": {
+          "layout": "WallHalves",
+          "wallOffY": 4,
+          "sprintKey": true,
+          "selectionBox": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 0.1,
+            "z2": 1
+          },
+          "collisionBox": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 0,
+            "y2": 0,
+            "z2": 0
+          }
+        }
+      },
+      {
+        "name": "CombatOverhaul:TexturesFromAttributes",
+        "properties": {
+          "Textures": [
+            {
+              "Code": "handle",
+              "Attribute": "handleTexture",
+              "Default": "game:block/wood/debarked/oak",
+              "HandbookValues": [
+                "game:block/wood/debarked/aged",
+                "game:block/wood/debarked/birch",
+                "game:block/wood/debarked/oak",
+                "game:block/wood/debarked/maple",
+                "game:block/wood/debarked/pine",
+                "game:block/wood/debarked/acacia",
+                "game:block/wood/debarked/kapok",
+                "game:block/wood/debarked/baldcypress",
+                "game:block/wood/debarked/larch",
+                "game:block/wood/debarked/redwood",
+                "game:block/wood/debarked/ebony",
+                "game:block/wood/debarked/walnut",
+                "game:block/wood/debarked/purpleheart"
+              ]
+            }
+          ],
+          "CreativeTabs": [
+            "general",
+            "armory-colors"
+          ]
+        }
+      },
+      {
+        "name": "Buffable"
+      }
+    ],
     "*-steel": [
       {
         "name": "GroundStorable",
@@ -594,6 +682,10 @@
       "quenchBuffKind": "weapon"
     },
     "*-meteoriciron": {
+      "forgable": true,
+      "quenchBuffKind": "weapon"
+    },
+    "*-meteoricsteel": {
       "forgable": true,
       "quenchBuffKind": "weapon"
     },

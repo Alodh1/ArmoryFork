@@ -67,6 +67,65 @@
         "name": "Buffable"
       }
     ],
+    "*-meteoricsteel": [
+      {
+        "name": "GroundStorable",
+        "properties": {
+          "layout": "WallHalves",
+          "wallOffY": 2,
+          "sprintKey": true,
+          "selectionBox": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 0.1,
+            "z2": 1
+          },
+          "collisionBox": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 0,
+            "y2": 0,
+            "z2": 0
+          }
+        }
+      },
+      {
+        "name": "CombatOverhaul:TexturesFromAttributes",
+        "properties": {
+          "Textures": [
+            {
+              "Code": "handle",
+              "Attribute": "handleTexture",
+              "Default": "game:block/leather/plain",
+              "HandbookValues": [
+                "game:block/leather/plain",
+                "game:block/leather/black",
+                "game:block/leather/blue",
+                "game:block/leather/chromium",
+                "game:block/leather/gray",
+                "game:block/leather/green",
+                "game:block/leather/orange",
+                "game:block/leather/pink",
+                "game:block/leather/purple",
+                "game:block/leather/red",
+                "game:block/leather/white",
+                "game:block/leather/yellow"
+              ]
+            }
+          ],
+          "CreativeTabs": [
+            "general",
+            "armory-colors"
+          ]
+        }
+      },
+      {
+        "name": "Buffable"
+      }
+    ],
     "*-iron": [
       {
         "name": "GroundStorable",
@@ -295,6 +354,9 @@
     "*-meteoriciron": {
       "base": "swords/sword-short-{type}"
     },
+    "*-meteoricsteel": {
+      "base": "swords/sword-arming-{type}"
+    },
     "*-steel": {
       "base": "swords/sword-arming-{type}"
     }
@@ -378,6 +440,24 @@
           "z": 0
         },
         "scale": 0.6
+      },
+      "*-meteoricsteel": {
+        "translation": {
+          "x": 0.5,
+          "y": 0,
+          "z": 0.37
+        },
+        "rotation": {
+          "x": 13,
+          "y": 0,
+          "z": 90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": 0.6
       }
     },
     "toolrackTransformByType": {
@@ -433,6 +513,23 @@
         }
       },
       "*-steel": {
+        "translation": {
+          "x": 1.3,
+          "y": 1.05,
+          "z": 0.5
+        },
+        "rotation": {
+          "x": 90,
+          "y": 0,
+          "z": 180
+        },
+        "origin": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "*-meteoricsteel": {
         "translation": {
           "x": 1.3,
           "y": 1.05,
@@ -544,6 +641,25 @@
               ]
             }
           ],
+          "*-meteoricsteel": [
+            {
+              "Damage": {
+                "DamageType": "SlashingAttack",
+                "Tier": 7,
+                "Damage": 4
+              },
+              "Knockback": 1,
+              "DurabilityDamage": 1,
+              "Collider": [
+                0.6,
+                0,
+                0.5,
+                2.75,
+                0,
+                0.5
+              ]
+            }
+          ],
           "*-steel": [
             {
               "Damage": {
@@ -589,6 +705,13 @@
           ]
         },
         "*-meteoriciron": {
+          "Main": [
+            "armory:sword-short-thrust-4",
+            "armory:sword-short-thrust-5",
+            "armory:sword-short-thrust-6"
+          ]
+        },
+        "*-meteoricsteel": {
           "Main": [
             "armory:sword-short-thrust-4",
             "armory:sword-short-thrust-5",
@@ -652,6 +775,7 @@
     "*-blackbronze": 650,
     "*-iron": 600,
     "*-meteoriciron": 750,
+    "*-meteoricsteel": 1400,
     "*-steel": 1250
   },
   "creativeinventory": {
@@ -750,6 +874,28 @@
         "y": 2,
         "z": 2
       }
+    },
+    "*-meteoricsteel": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 40,
+        "y": 0,
+        "z": -52
+      },
+      "origin": {
+        "x": 0.9,
+        "y": -0.25,
+        "z": 0
+      },
+      "scaleXyz": {
+        "x": -2,
+        "y": 2,
+        "z": 2
+      }
     }
   },
   "groundTransform": {
@@ -794,6 +940,10 @@
       "quenchBuffKind": "weapon"
     },
     "*-meteoriciron": {
+      "forgable": true,
+      "quenchBuffKind": "weapon"
+    },
+    "*-meteoricsteel": {
       "forgable": true,
       "quenchBuffKind": "weapon"
     },

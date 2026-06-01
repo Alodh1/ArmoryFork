@@ -109,6 +109,81 @@
         }
       }
     ],
+    "*-meteoricsteel": [
+      {
+        "name": "GroundStorable",
+        "properties": {
+          "layout": "WallHalves",
+          "wallOffY": 2,
+          "sprintKey": true,
+          "selectionBox": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 0.1,
+            "z2": 1
+          },
+          "collisionBox": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 0,
+            "y2": 0,
+            "z2": 0
+          }
+        }
+      },
+      {
+        "name": "CombatOverhaul:TexturesFromAttributes",
+        "properties": {
+          "Textures": [
+            {
+              "Code": "cloth1",
+              "Attribute": "cloth1",
+              "Default": "game:block/cloth/linen/plain",
+              "HandbookValues": [
+                "game:block/cloth/linen/plain",
+                "game:block/cloth/linen/white",
+                "game:block/cloth/linen/red",
+                "game:block/cloth/linen/black",
+                "game:block/cloth/linen/blue",
+                "game:block/cloth/linen/brown",
+                "game:block/cloth/linen/gray",
+                "game:block/cloth/linen/green",
+                "game:block/cloth/linen/orange",
+                "game:block/cloth/linen/pink",
+                "game:block/cloth/linen/purple",
+                "game:block/cloth/linen/yellow"
+              ]
+            },
+            {
+              "Code": "cloth2",
+              "Attribute": "cloth2",
+              "Default": "game:block/cloth/linen/plain",
+              "HandbookValues": [
+                "game:block/cloth/linen/plain",
+                "game:block/cloth/linen/white",
+                "game:block/cloth/linen/red",
+                "game:block/cloth/linen/black",
+                "game:block/cloth/linen/blue",
+                "game:block/cloth/linen/brown",
+                "game:block/cloth/linen/gray",
+                "game:block/cloth/linen/green",
+                "game:block/cloth/linen/orange",
+                "game:block/cloth/linen/pink",
+                "game:block/cloth/linen/purple",
+                "game:block/cloth/linen/yellow"
+              ]
+            }
+          ],
+          "CreativeTabs": [
+            "general",
+            "armory-colors"
+          ]
+        }
+      }
+    ],
     "*": [
       {
         "name": "GroundStorable",
@@ -198,6 +273,24 @@
         "scale": 0.8
       },
       "*-*iron": {
+        "translation": {
+          "x": 0.9,
+          "y": 0.2,
+          "z": 0
+        },
+        "rotation": {
+          "x": 117,
+          "y": 180,
+          "z": 26
+        },
+        "origin": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": 0.9
+      },
+      "*-meteoricsteel": {
         "translation": {
           "x": 0.9,
           "y": 0.2,
@@ -439,6 +532,48 @@
         "IdleAnimation": "combatoverhaul:shield-heavy-ready",
         "BlockTpAnimation": "block"
       },
+      "*-meteoricsteel": {
+        "CanAttack": false,
+        "CanParry": false,
+        "CanBlock": true,
+        "CanSprint": true,
+        "SpeedPenalty": -0.05,
+        "BlockSpeedPenalty": -0.4,
+        "Block": {
+          "Zones": [
+            "Head",
+            "Face",
+            "Neck",
+            "Torso",
+            "LeftArm",
+            "RightArm",
+            "LeftHand",
+            "RightHand",
+            "LeftLeg",
+            "RightLeg",
+            "LeftFoot",
+            "RightFoot"
+          ],
+          "Directions": [
+            60,
+            60,
+            60,
+            60
+          ],
+          "Sound": "game:sounds/held/shieldblock-wood-light",
+          "BlockTier": {
+            "BluntAttack": 9,
+            "SlashingAttack": 9,
+            "PiercingAttack": 9
+          }
+        },
+        "ParryCooldownMs": 600,
+        "BlockCooldownMs": 0,
+        "BlockAnimation": "combatoverhaul:shield-heavy-block-kite",
+        "ReadyAnimation": "combatoverhaul:shield-heavy-ready",
+        "IdleAnimation": "combatoverhaul:shield-heavy-ready",
+        "BlockTpAnimation": "block"
+      },
       "*-steel": {
         "CanAttack": false,
         "CanParry": false,
@@ -498,6 +633,9 @@
     },
     "*-meteoriciron": {
       "base": "shields/kite-flat"
+    },
+    "*-meteoricsteel": {
+      "base": "shields/kite-flat"
     }
   },
   "texturesByType": {
@@ -516,6 +654,7 @@
     "*-blackbronze": 1200,
     "*-iron": 1200,
     "*-meteoriciron": 1500,
+    "*-meteoricsteel": 2100,
     "*-steel": 1800
   },
   "creativeinventory": {
@@ -670,6 +809,24 @@
         "z": 0.7
       },
       "scale": 1.1
+    },
+    "*-meteoricsteel": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 108,
+        "y": 137,
+        "z": 33
+      },
+      "origin": {
+        "x": 0.35,
+        "y": -0.1,
+        "z": 0.7
+      },
+      "scale": 1.1
     }
   },
   "tpHandTransformByType": {
@@ -798,6 +955,24 @@
         "z": 0
       },
       "scale": 0.9
+    },
+    "*-meteoricsteel": {
+      "translation": {
+        "x": -0.5,
+        "y": 0.6,
+        "z": -0.12
+      },
+      "rotation": {
+        "x": 0,
+        "y": -90,
+        "z": -100
+      },
+      "origin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 0.9
     }
   },
   "tpOffHandTransformByType": {
@@ -890,6 +1065,24 @@
         "z": 0
       },
       "scale": 0.9
+    },
+    "*-meteoricsteel": {
+      "translation": {
+        "x": -0.52,
+        "y": -0.39,
+        "z": -0.06
+      },
+      "rotation": {
+        "x": 0,
+        "y": -90,
+        "z": 102
+      },
+      "origin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 0.9
     }
   },
   "attributesByType": {
@@ -898,6 +1091,10 @@
       "quenchBuffKind": "weapon"
     },
     "*-meteoriciron": {
+      "forgable": true,
+      "quenchBuffKind": "weapon"
+    },
+    "*-meteoricsteel": {
       "forgable": true,
       "quenchBuffKind": "weapon"
     },

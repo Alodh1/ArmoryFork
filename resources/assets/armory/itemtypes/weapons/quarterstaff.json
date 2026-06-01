@@ -191,6 +191,11 @@
                   "Tier": 5,
                   "Damage": 8
                 },
+                "*-meteoricsteel": {
+                  "DamageType": "BluntAttack",
+                  "Tier": 7,
+                  "Damage": 8
+                },
                 "*-steel": {
                   "DamageType": "BluntAttack",
                   "Tier": 6,
@@ -238,6 +243,11 @@
                   "Tier": 5,
                   "Damage": 6
                 },
+                "*-meteoricsteel": {
+                  "DamageType": "BluntAttack",
+                  "Tier": 7,
+                  "Damage": 6
+                },
                 "*-steel": {
                   "DamageType": "BluntAttack",
                   "Tier": 6,
@@ -283,6 +293,11 @@
                 "*-meteoriciron": {
                   "DamageType": "BluntAttack",
                   "Tier": 5,
+                  "Damage": 6
+                },
+                "*-meteoricsteel": {
+                  "DamageType": "BluntAttack",
+                  "Tier": 7,
                   "Damage": 6
                 },
                 "*-steel": {
@@ -426,6 +441,7 @@
     "*-blackbronze": 450,
     "*-iron": 450,
     "*-meteoriciron": 550,
+    "*-meteoricsteel": 850,
     "*-steel": 750
   },
   "creativeinventory": {
@@ -498,6 +514,10 @@
       "quenchBuffKind": "weapon"
     },
     "*-meteoriciron": {
+      "forgable": true,
+      "quenchBuffKind": "weapon"
+    },
+    "*-meteoricsteel": {
       "forgable": true,
       "quenchBuffKind": "weapon"
     },

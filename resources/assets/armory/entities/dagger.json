@@ -34,6 +34,9 @@
       "*-steel": {
         "base": "armory:daggers/dagger-straightguard-{type}"
       },
+      "*-meteoricsteel": {
+        "base": "armory:daggers/dagger-straightguard-{type}"
+      },
       "*-iron": {
         "base": "armory:daggers/dagger-balls-{type}"
       },
@@ -43,6 +46,14 @@
     },
     "texturesByType": {
       "*-steel": {
+        "blade": {
+          "base": "game:block/metal/plate/{material}"
+        },
+        "handle": {
+          "base": "game:block/leather/plain"
+        }
+      },
+      "*-meteoricsteel": {
         "blade": {
           "base": "game:block/metal/plate/{material}"
         },

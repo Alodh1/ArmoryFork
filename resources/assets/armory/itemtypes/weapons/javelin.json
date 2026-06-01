@@ -41,6 +41,9 @@
     "@.*-(chert|granite|andesite|basalt|obsidian|peridotite|flint)": {
       "base": "armory:spears/javelin-flint-plain"
     },
+    "*-meteoricsteel": {
+      "base": "armory:spears/javelin-meteoricsteel-plain"
+    },
     "*": {
       "base": "armory:spears/javelin-{material}-plain"
     }
@@ -116,8 +119,16 @@
           "Enabled": true,
           "TargetFilter": "HostileOnly",
           "MaxTargetVolume": 3.0,
-          "HoldOffset": [0, 0, 1.15],
-          "TargetOffset": [0, -0.55, 0],
+          "HoldOffset": [
+            0,
+            0,
+            1.15
+          ],
+          "TargetOffset": [
+            0,
+            -0.55,
+            0
+          ],
           "ThrowVelocity": 12,
           "ThrowUpBias": 0.15
         },
@@ -155,6 +166,11 @@
                 "Damage": 4
               },
               "*-steel": {
+                "DamageType": "PiercingAttack",
+                "Tier": 6,
+                "Damage": 4
+              },
+              "*-meteoricsteel": {
                 "DamageType": "PiercingAttack",
                 "Tier": 6,
                 "Damage": 4
@@ -245,6 +261,7 @@
         "*-iron": 4,
         "*-meteoriciron": 5,
         "*-steel": 6,
+        "*-meteoricsteel": 6,
         "*": 1
       },
       "Velocity": 0.7,
@@ -259,6 +276,7 @@
     "*-iron": 320,
     "*-meteoriciron": 400,
     "*-steel": 450,
+    "*-meteoricsteel": 450,
     "*": 80
   },
   "creativeinventory": {
@@ -380,6 +398,10 @@
                 "DamageType": "PiercingAttack",
                 "Damage": 10
               },
+              "*-meteoricsteel": {
+                "DamageType": "PiercingAttack",
+                "Damage": 10
+              },
               "*-steel": {
                 "DamageType": "PiercingAttack",
                 "Damage": 10
@@ -457,7 +479,88 @@
                 "DamageType": "PiercingAttack",
                 "Damage": 10
               },
+              "*-meteoricsteel": {
+                "DamageType": "PiercingAttack",
+                "Damage": 10
+              },
               "*-steel": {
+                "DamageType": "PiercingAttack",
+                "Damage": 10
+              },
+              "*": {
+                "DamageType": "PiercingAttack",
+                "Damage": 4
+              }
+            },
+            "SpeedThreshold": 0.3,
+            "Knockback": 0.1,
+            "EntityCode": "armory:javelin-{type}-{material}",
+            "DurabilityDamage": 5,
+            "DropChance": 1
+          }
+        }
+      },
+      {
+        "name": "Buffable"
+      }
+    ],
+    "*-meteoricsteel": [
+      {
+        "name": "GroundStorable",
+        "properties": {
+          "layout": "WallHalves",
+          "wallOffY": 2,
+          "sprintKey": true,
+          "selectionBox": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 0.1,
+            "z2": 1
+          },
+          "collisionBox": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 0,
+            "y2": 0,
+            "z2": 0
+          }
+        }
+      },
+      {
+        "name": "CombatOverhaul:Projectile",
+        "properties": {
+          "stats": {
+            "AdditionalDurabilityCost": 0,
+            "CollisionRadius": 0.05,
+            "DamageStatsByType": {
+              "*-obisidan": {
+                "DamageType": "PiercingAttack",
+                "Damage": 6
+              },
+              "*-flint": {
+                "DamageType": "PiercingAttack",
+                "Damage": 6
+              },
+              "*-copper": {
+                "DamageType": "PiercingAttack",
+                "Damage": 8
+              },
+              "*-*bronze": {
+                "DamageType": "PiercingAttack",
+                "Damage": 10
+              },
+              "*-iron": {
+                "DamageType": "PiercingAttack",
+                "Damage": 10
+              },
+              "*-meteoriciron": {
+                "DamageType": "PiercingAttack",
+                "Damage": 10
+              },
+              "*-meteoricsteel": {
                 "DamageType": "PiercingAttack",
                 "Damage": 10
               },
@@ -531,6 +634,10 @@
                 "Damage": 10
               },
               "*-meteoriciron": {
+                "DamageType": "PiercingAttack",
+                "Damage": 10
+              },
+              "*-meteoricsteel": {
                 "DamageType": "PiercingAttack",
                 "Damage": 10
               },
@@ -611,6 +718,10 @@
                 "DamageType": "PiercingAttack",
                 "Damage": 10
               },
+              "*-meteoricsteel": {
+                "DamageType": "PiercingAttack",
+                "Damage": 10
+              },
               "*-steel": {
                 "DamageType": "PiercingAttack",
                 "Damage": 10
@@ -636,6 +747,10 @@
       "quenchBuffKind": "weapon"
     },
     "*-meteoriciron": {
+      "forgable": true,
+      "quenchBuffKind": "weapon"
+    },
+    "*-meteoricsteel": {
       "forgable": true,
       "quenchBuffKind": "weapon"
     },

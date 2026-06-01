@@ -102,6 +102,9 @@
     },
     "*-steel": {
       "base": "blunt/polehammer-steel"
+    },
+    "*-meteoricsteel": {
+      "base": "blunt/club-meteoricsteel"
     }
   },
   "tool": "club",
@@ -113,6 +116,24 @@
     },
     "groundStorageTransformByType": {
       "*-steel": {
+        "translation": {
+          "x": 0.5,
+          "y": 1.99,
+          "z": 0.65
+        },
+        "rotation": {
+          "x": 17,
+          "y": 0,
+          "z": -90
+        },
+        "origin": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": 0.7
+      },
+      "*-meteoricsteel": {
         "translation": {
           "x": 0.5,
           "y": 1.99,
@@ -169,6 +190,11 @@
     },
     "ProficiencyStatsByType": {
       "*-steel": [
+        "meleeProficiency",
+        "knightlyProficiency",
+        "clubsProficiency"
+      ],
+      "*-meteoricsteel": [
         "meleeProficiency",
         "knightlyProficiency",
         "clubsProficiency"
@@ -262,6 +288,26 @@
                 0.5,
                 2.6,
                 0,
+                0.5
+              ]
+            }
+          ],
+          "*-meteoricsteel": [
+            {
+              "Damage": {
+                "DamageType": "BluntAttack",
+                "Tier": 7,
+                "Damage": 5,
+                "ArmorPiercingTier": 1
+              },
+              "Knockback": 0,
+              "DurabilityDamage": 1,
+              "Collider": [
+                1,
+                0,
+                0.5,
+                2.8,
+                -0.3,
                 0.5
               ]
             }
@@ -388,6 +434,26 @@
               ]
             }
           ],
+          "*-meteoricsteel": [
+            {
+              "Damage": {
+                "DamageType": "BluntAttack",
+                "Tier": 7,
+                "Damage": 7,
+                "ArmorPiercingTier": 4
+              },
+              "Knockback": 1,
+              "DurabilityDamage": 1,
+              "Collider": [
+                1,
+                0,
+                0.5,
+                2.8,
+                -0.3,
+                0.5
+              ]
+            }
+          ],
           "*-steel": [
             {
               "Damage": {
@@ -418,6 +484,12 @@
             "armory:club-strike-2h-4"
           ]
         },
+        "*-meteoricsteel": {
+          "Main": [
+            "armory:club-strike-2h-3",
+            "armory:club-strike-2h-4"
+          ]
+        },
         "*": {
           "Main": [
             "armory:club-strike-2h-1",
@@ -439,7 +511,8 @@
     "*-blackbronze": 450,
     "*-iron": 450,
     "*-meteoriciron": 750,
-    "*-steel": 1250
+    "*-steel": 1250,
+    "*-meteoricsteel": 1250
   },
   "creativeinventory": {
     "general": [
@@ -451,6 +524,28 @@
   },
   "guiTransformByType": {
     "*-steel": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": 40,
+        "y": 0,
+        "z": -52
+      },
+      "origin": {
+        "x": 2.8,
+        "y": -0.25,
+        "z": 0
+      },
+      "scaleXyz": {
+        "x": -1.75,
+        "y": 1.75,
+        "z": 1.75
+      }
+    },
+    "*-meteoricsteel": {
       "translation": {
         "x": 0,
         "y": 0,
@@ -537,6 +632,10 @@
       "quenchBuffKind": "weapon"
     },
     "*-meteoriciron": {
+      "forgable": true,
+      "quenchBuffKind": "weapon"
+    },
+    "*-meteoricsteel": {
       "forgable": true,
       "quenchBuffKind": "weapon"
     },

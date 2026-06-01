@@ -21,6 +21,9 @@
     "*-steel": {
       "base": "swords/parts/sword-great"
     },
+    "*-meteoricsteel": {
+      "base": "swords/parts/sword-great"
+    },
     "*-iron": {
       "base": "swords/parts/sword-greatiron"
     },
@@ -173,6 +176,32 @@
         }
       }
     ],
+    "*-meteoricsteel": [
+      {
+        "name": "GroundStorable",
+        "properties": {
+          "layout": "Quadrants",
+          "placeRemoveSound": "sounds/player/build",
+          "collisionBox": {
+            "x1": 0,
+            "y1": 0,
+            "z1": 0,
+            "x2": 1,
+            "y2": 0.1,
+            "z2": 1
+          }
+        }
+      },
+      {
+        "name": "Buffable"
+      },
+      {
+        "name": "Quenchable",
+        "properties": {
+          "metalVariantgroupCode": "material"
+        }
+      }
+    ],
     "*-steel": [
       {
         "name": "GroundStorable",
@@ -228,6 +257,11 @@
       "meltingDuration": 30,
       "requiresContainer": false
     },
+    "*-meteoricsteel": {
+      "meltingPoint": 1502,
+      "meltingDuration": 30,
+      "requiresContainer": false
+    },
     "*-steel": {
       "meltingPoint": 1502,
       "meltingDuration": 30,
@@ -240,6 +274,10 @@
       "quenchBuffKind": "weapon"
     },
     "*-meteoriciron": {
+      "forgable": true,
+      "quenchBuffKind": "weapon"
+    },
+    "*-meteoricsteel": {
       "forgable": true,
       "quenchBuffKind": "weapon"
     },

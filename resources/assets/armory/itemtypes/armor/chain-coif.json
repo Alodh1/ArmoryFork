@@ -91,6 +91,7 @@
     "*-blackbronze-*": 1500,
     "*-iron-*": 1600,
     "*-meteoriciron-*": 1800,
+    "*-meteoricsteel-*": 4200,
     "*-steel-*": 4000
   },
   "creativeinventory": {
@@ -207,6 +208,11 @@
               "PiercingAttack": 0,
               "SlashingAttack": 2,
               "BluntAttack": 0
+            },
+            "*-meteoricsteel": {
+              "PiercingAttack": 2,
+              "SlashingAttack": 4,
+              "BluntAttack": 0
             }
           },
           "FlatReduction": {},
@@ -267,6 +273,77 @@
             "*-silver-*": {
               "PiercingAttack": 0,
               "SlashingAttack": 2,
+              "BluntAttack": 0
+            },
+            "*-meteoricsteel": {
+              "PiercingAttack": 2,
+              "SlashingAttack": 4,
+              "BluntAttack": 0
+            }
+          },
+          "FlatReduction": {},
+          "PlayerStatsByType": {
+            "*-coif": {
+              "walkspeed": 0,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.06,
+              "hungerrate": 0.06
+            }
+          }
+        }
+      },
+      {
+        "name": "Buffable"
+      }
+    ],
+    "*-meteoricsteel-*": [
+      {
+        "name": "CombatOverhaul:Armor",
+        "properties": {
+          "Layers": [
+            "Middle"
+          ],
+          "ZonesByType": {
+            "*-coif": [
+              "Head",
+              "Neck"
+            ]
+          },
+          "ResistsByType": {
+            "*-copper-*": {
+              "PiercingAttack": 0,
+              "SlashingAttack": 2,
+              "BluntAttack": 0
+            },
+            "*-*bronze-*": {
+              "PiercingAttack": 1,
+              "SlashingAttack": 3,
+              "BluntAttack": 0
+            },
+            "*-*iron-*": {
+              "PiercingAttack": 2,
+              "SlashingAttack": 4,
+              "BluntAttack": 0
+            },
+            "*-meteoricsteel-*": {
+              "PiercingAttack": 3,
+              "SlashingAttack": 5,
+              "BluntAttack": 0
+            },
+            "*-gold-*": {
+              "PiercingAttack": 0,
+              "SlashingAttack": 2,
+              "BluntAttack": 0
+            },
+            "*-silver-*": {
+              "PiercingAttack": 0,
+              "SlashingAttack": 2,
+              "BluntAttack": 0
+            },
+            "*-meteoricsteel": {
+              "PiercingAttack": 2,
+              "SlashingAttack": 4,
               "BluntAttack": 0
             }
           },
@@ -329,6 +406,77 @@
               "PiercingAttack": 0,
               "SlashingAttack": 2,
               "BluntAttack": 0
+            },
+            "*-meteoricsteel": {
+              "PiercingAttack": 2,
+              "SlashingAttack": 4,
+              "BluntAttack": 0
+            }
+          },
+          "FlatReduction": {},
+          "PlayerStatsByType": {
+            "*-coif": {
+              "walkspeed": 0,
+              "manipulationSpeed": 0,
+              "steadyAim": 0,
+              "healingeffectivness": -0.06,
+              "hungerrate": 0.06
+            }
+          }
+        }
+      },
+      {
+        "name": "Buffable"
+      }
+    ],
+    "*-meteoricsteel": [
+      {
+        "name": "CombatOverhaul:Armor",
+        "properties": {
+          "Layers": [
+            "Middle"
+          ],
+          "ZonesByType": {
+            "*-coif": [
+              "Head",
+              "Neck"
+            ]
+          },
+          "ResistsByType": {
+            "*-copper-*": {
+              "PiercingAttack": 0,
+              "SlashingAttack": 2,
+              "BluntAttack": 0
+            },
+            "*-*bronze-*": {
+              "PiercingAttack": 1,
+              "SlashingAttack": 3,
+              "BluntAttack": 0
+            },
+            "*-*iron-*": {
+              "PiercingAttack": 2,
+              "SlashingAttack": 4,
+              "BluntAttack": 0
+            },
+            "*-steel-*": {
+              "PiercingAttack": 3,
+              "SlashingAttack": 5,
+              "BluntAttack": 0
+            },
+            "*-gold-*": {
+              "PiercingAttack": 0,
+              "SlashingAttack": 2,
+              "BluntAttack": 0
+            },
+            "*-silver-*": {
+              "PiercingAttack": 0,
+              "SlashingAttack": 2,
+              "BluntAttack": 0
+            },
+            "*-meteoricsteel": {
+              "PiercingAttack": 2,
+              "SlashingAttack": 4,
+              "BluntAttack": 0
             }
           },
           "FlatReduction": {},
@@ -390,6 +538,11 @@
               "PiercingAttack": 0,
               "SlashingAttack": 2,
               "BluntAttack": 0
+            },
+            "*-meteoricsteel": {
+              "PiercingAttack": 2,
+              "SlashingAttack": 4,
+              "BluntAttack": 0
             }
           },
           "FlatReduction": {},
@@ -415,7 +568,15 @@
       "forgable": true,
       "quenchBuffKind": "armor"
     },
+    "*-meteoricsteel-*": {
+      "forgable": true,
+      "quenchBuffKind": "armor"
+    },
     "*-steel": {
+      "forgable": true,
+      "quenchBuffKind": "armor"
+    },
+    "*-meteoricsteel": {
       "forgable": true,
       "quenchBuffKind": "armor"
     }
