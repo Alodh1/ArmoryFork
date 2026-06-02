@@ -9,5 +9,17 @@
     "op": "replace",
     "path": "/attributes/attachableToEntity/disableElementsByType/armor-head-chain-*",
     "value": ["hidehat", "Hood", "hoodupperover", "Hair tile upper part", "ponytailhigh", "ponytaillow", "Hair", "hair-uncovered", "sidehigh", "sidelow", "bangs", "hidefacialhair"]
+  },
+  {
+    "file": "game:itemtypes/wearable/seraph/armor",
+    "op": "replace",
+    "path": "/attributes/attachableToEntity/disableElementsByType/armor-legs-plate-*",
+    "value": ["hideshoeL", "hideshoeR", "shoefluffL", "shoefluffR"]
+  },
+  {
+    "file": "game:itemtypes/wearable/seraph/armor",
+    "op": "add",
+    "path": "/attributes/attachableToEntity/keepElementsByType/armor-legs-plate-*",
+    "value": ["showshoeR", "showshoeL"]
   }
 ]
