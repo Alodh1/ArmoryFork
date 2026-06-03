@@ -9,8 +9,8 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"handle": "block/wood/debarked/ebony",
-		"blade": "block/metal/plate/meteoriciron"
+		"handle": "game:block/wood/debarked/ebony",
+		"blade": "game:block/metal/plate/meteoriciron"
 	},
 	"elements": [
 		{

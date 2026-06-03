@@ -1,0 +1,4420 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:entities/dagger",
+    "op": "addmerge",
+    "path": "/client",
+    "value": {
+      "shapeByType": {
+        "*-meteoricsteel": {
+          "base": "armory:daggers/dagger-straightguard-{type}"
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:entities/javelin",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/armor/brigandine",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "quenchBuffKind": "armor"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/armor/brigandine",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-meteoricsteel": [
+        {
+          "name": "CombatOverhaul:Armor",
+          "properties": {
+            "Layers": [
+              "Outer"
+            ],
+            "ZonesByType": {
+              "*-torso-*": [
+                "Torso"
+              ],
+              "*-arms-*": [
+                "Arms"
+              ],
+              "*-hands-*": [
+                "Hands"
+              ],
+              "*-legs-*": [
+                "Legs"
+              ],
+              "*-feet-*": [
+                "Feet"
+              ]
+            },
+            "ResistsByType": {
+              "*-copper-*": {
+                "PiercingAttack": 4,
+                "SlashingAttack": 4,
+                "BluntAttack": 1
+              },
+              "*-*bronze-*": {
+                "PiercingAttack": 5,
+                "SlashingAttack": 5,
+                "BluntAttack": 3
+              },
+              "*-*iron-*": {
+                "PiercingAttack": 6,
+                "SlashingAttack": 6,
+                "BluntAttack": 5
+              },
+              "*-meteoricsteel-*": {
+                "PiercingAttack": 7,
+                "SlashingAttack": 7,
+                "BluntAttack": 7
+              }
+            },
+            "FlatReductionByType": {
+              "*-meteoricsteel-*": {
+                "PiercingAttack": 0,
+                "SlashingAttack": 0,
+                "BluntAttack": 0
+              },
+              "*": {
+                "PiercingAttack": 0,
+                "SlashingAttack": 0,
+                "BluntAttack": 0
+              }
+            },
+            "PlayerStatsByType": {
+              "*-torso-*": {
+                "walkspeed": -0.0375,
+                "manipulationSpeed": 0,
+                "steadyAim": -0.045,
+                "healingeffectivness": -0.0225,
+                "hungerrate": 0.03
+              },
+              "*-arms-*": {
+                "walkspeed": 0,
+                "manipulationSpeed": -0.06,
+                "steadyAim": -0.09,
+                "healingeffectivness": -0.0225,
+                "hungerrate": 0.03
+              },
+              "*-hands-*": {
+                "walkspeed": 0,
+                "manipulationSpeed": -0.06,
+                "steadyAim": -0.09,
+                "healingeffectivness": -0.0225,
+                "hungerrate": 0.03
+              },
+              "*-legs-*": {
+                "walkspeed": -0.075,
+                "manipulationSpeed": 0,
+                "steadyAim": 0,
+                "healingeffectivness": -0.0225,
+                "hungerrate": 0.03
+              },
+              "*-feet-*": {
+                "walkspeed": -0.075,
+                "manipulationSpeed": 0,
+                "steadyAim": 0,
+                "healingeffectivness": -0.0225,
+                "hungerrate": 0.03
+              }
+            }
+          }
+        },
+        {
+          "name": "Buffable"
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/armor/brigandine",
+    "op": "addmerge",
+    "path": "/durabilityByType",
+    "value": {
+      "*-meteoricsteel-*": 5600
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/armor/chain-coif",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "quenchBuffKind": "armor"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/armor/chain-coif",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-meteoricsteel": [
+        {
+          "name": "CombatOverhaul:Armor",
+          "properties": {
+            "Layers": [
+              "Middle"
+            ],
+            "ZonesByType": {
+              "*-coif": [
+                "Head",
+                "Neck"
+              ]
+            },
+            "ResistsByType": {
+              "*-copper-*": {
+                "PiercingAttack": 0,
+                "SlashingAttack": 2,
+                "BluntAttack": 0
+              },
+              "*-*bronze-*": {
+                "PiercingAttack": 1,
+                "SlashingAttack": 3,
+                "BluntAttack": 0
+              },
+              "*-*iron-*": {
+                "PiercingAttack": 2,
+                "SlashingAttack": 4,
+                "BluntAttack": 0
+              },
+              "*-meteoricsteel-*": {
+                "PiercingAttack": 3,
+                "SlashingAttack": 5,
+                "BluntAttack": 0
+              },
+              "*-gold-*": {
+                "PiercingAttack": 0,
+                "SlashingAttack": 2,
+                "BluntAttack": 0
+              },
+              "*-silver-*": {
+                "PiercingAttack": 0,
+                "SlashingAttack": 2,
+                "BluntAttack": 0
+              }
+            },
+            "FlatReduction": {},
+            "PlayerStatsByType": {
+              "*-coif": {
+                "walkspeed": 0,
+                "manipulationSpeed": 0,
+                "steadyAim": 0,
+                "healingeffectivness": -0.06,
+                "hungerrate": 0.06
+              }
+            }
+          }
+        },
+        {
+          "name": "Buffable"
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/armor/chain-coif",
+    "op": "addmerge",
+    "path": "/durabilityByType",
+    "value": {
+      "*-meteoricsteel-*": 4200
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/armor/chain",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "quenchBuffKind": "armor"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/armor/chain",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-meteoricsteel": [
+        {
+          "name": "CombatOverhaul:Armor",
+          "properties": {
+            "Layers": [
+              "Middle"
+            ],
+            "ZonesByType": {
+              "*-torso-*": [
+                "Torso"
+              ],
+              "*-arms-*": [
+                "Arms"
+              ],
+              "*-hands-*": [
+                "Hands"
+              ],
+              "*-legs-*": [
+                "Legs"
+              ],
+              "*-feet-*": [
+                "Feet"
+              ]
+            },
+            "ResistsByType": {
+              "*-copper-*": {
+                "PiercingAttack": 0,
+                "SlashingAttack": 2,
+                "BluntAttack": 0
+              },
+              "*-*bronze-*": {
+                "PiercingAttack": 1,
+                "SlashingAttack": 3,
+                "BluntAttack": 0
+              },
+              "*-*iron-*": {
+                "PiercingAttack": 2,
+                "SlashingAttack": 4,
+                "BluntAttack": 0
+              },
+              "*-meteoricsteel-*": {
+                "PiercingAttack": 3,
+                "SlashingAttack": 5,
+                "BluntAttack": 0
+              },
+              "*-gold-*": {
+                "PiercingAttack": 0,
+                "SlashingAttack": 2,
+                "BluntAttack": 0
+              },
+              "*-silver-*": {
+                "PiercingAttack": 0,
+                "SlashingAttack": 2,
+                "BluntAttack": 0
+              }
+            },
+            "FlatReduction": {},
+            "PlayerStatsByType": {
+              "*-torso-*": {
+                "walkspeed": 0,
+                "manipulationSpeed": 0,
+                "steadyAim": -0.02,
+                "healingeffectivness": -0.03,
+                "hungerrate": 0.03
+              },
+              "*-arms-*": {
+                "walkspeed": 0,
+                "manipulationSpeed": -0.02,
+                "steadyAim": -0.02,
+                "healingeffectivness": -0.03,
+                "hungerrate": 0.03
+              },
+              "*-hands-*": {
+                "walkspeed": 0,
+                "manipulationSpeed": -0.02,
+                "steadyAim": -0.02,
+                "healingeffectivness": -0.03,
+                "hungerrate": 0.03
+              }
+            }
+          }
+        },
+        {
+          "name": "Buffable"
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/armor/chain",
+    "op": "addmerge",
+    "path": "/durabilityByType",
+    "value": {
+      "*-meteoricsteel-*": 4200
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/armor/lamellar",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "quenchBuffKind": "armor"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/armor/lamellar",
+    "op": "addmerge",
+    "path": "/variantgroups/2/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/armor/plate-helmets",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "quenchBuffKind": "armor"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/armor/plate-helmets",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-meteoricsteel": [
+        {
+          "name": "CombatOverhaul:Armor",
+          "properties": {
+            "Layers": [
+              "Outer"
+            ],
+            "ZonesByType": {
+              "*-open": [
+                "Head"
+              ],
+              "*-light": [
+                "Head",
+                "Face"
+              ],
+              "*-riveted": [
+                "Head",
+                "Face"
+              ]
+            },
+            "ResistsByType": {
+              "*-copper-riveted": {
+                "PiercingAttack": 4,
+                "SlashingAttack": 4,
+                "BluntAttack": 1
+              },
+              "*-*bronze-riveted": {
+                "PiercingAttack": 5,
+                "SlashingAttack": 5,
+                "BluntAttack": 3
+              },
+              "*-*iron-riveted": {
+                "PiercingAttack": 6,
+                "SlashingAttack": 6,
+                "BluntAttack": 5
+              },
+              "*-meteoricsteel-riveted": {
+                "PiercingAttack": 7,
+                "SlashingAttack": 7,
+                "BluntAttack": 7
+              },
+              "*-gold-riveted": {
+                "PiercingAttack": 7,
+                "SlashingAttack": 7,
+                "BluntAttack": 7
+              },
+              "*-silver-riveted": {
+                "PiercingAttack": 7,
+                "SlashingAttack": 7,
+                "BluntAttack": 7
+              },
+              "*-copper-*": {
+                "PiercingAttack": 6,
+                "SlashingAttack": 4,
+                "BluntAttack": 2
+              },
+              "*-*bronze-*": {
+                "PiercingAttack": 7,
+                "SlashingAttack": 5,
+                "BluntAttack": 4
+              },
+              "*-*iron-*": {
+                "PiercingAttack": 8,
+                "SlashingAttack": 6,
+                "BluntAttack": 6
+              },
+              "*-meteoricsteel-*": {
+                "PiercingAttack": 9,
+                "SlashingAttack": 7,
+                "BluntAttack": 8
+              },
+              "*-gold-*": {
+                "PiercingAttack": 9,
+                "SlashingAttack": 7,
+                "BluntAttack": 8
+              },
+              "*-silver-*": {
+                "PiercingAttack": 9,
+                "SlashingAttack": 7,
+                "BluntAttack": 8
+              }
+            },
+            "FlatReductionByType": {
+              "*": {
+                "PiercingAttack": 0,
+                "SlashingAttack": 0,
+                "BluntAttack": 0
+              }
+            },
+            "PlayerStatsByType": {
+              "*-open": {
+                "walkspeed": 0,
+                "manipulationSpeed": 0,
+                "steadyAim": -0.02,
+                "healingeffectivness": -0.03,
+                "hungerrate": 0.04
+              },
+              "*-light": {
+                "walkspeed": 0,
+                "manipulationSpeed": -0.03,
+                "steadyAim": -0.06,
+                "healingeffectivness": -0.06,
+                "hungerrate": 0.08
+              },
+              "*-riveted": {
+                "walkspeed": 0,
+                "manipulationSpeed": -0.03,
+                "steadyAim": -0.06,
+                "healingeffectivness": -0.06,
+                "hungerrate": 0.08
+              }
+            }
+          }
+        },
+        {
+          "name": "Buffable"
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/armor/plate-helmets",
+    "op": "addmerge",
+    "path": "/durabilityByType",
+    "value": {
+      "*-meteoricsteel-*": 12200
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/armor/plate",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "quenchBuffKind": "armor"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/armor/plate",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-meteoricsteel": [
+        {
+          "name": "CombatOverhaul:Armor",
+          "properties": {
+            "Layers": [
+              "Outer"
+            ],
+            "ZonesByType": {
+              "*-torso-*": [
+                "Torso"
+              ],
+              "*-arms-*": [
+                "Arms"
+              ],
+              "*-hands-*": [
+                "Hands"
+              ],
+              "*-legs-*": [
+                "Legs"
+              ],
+              "*-feet-*": [
+                "Feet"
+              ]
+            },
+            "ResistsByType": {
+              "*-copper-*": {
+                "PiercingAttack": 6,
+                "SlashingAttack": 4,
+                "BluntAttack": 2
+              },
+              "*-*bronze-*": {
+                "PiercingAttack": 7,
+                "SlashingAttack": 5,
+                "BluntAttack": 4
+              },
+              "*-*iron-*": {
+                "PiercingAttack": 8,
+                "SlashingAttack": 6,
+                "BluntAttack": 6
+              },
+              "*-meteoricsteel-*": {
+                "PiercingAttack": 9,
+                "SlashingAttack": 7,
+                "BluntAttack": 8
+              },
+              "*-gold-*": {
+                "PiercingAttack": 9,
+                "SlashingAttack": 7,
+                "BluntAttack": 8
+              },
+              "*-silver-*": {
+                "PiercingAttack": 9,
+                "SlashingAttack": 7,
+                "BluntAttack": 8
+              }
+            },
+            "FlatReductionByType": {
+              "*": {
+                "PiercingAttack": 0,
+                "SlashingAttack": 0,
+                "BluntAttack": 0
+              }
+            },
+            "PlayerStatsByType": {
+              "*-torso-*": {
+                "walkspeed": -0.05,
+                "manipulationSpeed": -0.04,
+                "steadyAim": -0.06,
+                "healingeffectivness": -0.03,
+                "hungerrate": 0.04
+              },
+              "*-arms-*": {
+                "walkspeed": 0,
+                "manipulationSpeed": -0.08,
+                "steadyAim": -0.12,
+                "healingeffectivness": -0.03,
+                "hungerrate": 0.04
+              },
+              "*-hands-*": {
+                "walkspeed": 0,
+                "manipulationSpeed": -0.08,
+                "steadyAim": -0.12,
+                "healingeffectivness": -0.03,
+                "hungerrate": 0.04
+              },
+              "*-legs-*": {
+                "walkspeed": -0.1,
+                "manipulationSpeed": 0,
+                "steadyAim": 0,
+                "healingeffectivness": -0.03,
+                "hungerrate": 0.04
+              },
+              "*-feet-*": {
+                "walkspeed": -0.1,
+                "manipulationSpeed": 0,
+                "steadyAim": 0,
+                "healingeffectivness": -0.03,
+                "hungerrate": 0.04
+              }
+            }
+          }
+        },
+        {
+          "name": "Buffable"
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/armor/plate",
+    "op": "addmerge",
+    "path": "/durabilityByType",
+    "value": {
+      "*-meteoricsteel-*": 12200
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/armor/scale",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "quenchBuffKind": "armor"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/armor/scale",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-meteoricsteel": [
+        {
+          "name": "CombatOverhaul:Armor",
+          "properties": {
+            "Layers": [
+              "Outer",
+              "Middle"
+            ],
+            "ZonesByType": {
+              "*-torso-*": [
+                "Torso"
+              ],
+              "*-armshands-*": [
+                "Arms",
+                "Hands"
+              ]
+            },
+            "ResistsByType": {
+              "*-copper-*": {
+                "PiercingAttack": 3,
+                "SlashingAttack": 3,
+                "BluntAttack": 0
+              },
+              "*-*bronze-*": {
+                "PiercingAttack": 4,
+                "SlashingAttack": 4,
+                "BluntAttack": 0
+              },
+              "*-*iron-*": {
+                "PiercingAttack": 5,
+                "SlashingAttack": 5,
+                "BluntAttack": 1
+              },
+              "*-meteoricsteel-*": {
+                "PiercingAttack": 6,
+                "SlashingAttack": 6,
+                "BluntAttack": 2
+              }
+            },
+            "FlatReductionByType": {
+              "*-meteoricsteel-*": {
+                "PiercingAttack": 0,
+                "SlashingAttack": 0,
+                "BluntAttack": 0
+              },
+              "*": {}
+            },
+            "PlayerStatsByType": {
+              "*-torso-*": {
+                "walkspeed": -0.04,
+                "manipulationSpeed": -0.02,
+                "steadyAim": -0.05,
+                "healingeffectivness": -0.03,
+                "hungerrate": 0.03
+              },
+              "*-armshands-*": {
+                "walkspeed": 0,
+                "manipulationSpeed": -0.08,
+                "steadyAim": -0.12,
+                "healingeffectivness": -0.06,
+                "hungerrate": 0.06
+              }
+            }
+          }
+        },
+        {
+          "name": "Buffable"
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/armor/scale",
+    "op": "addmerge",
+    "path": "/durabilityByType",
+    "value": {
+      "*-meteoricsteel-*": 12200
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/armor",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "forgable": true,
+        "quenchBuffKind": "armor"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/armor",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-meteoricsteel": [
+        {
+          "name": "GroundStorable",
+          "properties": {
+            "layout": "Quadrants",
+            "placeRemoveSound": "sounds/player/build",
+            "collisionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 1,
+              "y2": 0.1,
+              "z2": 1
+            }
+          }
+        },
+        {
+          "name": "Quenchable",
+          "properties": {
+            "metalVariantgroupCode": "material"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/armor",
+    "op": "addmerge",
+    "path": "/combustiblePropsByType",
+    "value": {
+      "*-meteoricsteel": {
+        "meltingPoint": 1502,
+        "meltingDuration": 30,
+        "requiresContainer": false
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/dagger",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "forgable": true,
+        "quenchBuffKind": "weapon"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/dagger",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-meteoricsteel": [
+        {
+          "name": "GroundStorable",
+          "properties": {
+            "layout": "Quadrants",
+            "placeRemoveSound": "sounds/player/build",
+            "collisionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 1,
+              "y2": 0.1,
+              "z2": 1
+            }
+          }
+        },
+        {
+          "name": "Buffable"
+        },
+        {
+          "name": "Quenchable",
+          "properties": {
+            "metalVariantgroupCode": "material"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/dagger",
+    "op": "addmerge",
+    "path": "/combustiblePropsByType",
+    "value": {
+      "*-meteoricsteel": {
+        "meltingPoint": 1502,
+        "meltingDuration": 30,
+        "requiresContainer": false
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/greatsword",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "forgable": true,
+        "quenchBuffKind": "weapon"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/greatsword",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-meteoricsteel": [
+        {
+          "name": "GroundStorable",
+          "properties": {
+            "layout": "Quadrants",
+            "placeRemoveSound": "sounds/player/build",
+            "collisionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 1,
+              "y2": 0.1,
+              "z2": 1
+            }
+          }
+        },
+        {
+          "name": "Buffable"
+        },
+        {
+          "name": "Quenchable",
+          "properties": {
+            "metalVariantgroupCode": "material"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/greatsword",
+    "op": "addmerge",
+    "path": "/combustiblePropsByType",
+    "value": {
+      "*-meteoricsteel": {
+        "meltingPoint": 1502,
+        "meltingDuration": 30,
+        "requiresContainer": false
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/greatsword",
+    "op": "addmerge",
+    "path": "/shapeByType",
+    "value": {
+      "*-meteoricsteel": {
+        "base": "swords/parts/sword-great"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/halberd",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "forgable": true,
+        "quenchBuffKind": "weapon"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/halberd",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-meteoricsteel": [
+        {
+          "name": "GroundStorable",
+          "properties": {
+            "layout": "Quadrants",
+            "placeRemoveSound": "sounds/player/build",
+            "collisionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 1,
+              "y2": 0.1,
+              "z2": 1
+            }
+          }
+        },
+        {
+          "name": "Buffable"
+        },
+        {
+          "name": "Quenchable",
+          "properties": {
+            "metalVariantgroupCode": "material"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/halberd",
+    "op": "addmerge",
+    "path": "/combustiblePropsByType",
+    "value": {
+      "*-meteoricsteel": {
+        "meltingPoint": 1502,
+        "meltingDuration": 30,
+        "requiresContainer": false
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/hammerhead",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "forgable": true,
+        "quenchBuffKind": "weapon"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/hammerhead",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-meteoricsteel": [
+        {
+          "name": "GroundStorable",
+          "properties": {
+            "layout": "Quadrants",
+            "placeRemoveSound": "sounds/player/build",
+            "collisionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 1,
+              "y2": 0.1,
+              "z2": 1
+            }
+          }
+        },
+        {
+          "name": "Buffable"
+        },
+        {
+          "name": "Quenchable",
+          "properties": {
+            "metalVariantgroupCode": "material"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/hammerhead",
+    "op": "addmerge",
+    "path": "/combustiblePropsByType",
+    "value": {
+      "*-meteoricsteel": {
+        "meltingPoint": 1502,
+        "meltingDuration": 30,
+        "requiresContainer": false
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/hammerhead",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/javelinhead",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "forgable": true,
+        "quenchBuffKind": "weapon"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/javelinhead",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-meteoricsteel": [
+        {
+          "name": "GroundStorable",
+          "properties": {
+            "layout": "Quadrants",
+            "placeRemoveSound": "sounds/player/build",
+            "collisionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 1,
+              "y2": 0.1,
+              "z2": 1
+            }
+          }
+        },
+        {
+          "name": "Buffable"
+        },
+        {
+          "name": "Quenchable",
+          "properties": {
+            "metalVariantgroupCode": "material"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/javelinhead",
+    "op": "addmerge",
+    "path": "/combustiblePropsByType",
+    "value": {
+      "*-meteoricsteel": {
+        "meltingPoint": 1502,
+        "meltingDuration": 30,
+        "requiresContainer": false
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/longaxe",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "forgable": true,
+        "quenchBuffKind": "weapon"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/longaxe",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-meteoricsteel": [
+        {
+          "name": "GroundStorable",
+          "properties": {
+            "layout": "Quadrants",
+            "placeRemoveSound": "sounds/player/build",
+            "collisionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 1,
+              "y2": 0.1,
+              "z2": 1
+            }
+          }
+        },
+        {
+          "name": "Buffable"
+        },
+        {
+          "name": "Quenchable",
+          "properties": {
+            "metalVariantgroupCode": "material"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/longaxe",
+    "op": "addmerge",
+    "path": "/combustiblePropsByType",
+    "value": {
+      "*-meteoricsteel": {
+        "meltingPoint": 1502,
+        "meltingDuration": 30,
+        "requiresContainer": false
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/longsword",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "forgable": true,
+        "quenchBuffKind": "weapon"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/longsword",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-meteoricsteel": [
+        {
+          "name": "GroundStorable",
+          "properties": {
+            "layout": "Quadrants",
+            "placeRemoveSound": "sounds/player/build",
+            "collisionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 1,
+              "y2": 0.1,
+              "z2": 1
+            }
+          }
+        },
+        {
+          "name": "Buffable"
+        },
+        {
+          "name": "Quenchable",
+          "properties": {
+            "metalVariantgroupCode": "material"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/longsword",
+    "op": "addmerge",
+    "path": "/combustiblePropsByType",
+    "value": {
+      "*-meteoricsteel": {
+        "meltingPoint": 1502,
+        "meltingDuration": 30,
+        "requiresContainer": false
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/macehead",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "forgable": true,
+        "quenchBuffKind": "weapon"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/macehead",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-meteoricsteel": [
+        {
+          "name": "GroundStorable",
+          "properties": {
+            "layout": "Quadrants",
+            "placeRemoveSound": "sounds/player/build",
+            "collisionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 1,
+              "y2": 0.1,
+              "z2": 1
+            }
+          }
+        },
+        {
+          "name": "Buffable"
+        },
+        {
+          "name": "Quenchable",
+          "properties": {
+            "metalVariantgroupCode": "material"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/macehead",
+    "op": "addmerge",
+    "path": "/combustiblePropsByType",
+    "value": {
+      "*-meteoricsteel": {
+        "meltingPoint": 1502,
+        "meltingDuration": 30,
+        "requiresContainer": false
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/poleaxe",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "forgable": true,
+        "quenchBuffKind": "weapon"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/poleaxe",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-meteoricsteel": [
+        {
+          "name": "GroundStorable",
+          "properties": {
+            "layout": "Quadrants",
+            "placeRemoveSound": "sounds/player/build",
+            "collisionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 1,
+              "y2": 0.1,
+              "z2": 1
+            }
+          }
+        },
+        {
+          "name": "Buffable"
+        },
+        {
+          "name": "Quenchable",
+          "properties": {
+            "metalVariantgroupCode": "material"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/poleaxe",
+    "op": "addmerge",
+    "path": "/combustiblePropsByType",
+    "value": {
+      "*-meteoricsteel": {
+        "meltingPoint": 1502,
+        "meltingDuration": 30,
+        "requiresContainer": false
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/poleaxe",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/sabre",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "forgable": true,
+        "quenchBuffKind": "weapon"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/sabre",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-meteoricsteel": [
+        {
+          "name": "GroundStorable",
+          "properties": {
+            "layout": "Quadrants",
+            "placeRemoveSound": "sounds/player/build",
+            "collisionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 1,
+              "y2": 0.1,
+              "z2": 1
+            }
+          }
+        },
+        {
+          "name": "Buffable"
+        },
+        {
+          "name": "Quenchable",
+          "properties": {
+            "metalVariantgroupCode": "material"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/sabre",
+    "op": "addmerge",
+    "path": "/combustiblePropsByType",
+    "value": {
+      "*-meteoricsteel": {
+        "meltingPoint": 1502,
+        "meltingDuration": 30,
+        "requiresContainer": false
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/shortsword",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "forgable": true,
+        "quenchBuffKind": "weapon"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/shortsword",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-meteoricsteel": [
+        {
+          "name": "GroundStorable",
+          "properties": {
+            "layout": "Quadrants",
+            "placeRemoveSound": "sounds/player/build",
+            "collisionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 1,
+              "y2": 0.1,
+              "z2": 1
+            }
+          }
+        },
+        {
+          "name": "Buffable"
+        },
+        {
+          "name": "Quenchable",
+          "properties": {
+            "metalVariantgroupCode": "material"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/parts/shortsword",
+    "op": "addmerge",
+    "path": "/combustiblePropsByType",
+    "value": {
+      "*-meteoricsteel": {
+        "meltingPoint": 1502,
+        "meltingDuration": 30,
+        "requiresContainer": false
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/axe-long",
+    "op": "addmerge",
+    "path": "/attributes",
+    "value": {
+      "TwoHandedStance": {
+        "Attack": {
+          "DamageTypes": [
+            {
+              "DamageByType": {
+                "*-meteoricsteel": {
+                  "DamageType": "SlashingAttack",
+                  "Tier": 7,
+                  "Damage": 8
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/axe-long",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "quenchBuffKind": "weapon"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/axe-long",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-meteoricsteel": [
+        {
+          "name": "GroundStorable",
+          "properties": {
+            "layout": "WallHalves",
+            "wallOffY": 2,
+            "sprintKey": true,
+            "selectionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 1,
+              "y2": 0.1,
+              "z2": 1
+            },
+            "collisionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 0,
+              "y2": 0,
+              "z2": 0
+            }
+          }
+        },
+        {
+          "name": "CombatOverhaul:TexturesFromAttributes",
+          "properties": {
+            "Textures": [
+              {
+                "Code": "handle",
+                "Attribute": "handleTexture",
+                "Default": "game:block/wood/debarked/oak",
+                "HandbookValues": [
+                  "game:block/wood/debarked/aged",
+                  "game:block/wood/debarked/birch",
+                  "game:block/wood/debarked/oak",
+                  "game:block/wood/debarked/maple",
+                  "game:block/wood/debarked/pine",
+                  "game:block/wood/debarked/acacia",
+                  "game:block/wood/debarked/kapok",
+                  "game:block/wood/debarked/baldcypress",
+                  "game:block/wood/debarked/larch",
+                  "game:block/wood/debarked/redwood",
+                  "game:block/wood/debarked/ebony",
+                  "game:block/wood/debarked/walnut",
+                  "game:block/wood/debarked/purpleheart"
+                ]
+              }
+            ],
+            "CreativeTabs": [
+              "general",
+              "armory-colors"
+            ]
+          }
+        },
+        {
+          "name": "Buffable"
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/axe-long",
+    "op": "addmerge",
+    "path": "/durabilitybytype",
+    "value": {
+      "*-meteoricsteel": 1400
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/club",
+    "op": "addmerge",
+    "path": "/attributes",
+    "value": {
+      "OneHandedStance": {
+        "Attack": {
+          "DamageTypesByType": {
+            "*-meteoricsteel": [
+              {
+                "Damage": {
+                  "DamageType": "BluntAttack",
+                  "Tier": 7,
+                  "Damage": 5,
+                  "ArmorPiercingTier": 1
+                },
+                "Knockback": 0,
+                "DurabilityDamage": 1,
+                "Collider": [
+                  1,
+                  0,
+                  0.5,
+                  2.8,
+                  -0.3,
+                  0.5
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "TwoHandedStance": {
+        "Attack": {
+          "DamageTypesByType": {
+            "*-meteoricsteel": [
+              {
+                "Damage": {
+                  "DamageType": "BluntAttack",
+                  "Tier": 7,
+                  "Damage": 7,
+                  "ArmorPiercingTier": 4
+                },
+                "Knockback": 1,
+                "DurabilityDamage": 1,
+                "Collider": [
+                  1,
+                  0,
+                  0.5,
+                  2.8,
+                  -0.3,
+                  0.5
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/club",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "quenchBuffKind": "weapon"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/club",
+    "op": "addmerge",
+    "path": "/durabilitybytype",
+    "value": {
+      "*-meteoricsteel": 1550
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/dagger",
+    "op": "addmerge",
+    "path": "/attributes",
+    "value": {
+      "OneHandedStance": {
+        "Attack": {
+          "DamageTypesByType": {
+            "*-meteoricsteel": [
+              {
+                "Damage": {
+                  "DamageType": "PiercingAttack",
+                  "Tier": 7,
+                  "Damage": 6
+                },
+                "Knockback": 1,
+                "DurabilityDamage": 1,
+                "Collider": [
+                  0.6,
+                  0,
+                  0.5,
+                  2.75,
+                  0,
+                  0.5
+                ]
+              }
+            ]
+          }
+        },
+        "AttackAnimationByType": {
+          "*-meteoricsteel": {
+            "Main": [
+              "armory:sword-short-thrust-4",
+              "armory:sword-short-thrust-5",
+              "armory:sword-short-thrust-6"
+            ]
+          }
+        }
+      },
+      "MainHandDualWieldStances": {
+        "armory:dagger-*": {
+          "Attack": {
+            "DamageTypesByType": {
+              "*-meteoricsteel": [
+                {
+                  "Damage": {
+                    "DamageType": "PiercingAttack",
+                    "Tier": 7,
+                    "Damage": 6
+                  },
+                  "Knockback": 1,
+                  "DurabilityDamage": 1,
+                  "Collider": [
+                    0.6,
+                    0,
+                    0.5,
+                    2.75,
+                    0,
+                    0.5
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "OffHandDualWieldStances": {
+        "armory:dagger-*": {
+          "Attack": {
+            "DamageTypesByType": {
+              "*-meteoricsteel": [
+                {
+                  "Damage": {
+                    "DamageType": "PiercingAttack",
+                    "Tier": 7,
+                    "Damage": 6
+                  },
+                  "Knockback": 0.6,
+                  "DurabilityDamage": 1,
+                  "Collider": [
+                    0.5,
+                    0,
+                    0.5,
+                    2.3,
+                    0,
+                    0.5
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "ThrowAttack": {
+        "DamageTierByType": {
+          "*-meteoricsteel": 7
+        }
+      },
+      "TwoHandedStance": {
+        "Attack": {
+          "DamageTypesByType": {
+            "*-meteoricsteel": [
+              {
+                "Damage": {
+                  "DamageType": "PiercingAttack",
+                  "Tier": 7,
+                  "Damage": 8
+                },
+                "Knockback": 1,
+                "DurabilityDamage": 1,
+                "Collider": [
+                  0.5,
+                  0,
+                  0.5,
+                  3.8,
+                  0,
+                  0.5
+                ]
+              }
+            ]
+          }
+        },
+        "Riposte": {
+          "DamageTypesByType": {
+            "*-meteoricsteel": [
+              {
+                "Damage": {
+                  "DamageType": "PiercingAttack",
+                  "Tier": 8,
+                  "Damage": 10
+                },
+                "Knockback": 1,
+                "DurabilityDamage": 1,
+                "Collider": [
+                  0.5,
+                  0,
+                  0.5,
+                  3.8,
+                  0,
+                  0.5
+                ]
+              }
+            ]
+          }
+        },
+        "BlockBash": {
+          "DamageTypesByType": {
+            "*-meteoricsteel": [
+              {
+                "Damage": {
+                  "DamageType": "PiercingAttack",
+                  "Tier": 7,
+                  "Damage": 5
+                },
+                "Knockback": 1.5,
+                "DurabilityDamage": 1,
+                "Collider": [
+                  0.5,
+                  0,
+                  0.5,
+                  3.8,
+                  0,
+                  0.5
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/dagger",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "quenchBuffKind": "weapon"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/dagger",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-iron": [
+        {
+          "properties": {
+            "stats": {
+              "DamageStatsByType": {
+                "*-meteoricsteel": {
+                  "DamageType": "PiercingAttack",
+                  "Damage": 8
+                }
+              }
+            }
+          }
+        }
+      ],
+      "*-meteoriciron": [
+        {
+          "properties": {
+            "stats": {
+              "DamageStatsByType": {
+                "*-meteoricsteel": {
+                  "DamageType": "PiercingAttack",
+                  "Damage": 8
+                }
+              }
+            }
+          }
+        }
+      ],
+      "*-steel": [
+        {
+          "properties": {
+            "stats": {
+              "DamageStatsByType": {
+                "*-meteoricsteel": {
+                  "DamageType": "PiercingAttack",
+                  "Damage": 8
+                }
+              }
+            }
+          }
+        }
+      ],
+      "*": [
+        {
+          "properties": {
+            "stats": {
+              "DamageStatsByType": {
+                "*-meteoricsteel": {
+                  "DamageType": "PiercingAttack",
+                  "Damage": 8
+                }
+              }
+            }
+          }
+        }
+      ],
+      "*-meteoricsteel": [
+        {
+          "name": "GroundStorable",
+          "properties": {
+            "layout": "WallHalves",
+            "wallOffY": 2,
+            "sprintKey": true,
+            "selectionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 1,
+              "y2": 0.1,
+              "z2": 1
+            },
+            "collisionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 0,
+              "y2": 0,
+              "z2": 0
+            }
+          }
+        },
+        {
+          "name": "CombatOverhaul:TexturesFromAttributes",
+          "properties": {
+            "TexturesByType": {
+              "*-meteoricsteel": [
+                {
+                  "Code": "handle",
+                  "Attribute": "handleTexture",
+                  "Default": "game:block/leather/plain",
+                  "HandbookValues": [
+                    "game:block/leather/plain",
+                    "game:block/leather/black",
+                    "game:block/leather/blue",
+                    "game:block/leather/chromium",
+                    "game:block/leather/gray",
+                    "game:block/leather/green",
+                    "game:block/leather/orange",
+                    "game:block/leather/pink",
+                    "game:block/leather/purple",
+                    "game:block/leather/red",
+                    "game:block/leather/white",
+                    "game:block/leather/yellow"
+                  ]
+                }
+              ],
+              "*": [
+                {
+                  "Code": "handle",
+                  "Attribute": "handleTexture",
+                  "Default": "game:block/wood/debarked/oak",
+                  "HandbookValues": [
+                    "game:block/wood/debarked/aged",
+                    "game:block/wood/debarked/birch",
+                    "game:block/wood/debarked/oak",
+                    "game:block/wood/debarked/maple",
+                    "game:block/wood/debarked/pine",
+                    "game:block/wood/debarked/acacia",
+                    "game:block/wood/debarked/kapok",
+                    "game:block/wood/debarked/baldcypress",
+                    "game:block/wood/debarked/larch",
+                    "game:block/wood/debarked/redwood",
+                    "game:block/wood/debarked/ebony",
+                    "game:block/wood/debarked/walnut",
+                    "game:block/wood/debarked/purpleheart"
+                  ]
+                }
+              ]
+            },
+            "CreativeTabs": [
+              "general",
+              "armory-colors"
+            ]
+          }
+        },
+        {
+          "name": "CombatOverhaul:Projectile",
+          "properties": {
+            "stats": {
+              "AdditionalDurabilityCost": 0,
+              "CollisionRadius": 0.05,
+              "DamageStatsByType": {
+                "*-iron": {
+                  "DamageType": "PiercingAttack",
+                  "Damage": 8
+                },
+                "*-meteoriciron": {
+                  "DamageType": "PiercingAttack",
+                  "Damage": 8
+                },
+                "*-meteoricsteel": {
+                  "DamageType": "PiercingAttack",
+                  "Damage": 8
+                },
+                "*": {
+                  "DamageType": "PiercingAttack",
+                  "Damage": 4
+                }
+              },
+              "SpeedThreshold": 0.3,
+              "Knockback": 0.08,
+              "EntityCode": "armory:dagger-{handling}-{type}-{material}",
+              "DurabilityDamage": 4,
+              "DropChance": 1
+            }
+          }
+        },
+        {
+          "name": "Buffable"
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/dagger",
+    "op": "addmerge",
+    "path": "/durabilitybytype",
+    "value": {
+      "*-meteoricsteel": 1400
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/dagger",
+    "op": "addmerge",
+    "path": "/shapeByType",
+    "value": {
+      "*-meteoricsteel": {
+        "base": "daggers/dagger-straightguard-{type}"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/halberd",
+    "op": "addmerge",
+    "path": "/attributes",
+    "value": {
+      "TwoHandedStance": {
+        "DirectionalAttacks": {
+          "Top": {
+            "DamageTypes": [
+              {
+                "DamageByType": {
+                  "*-meteoricsteel": {
+                    "DamageType": "SlashingAttack",
+                    "Tier": 7,
+                    "Damage": 8
+                  }
+                }
+              },
+              {
+                "DamageByType": {
+                  "*-meteoricsteel": {
+                    "DamageType": "SlashingAttack",
+                    "Tier": 7,
+                    "Damage": 6
+                  }
+                }
+              }
+            ]
+          },
+          "Left": {
+            "DamageTypes": [
+              {
+                "DamageByType": {
+                  "*-meteoricsteel": {
+                    "DamageType": "SlashingAttack",
+                    "Tier": 7,
+                    "Damage": 8
+                  }
+                }
+              },
+              {
+                "DamageByType": {
+                  "*-meteoricsteel": {
+                    "DamageType": "SlashingAttack",
+                    "Tier": 7,
+                    "Damage": 6
+                  }
+                }
+              }
+            ]
+          },
+          "Right": {
+            "DamageTypes": [
+              {
+                "DamageByType": {
+                  "*-meteoricsteel": {
+                    "DamageType": "SlashingAttack",
+                    "Tier": 7,
+                    "Damage": 8
+                  }
+                }
+              },
+              {
+                "DamageByType": {
+                  "*-meteoricsteel": {
+                    "DamageType": "SlashingAttack",
+                    "Tier": 7,
+                    "Damage": 6
+                  }
+                }
+              }
+            ]
+          },
+          "Bottom": {
+            "DamageTypes": [
+              {
+                "DamageByType": {
+                  "*-meteoricsteel": {
+                    "DamageType": "PiercingAttack",
+                    "Tier": 7,
+                    "Damage": 6
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/halberd",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "quenchBuffKind": "weapon"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/halberd",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-meteoricsteel": [
+        {
+          "name": "GroundStorable",
+          "properties": {
+            "layout": "WallHalves",
+            "wallOffY": 3,
+            "sprintKey": true,
+            "selectionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 1,
+              "y2": 0.1,
+              "z2": 1
+            },
+            "collisionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 0,
+              "y2": 0,
+              "z2": 0
+            }
+          }
+        },
+        {
+          "name": "CombatOverhaul:TexturesFromAttributes",
+          "properties": {
+            "Textures": [
+              {
+                "Code": "handle",
+                "Attribute": "handleTexture",
+                "Default": "game:block/wood/debarked/oak",
+                "HandbookValues": [
+                  "game:block/wood/debarked/aged",
+                  "game:block/wood/debarked/birch",
+                  "game:block/wood/debarked/oak",
+                  "game:block/wood/debarked/maple",
+                  "game:block/wood/debarked/pine",
+                  "game:block/wood/debarked/acacia",
+                  "game:block/wood/debarked/kapok",
+                  "game:block/wood/debarked/baldcypress",
+                  "game:block/wood/debarked/larch",
+                  "game:block/wood/debarked/redwood",
+                  "game:block/wood/debarked/ebony",
+                  "game:block/wood/debarked/walnut",
+                  "game:block/wood/debarked/purpleheart"
+                ]
+              }
+            ],
+            "CreativeTabs": [
+              "general",
+              "armory-colors"
+            ]
+          }
+        },
+        {
+          "name": "Buffable"
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/halberd",
+    "op": "addmerge",
+    "path": "/durabilitybytype",
+    "value": {
+      "*-meteoricsteel": 1400
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/javelin",
+    "op": "addmerge",
+    "path": "/attributes",
+    "value": {
+      "OneHandedStance": {
+        "Attack": {
+          "DamageTypes": [
+            {
+              "DamageByType": {
+                "*-meteoricsteel": {
+                  "DamageType": "PiercingAttack",
+                  "Tier": 7,
+                  "Damage": 4
+                }
+              }
+            }
+          ]
+        }
+      },
+      "ThrowAttack": {
+        "DamageTierByType": {
+          "*-meteoricsteel": 7
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/javelin",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "quenchBuffKind": "weapon"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/javelin",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-iron": [
+        {
+          "properties": {
+            "stats": {
+              "DamageStatsByType": {
+                "*-meteoricsteel": {
+                  "DamageType": "PiercingAttack",
+                  "Damage": 10
+                }
+              }
+            }
+          }
+        }
+      ],
+      "*-meteoriciron": [
+        {
+          "properties": {
+            "stats": {
+              "DamageStatsByType": {
+                "*-meteoricsteel": {
+                  "DamageType": "PiercingAttack",
+                  "Damage": 10
+                }
+              }
+            }
+          }
+        }
+      ],
+      "*-steel": [
+        {
+          "properties": {
+            "stats": {
+              "DamageStatsByType": {
+                "*-meteoricsteel": {
+                  "DamageType": "PiercingAttack",
+                  "Damage": 10
+                }
+              }
+            }
+          }
+        }
+      ],
+      "*": [
+        {
+          "properties": {
+            "stats": {
+              "DamageStatsByType": {
+                "*-meteoricsteel": {
+                  "DamageType": "PiercingAttack",
+                  "Damage": 10
+                }
+              }
+            }
+          }
+        }
+      ],
+      "*-meteoricsteel": [
+        {
+          "name": "GroundStorable",
+          "properties": {
+            "layout": "WallHalves",
+            "wallOffY": 2,
+            "sprintKey": true,
+            "selectionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 1,
+              "y2": 0.1,
+              "z2": 1
+            },
+            "collisionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 0,
+              "y2": 0,
+              "z2": 0
+            }
+          }
+        },
+        {
+          "name": "CombatOverhaul:Projectile",
+          "properties": {
+            "stats": {
+              "AdditionalDurabilityCost": 0,
+              "CollisionRadius": 0.05,
+              "DamageStatsByType": {
+                "*-obisidan": {
+                  "DamageType": "PiercingAttack",
+                  "Damage": 6
+                },
+                "*-flint": {
+                  "DamageType": "PiercingAttack",
+                  "Damage": 6
+                },
+                "*-copper": {
+                  "DamageType": "PiercingAttack",
+                  "Damage": 8
+                },
+                "*-*bronze": {
+                  "DamageType": "PiercingAttack",
+                  "Damage": 10
+                },
+                "*-iron": {
+                  "DamageType": "PiercingAttack",
+                  "Damage": 10
+                },
+                "*-meteoriciron": {
+                  "DamageType": "PiercingAttack",
+                  "Damage": 10
+                },
+                "*-meteoricsteel": {
+                  "DamageType": "PiercingAttack",
+                  "Damage": 10
+                },
+                "*": {
+                  "DamageType": "PiercingAttack",
+                  "Damage": 4
+                }
+              },
+              "SpeedThreshold": 0.3,
+              "Knockback": 0.1,
+              "EntityCode": "armory:javelin-{type}-{material}",
+              "DurabilityDamage": 5,
+              "DropChance": 1
+            }
+          }
+        },
+        {
+          "name": "Buffable"
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/javelin",
+    "op": "addmerge",
+    "path": "/durabilitybytype",
+    "value": {
+      "*-meteoricsteel": 530
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/mace",
+    "op": "addmerge",
+    "path": "/attributes",
+    "value": {
+      "OneHandedStance": {
+        "Attack": {
+          "DamageTypesByType": {
+            "*-meteoricsteel": [
+              {
+                "Damage": {
+                  "DamageType": "BluntAttack",
+                  "Tier": 7,
+                  "Damage": 4,
+                  "ArmorPiercingTier": 4
+                },
+                "Knockback": 0,
+                "DurabilityDamage": 1,
+                "Collider": [
+                  0.7,
+                  -0.1,
+                  0.5,
+                  1.7,
+                  -0.2,
+                  0.5
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/mace",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "quenchBuffKind": "weapon"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/mace",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-meteoricsteel": [
+        {
+          "name": "GroundStorable",
+          "properties": {
+            "layout": "WallHalves",
+            "wallOffY": 2,
+            "sprintKey": true,
+            "selectionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 1,
+              "y2": 0.1,
+              "z2": 1
+            },
+            "collisionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 0,
+              "y2": 0,
+              "z2": 0
+            }
+          }
+        },
+        {
+          "name": "Buffable"
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/mace",
+    "op": "addmerge",
+    "path": "/durabilitybytype",
+    "value": {
+      "*-meteoricsteel": 1400
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/pike",
+    "op": "addmerge",
+    "path": "/attributes",
+    "value": {
+      "TwoHandedStance": {
+        "Attack": {
+          "DamageTypesByType": {
+            "*-meteoricsteel": [
+              {
+                "Damage": {
+                  "DamageType": "PiercingAttack",
+                  "Tier": 7,
+                  "Damage": 8
+                },
+                "Knockback": 1,
+                "DurabilityDamage": 1,
+                "Collider": [
+                  0,
+                  0,
+                  0.5,
+                  1.2,
+                  0,
+                  0.5
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/pike",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "quenchBuffKind": "weapon"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/pike",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-meteoricsteel": [
+        {
+          "name": "GroundStorable",
+          "properties": {
+            "layout": "WallHalves",
+            "wallOffY": 4,
+            "sprintKey": true,
+            "selectionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 1,
+              "y2": 0.1,
+              "z2": 1
+            },
+            "collisionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 0,
+              "y2": 0,
+              "z2": 0
+            }
+          }
+        },
+        {
+          "name": "CombatOverhaul:TexturesFromAttributes",
+          "properties": {
+            "Textures": [
+              {
+                "Code": "handle",
+                "Attribute": "handleTexture",
+                "Default": "game:block/wood/debarked/oak",
+                "HandbookValues": [
+                  "game:block/wood/debarked/aged",
+                  "game:block/wood/debarked/birch",
+                  "game:block/wood/debarked/oak",
+                  "game:block/wood/debarked/maple",
+                  "game:block/wood/debarked/pine",
+                  "game:block/wood/debarked/acacia",
+                  "game:block/wood/debarked/kapok",
+                  "game:block/wood/debarked/baldcypress",
+                  "game:block/wood/debarked/larch",
+                  "game:block/wood/debarked/redwood",
+                  "game:block/wood/debarked/ebony",
+                  "game:block/wood/debarked/walnut",
+                  "game:block/wood/debarked/purpleheart"
+                ]
+              }
+            ],
+            "CreativeTabs": [
+              "general",
+              "armory-colors"
+            ]
+          }
+        },
+        {
+          "name": "Buffable"
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/pike",
+    "op": "addmerge",
+    "path": "/durabilitybytype",
+    "value": {
+      "*-meteoricsteel": 1400
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/poleaxe",
+    "op": "addmerge",
+    "path": "/attributes",
+    "value": {
+      "TwoHandedStance": {
+        "DirectionalAttacks": {
+          "Top": {
+            "DamageTypes": [
+              {
+                "DamageByType": {
+                  "*-meteoricsteel": {
+                    "DamageType": "BluntAttack",
+                    "Tier": 7,
+                    "Damage": 8,
+                    "ArmorPiercingTier": 3
+                  }
+                }
+              }
+            ]
+          },
+          "Left": {
+            "DamageTypes": [
+              {
+                "DamageByType": {
+                  "*-meteoricsteel": {
+                    "DamageType": "SlashingAttack",
+                    "Tier": 7,
+                    "Damage": 8
+                  }
+                }
+              }
+            ]
+          },
+          "Right": {
+            "DamageTypes": [
+              {
+                "DamageByType": {
+                  "*-meteoricsteel": {
+                    "DamageType": "SlashingAttack",
+                    "Tier": 7,
+                    "Damage": 8
+                  }
+                }
+              }
+            ]
+          },
+          "Bottom": {
+            "DamageTypes": [
+              {
+                "DamageByType": {
+                  "*-meteoricsteel": {
+                    "DamageType": "PiercingAttack",
+                    "Tier": 7,
+                    "Damage": 6,
+                    "ArmorPiercingTier": 3
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/poleaxe",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "quenchBuffKind": "weapon"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/poleaxe",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-meteoricsteel": [
+        {
+          "name": "GroundStorable",
+          "properties": {
+            "layout": "WallHalves",
+            "wallOffY": 3,
+            "sprintKey": true,
+            "selectionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 1,
+              "y2": 0.1,
+              "z2": 1
+            },
+            "collisionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 0,
+              "y2": 0,
+              "z2": 0
+            }
+          }
+        },
+        {
+          "name": "CombatOverhaul:TexturesFromAttributes",
+          "properties": {
+            "Textures": [
+              {
+                "Code": "handle",
+                "Attribute": "handleTexture",
+                "Default": "game:block/wood/debarked/oak",
+                "HandbookValues": [
+                  "game:block/wood/debarked/aged",
+                  "game:block/wood/debarked/birch",
+                  "game:block/wood/debarked/oak",
+                  "game:block/wood/debarked/maple",
+                  "game:block/wood/debarked/pine",
+                  "game:block/wood/debarked/acacia",
+                  "game:block/wood/debarked/kapok",
+                  "game:block/wood/debarked/baldcypress",
+                  "game:block/wood/debarked/larch",
+                  "game:block/wood/debarked/redwood",
+                  "game:block/wood/debarked/ebony",
+                  "game:block/wood/debarked/walnut",
+                  "game:block/wood/debarked/purpleheart"
+                ]
+              }
+            ],
+            "CreativeTabs": [
+              "general",
+              "armory-colors"
+            ]
+          }
+        },
+        {
+          "name": "Buffable"
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/poleaxe",
+    "op": "addmerge",
+    "path": "/durabilitybytype",
+    "value": {
+      "*-meteoricsteel": 1400
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/poleaxe",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/quarterstaff",
+    "op": "addmerge",
+    "path": "/attributes",
+    "value": {
+      "TwoHandedStance": {
+        "DirectionalAttacks": {
+          "Top": {
+            "DamageTypes": [
+              {
+                "DamageByType": {
+                  "*-meteoricsteel": {
+                    "DamageType": "BluntAttack",
+                    "Tier": 7,
+                    "Damage": 8
+                  }
+                }
+              }
+            ]
+          },
+          "BottomRight": {
+            "DamageTypes": [
+              {
+                "DamageByType": {
+                  "*-meteoricsteel": {
+                    "DamageType": "BluntAttack",
+                    "Tier": 7,
+                    "Damage": 6
+                  }
+                }
+              }
+            ]
+          },
+          "BottomLeft": {
+            "DamageTypes": [
+              {
+                "DamageByType": {
+                  "*-meteoricsteel": {
+                    "DamageType": "BluntAttack",
+                    "Tier": 7,
+                    "Damage": 6
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/quarterstaff",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "quenchBuffKind": "weapon"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/quarterstaff",
+    "op": "addmerge",
+    "path": "/durabilitybytype",
+    "value": {
+      "*-meteoricsteel": 850
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/sabre",
+    "op": "addmerge",
+    "path": "/attributes",
+    "value": {
+      "OneHandedStance": {
+        "Attack": {
+          "DamageTypesByType": {
+            "*-meteoricsteel": [
+              {
+                "Damage": {
+                  "DamageType": "SlashingAttack",
+                  "Tier": 6,
+                  "Damage": 6
+                },
+                "Knockback": 0,
+                "DurabilityDamage": 1,
+                "Collider": [
+                  0.6,
+                  -0.3,
+                  0.5,
+                  3.1,
+                  0.2,
+                  0.5
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/sabre",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "quenchBuffKind": "weapon"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/sabre",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-meteoricsteel": [
+        {
+          "name": "GroundStorable",
+          "properties": {
+            "layout": "WallHalves",
+            "wallOffY": 2,
+            "sprintKey": true,
+            "selectionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 1,
+              "y2": 0.1,
+              "z2": 1
+            },
+            "collisionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 0,
+              "y2": 0,
+              "z2": 0
+            }
+          }
+        },
+        {
+          "name": "CombatOverhaul:TexturesFromAttributes",
+          "properties": {
+            "Textures": [
+              {
+                "Code": "handle",
+                "Attribute": "handleTexture",
+                "Default": "game:block/leather/plain",
+                "HandbookValues": [
+                  "game:block/leather/plain",
+                  "game:block/leather/black",
+                  "game:block/leather/blue",
+                  "game:block/leather/chromium",
+                  "game:block/leather/gray",
+                  "game:block/leather/green",
+                  "game:block/leather/orange",
+                  "game:block/leather/pink",
+                  "game:block/leather/purple",
+                  "game:block/leather/red",
+                  "game:block/leather/white",
+                  "game:block/leather/yellow"
+                ]
+              }
+            ],
+            "CreativeTabs": [
+              "general",
+              "armory-colors"
+            ]
+          }
+        },
+        {
+          "name": "Buffable"
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/sabre",
+    "op": "addmerge",
+    "path": "/durabilitybytype",
+    "value": {
+      "*-meteoricsteel": 1400
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/shield-heavy",
+    "op": "addmerge",
+    "path": "/attributes",
+    "value": {
+      "OffHandStanceByType": {
+        "*-meteoricsteel": {
+          "CanAttack": false,
+          "CanParry": false,
+          "CanBlock": true,
+          "CanSprint": true,
+          "SpeedPenalty": -0.05,
+          "BlockSpeedPenalty": -0.4,
+          "Block": {
+            "Zones": [
+              "Head",
+              "Face",
+              "Neck",
+              "Torso",
+              "LeftArm",
+              "RightArm",
+              "LeftHand",
+              "RightHand",
+              "LeftLeg",
+              "RightLeg",
+              "LeftFoot",
+              "RightFoot"
+            ],
+            "Directions": [
+              60,
+              60,
+              60,
+              60
+            ],
+            "Sound": "game:sounds/held/shieldblock-wood-light",
+            "BlockTier": {
+              "BluntAttack": 9,
+              "SlashingAttack": 9,
+              "PiercingAttack": 9
+            }
+          },
+          "ParryCooldownMs": 600,
+          "BlockCooldownMs": 0,
+          "BlockAnimation": "combatoverhaul:shield-heavy-block-kite",
+          "ReadyAnimation": "combatoverhaul:shield-heavy-ready",
+          "IdleAnimation": "combatoverhaul:shield-heavy-ready",
+          "BlockTpAnimation": "block"
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/shield-heavy",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "quenchBuffKind": "weapon"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/shield-heavy",
+    "op": "addmerge",
+    "path": "/durabilitybytype",
+    "value": {
+      "*-meteoricsteel": 2100
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/shield-light",
+    "op": "addmerge",
+    "path": "/attributes",
+    "value": {
+      "groundStorageTransformByType": {
+        "*-meteoricsteel": {
+          "translation": {
+            "x": 0.1,
+            "y": 0.6,
+            "z": 1.08
+          },
+          "rotation": {
+            "x": 111,
+            "y": 0,
+            "z": -13
+          },
+          "origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": 0.8
+        }
+      },
+      "OffHandStanceByType": {
+        "*-meteoricsteel": {
+          "CanAttack": false,
+          "CanParry": true,
+          "CanBlock": true,
+          "CanSprint": true,
+          "CanBash": true,
+          "SpeedPenalty": 0,
+          "BlockSpeedPenalty": 0,
+          "Parry": {
+            "Zones": [
+              "Head",
+              "Face",
+              "Neck",
+              "Torso",
+              "LeftArm",
+              "RightArm",
+              "LeftHand",
+              "RightHand",
+              "LeftLeg",
+              "RightLeg",
+              "LeftFoot",
+              "RightFoot"
+            ],
+            "Directions": [
+              90,
+              90,
+              90,
+              90
+            ],
+            "Sound": "game:sounds/held/shieldblock-metal-heavy",
+            "BlockTier": {
+              "BluntAttack": 10,
+              "SlashingAttack": 10,
+              "PiercingAttack": 10
+            }
+          },
+          "Block": {
+            "Zones": [
+              "Head",
+              "Face",
+              "Neck",
+              "Torso",
+              "LeftArm",
+              "RightArm",
+              "LeftHand",
+              "RightHand"
+            ],
+            "Directions": [
+              45,
+              45,
+              45,
+              45
+            ],
+            "Sound": "game:sounds/held/shieldblock-metal-light",
+            "BlockTier": {
+              "BluntAttack": 8,
+              "SlashingAttack": 8,
+              "PiercingAttack": 8
+            }
+          },
+          "BlockBash": {
+            "StopOnTerrainHit": false,
+            "StopOnEntityHit": true,
+            "CollideWithTerrain": true,
+            "MaxReach": 9,
+            "DamageTypes": [
+              {
+                "DamageByType": {
+                  "*": {
+                    "DamageType": "BluntAttack",
+                    "Tier": 0,
+                    "Damage": 1
+                  }
+                },
+                "Knockback": 2,
+                "DurabilityDamage": 1,
+                "Collider": [
+                  -0.3,
+                  -0.3,
+                  0.2,
+                  0.39999998,
+                  -0.3,
+                  0.2
+                ]
+              }
+            ]
+          },
+          "ParryCooldownMs": 600,
+          "BlockCooldownMs": 0,
+          "BlockAnimation": "armory:shield-light-parry",
+          "ReadyAnimation": "armory:shield-light-ready",
+          "IdleAnimation": "armory:shield-light-ready",
+          "BlockBashAnimation": {
+            "Main": [
+              "combatoverhaul:shield-light-bash"
+            ]
+          },
+          "BlockTpAnimation": "block"
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/shield-light",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "quenchBuffKind": "weapon"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/shield-light",
+    "op": "addmerge",
+    "path": "/durabilitybytype",
+    "value": {
+      "*-meteoricsteel": 3300
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/shield-light",
+    "op": "addmerge",
+    "path": "/guiTransformByType",
+    "value": {
+      "*-meteoricsteel": {
+        "translation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 121,
+          "y": 0,
+          "z": -30
+        },
+        "origin": {
+          "x": 0.46,
+          "y": 0,
+          "z": 0.5
+        },
+        "scale": 1.6
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/shield-light",
+    "op": "addmerge",
+    "path": "/shapeByType",
+    "value": {
+      "*-meteoricsteel": {
+        "base": "shields/buckler"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/shield-light",
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "metal": {
+          "base": "game:block/metal/ingot/{material}"
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/shield-light",
+    "op": "addmerge",
+    "path": "/tpHandTransformByType",
+    "value": {
+      "*-meteoricsteel": {
+        "translation": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": -0.2
+        },
+        "rotation": {
+          "x": -110,
+          "y": 0,
+          "z": 0
+        },
+        "origin": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": 0.8
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/shield-light",
+    "op": "addmerge",
+    "path": "/variantgroups/2/states",
+    "value": [
+      "meteoricsteel"
+    ]
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/sword-arming",
+    "op": "addmerge",
+    "path": "/attributes",
+    "value": {
+      "OneHandedStance": {
+        "Attack": {
+          "DamageTypesByType": {
+            "*-meteoricsteel": [
+              {
+                "Damage": {
+                  "DamageType": "SlashingAttack",
+                  "Tier": 7,
+                  "Damage": 4
+                },
+                "Knockback": 1,
+                "DurabilityDamage": 1,
+                "Collider": [
+                  0.6,
+                  -0.1,
+                  0.5,
+                  3.05,
+                  -0.1,
+                  0.5
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/sword-arming",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "quenchBuffKind": "weapon"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/sword-arming",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-meteoricsteel": [
+        {
+          "name": "GroundStorable",
+          "properties": {
+            "layout": "WallHalves",
+            "wallOffY": 2,
+            "sprintKey": true,
+            "selectionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 1,
+              "y2": 0.1,
+              "z2": 1
+            },
+            "collisionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 0,
+              "y2": 0,
+              "z2": 0
+            }
+          }
+        },
+        {
+          "name": "CombatOverhaul:TexturesFromAttributes",
+          "properties": {
+            "Textures": [
+              {
+                "Code": "handle",
+                "Attribute": "handleTexture",
+                "Default": "game:block/leather/plain",
+                "HandbookValues": [
+                  "game:block/leather/plain",
+                  "game:block/leather/black",
+                  "game:block/leather/blue",
+                  "game:block/leather/chromium",
+                  "game:block/leather/gray",
+                  "game:block/leather/green",
+                  "game:block/leather/orange",
+                  "game:block/leather/pink",
+                  "game:block/leather/purple",
+                  "game:block/leather/red",
+                  "game:block/leather/white",
+                  "game:block/leather/yellow"
+                ]
+              }
+            ],
+            "CreativeTabs": [
+              "general",
+              "armory-colors"
+            ]
+          }
+        },
+        {
+          "name": "Buffable"
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/sword-arming",
+    "op": "addmerge",
+    "path": "/durabilitybytype",
+    "value": {
+      "*-meteoricsteel": 1400
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/sword-arming",
+    "op": "addmerge",
+    "path": "/shapeByType",
+    "value": {
+      "*-meteoricsteel": {
+        "base": "swords/sword-arming14-{type}"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/sword-great",
+    "op": "addmerge",
+    "path": "/attributes",
+    "value": {
+      "TwoHandedStance": {
+        "Attack": {
+          "DamageTypesByType": {
+            "*-meteoricsteel": [
+              {
+                "Damage": {
+                  "DamageType": "SlashingAttack",
+                  "Tier": 7,
+                  "Damage": 8
+                },
+                "Knockback": 1,
+                "DurabilityDamage": 1,
+                "Radius": 0.28,
+                "Collider": [
+                  0.6,
+                  0,
+                  0.5,
+                  4.2,
+                  0,
+                  0.5
+                ]
+              }
+            ]
+          }
+        },
+        "Riposte": {
+          "DamageTypesByType": {
+            "*-meteoricsteel": [
+              {
+                "Damage": {
+                  "DamageType": "SlashingAttack",
+                  "Tier": 8,
+                  "Damage": 10
+                },
+                "Knockback": 1,
+                "DurabilityDamage": 1,
+                "Radius": 0.28,
+                "Collider": [
+                  0.6,
+                  0,
+                  0.5,
+                  4.2,
+                  0,
+                  0.5
+                ]
+              }
+            ]
+          }
+        },
+        "BlockBash": {
+          "DamageTypesByType": {
+            "*-meteoricsteel": [
+              {
+                "Damage": {
+                  "DamageType": "SlashingAttack",
+                  "Tier": 7,
+                  "Damage": 5
+                },
+                "Knockback": 1.5,
+                "DurabilityDamage": 1,
+                "Radius": 0.28,
+                "Collider": [
+                  0.6,
+                  0,
+                  0.5,
+                  4.2,
+                  0,
+                  0.5
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/sword-great",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "quenchBuffKind": "weapon"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/sword-great",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-meteoricsteel": [
+        {
+          "name": "GroundStorable",
+          "properties": {
+            "layout": "WallHalves",
+            "wallOffY": 2,
+            "sprintKey": true,
+            "selectionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 1,
+              "y2": 0.1,
+              "z2": 1
+            },
+            "collisionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 0,
+              "y2": 0,
+              "z2": 0
+            }
+          }
+        },
+        {
+          "name": "CombatOverhaul:TexturesFromAttributes",
+          "properties": {
+            "Textures": [
+              {
+                "Code": "handle",
+                "Attribute": "handleTexture",
+                "Default": "game:block/leather/plain",
+                "HandbookValues": [
+                  "game:block/leather/plain",
+                  "game:block/leather/black",
+                  "game:block/leather/blue",
+                  "game:block/leather/chromium",
+                  "game:block/leather/gray",
+                  "game:block/leather/green",
+                  "game:block/leather/orange",
+                  "game:block/leather/pink",
+                  "game:block/leather/purple",
+                  "game:block/leather/red",
+                  "game:block/leather/white",
+                  "game:block/leather/yellow"
+                ]
+              }
+            ],
+            "CreativeTabs": [
+              "general",
+              "armory-colors"
+            ]
+          }
+        },
+        {
+          "name": "Buffable"
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/sword-great",
+    "op": "addmerge",
+    "path": "/durabilitybytype",
+    "value": {
+      "*-meteoricsteel": 1400
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/sword-great",
+    "op": "addmerge",
+    "path": "/shapeByType",
+    "value": {
+      "*-meteoricsteel": {
+        "base": "swords/sword-great-{type}"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/sword-long",
+    "op": "addmerge",
+    "path": "/attributes",
+    "value": {
+      "OneHandedStance": {
+        "Attack": {
+          "DamageTypesByType": {
+            "*-meteoricsteel": [
+              {
+                "Damage": {
+                  "DamageType": "SlashingAttack",
+                  "Tier": 7,
+                  "Damage": 4
+                },
+                "Knockback": 0,
+                "DurabilityDamage": 1,
+                "Collider": [
+                  0.5,
+                  0,
+                  0.5,
+                  3.2,
+                  0,
+                  0.5
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "TwoHandedStance": {
+        "Attack": {
+          "DamageTypesByType": {
+            "*-meteoricsteel": [
+              {
+                "Damage": {
+                  "DamageType": "SlashingAttack",
+                  "Tier": 7,
+                  "Damage": 6
+                },
+                "Knockback": 1,
+                "DurabilityDamage": 1,
+                "Collider": [
+                  0.5,
+                  0,
+                  0.5,
+                  3.2,
+                  0,
+                  0.5
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/sword-long",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "quenchBuffKind": "weapon"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/sword-long",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-meteoricsteel": [
+        {
+          "name": "GroundStorable",
+          "properties": {
+            "layout": "WallHalves",
+            "wallOffY": 2,
+            "sprintKey": true,
+            "selectionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 1,
+              "y2": 0.1,
+              "z2": 1
+            },
+            "collisionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 0,
+              "y2": 0,
+              "z2": 0
+            }
+          }
+        },
+        {
+          "name": "CombatOverhaul:TexturesFromAttributes",
+          "properties": {
+            "Textures": [
+              {
+                "Code": "handle",
+                "Attribute": "handleTexture",
+                "Default": "game:block/leather/plain",
+                "HandbookValues": [
+                  "game:block/leather/plain",
+                  "game:block/leather/black",
+                  "game:block/leather/blue",
+                  "game:block/leather/chromium",
+                  "game:block/leather/gray",
+                  "game:block/leather/green",
+                  "game:block/leather/orange",
+                  "game:block/leather/pink",
+                  "game:block/leather/purple",
+                  "game:block/leather/red",
+                  "game:block/leather/white",
+                  "game:block/leather/yellow"
+                ]
+              }
+            ],
+            "CreativeTabs": [
+              "general",
+              "armory-colors"
+            ]
+          }
+        },
+        {
+          "name": "Buffable"
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/sword-long",
+    "op": "addmerge",
+    "path": "/durabilitybytype",
+    "value": {
+      "*-meteoricsteel": 1400
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/sword-short",
+    "op": "addmerge",
+    "path": "/attributes",
+    "value": {
+      "OneHandedStance": {
+        "Attack": {
+          "DamageTypesByType": {
+            "*-meteoricsteel": [
+              {
+                "Damage": {
+                  "DamageType": "SlashingAttack",
+                  "Tier": 7,
+                  "Damage": 4
+                },
+                "Knockback": 1,
+                "DurabilityDamage": 1,
+                "Collider": [
+                  0.6,
+                  0,
+                  0.5,
+                  2.75,
+                  0,
+                  0.5
+                ]
+              }
+            ]
+          }
+        },
+        "AttackAnimationByType": {
+          "*-meteoricsteel": {
+            "Main": [
+              "armory:sword-short-thrust-4",
+              "armory:sword-short-thrust-5",
+              "armory:sword-short-thrust-6"
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/sword-short",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {
+      "*-meteoricsteel": {
+        "quenchBuffKind": "weapon"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/sword-short",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-meteoricsteel": [
+        {
+          "name": "GroundStorable",
+          "properties": {
+            "layout": "WallHalves",
+            "wallOffY": 2,
+            "sprintKey": true,
+            "selectionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 1,
+              "y2": 0.1,
+              "z2": 1
+            },
+            "collisionBox": {
+              "x1": 0,
+              "y1": 0,
+              "z1": 0,
+              "x2": 0,
+              "y2": 0,
+              "z2": 0
+            }
+          }
+        },
+        {
+          "name": "CombatOverhaul:TexturesFromAttributes",
+          "properties": {
+            "Textures": [
+              {
+                "Code": "handle",
+                "Attribute": "handleTexture",
+                "Default": "game:block/leather/plain",
+                "HandbookValues": [
+                  "game:block/leather/plain",
+                  "game:block/leather/black",
+                  "game:block/leather/blue",
+                  "game:block/leather/chromium",
+                  "game:block/leather/gray",
+                  "game:block/leather/green",
+                  "game:block/leather/orange",
+                  "game:block/leather/pink",
+                  "game:block/leather/purple",
+                  "game:block/leather/red",
+                  "game:block/leather/white",
+                  "game:block/leather/yellow"
+                ]
+              }
+            ],
+            "CreativeTabs": [
+              "general",
+              "armory-colors"
+            ]
+          }
+        },
+        {
+          "name": "Buffable"
+        }
+      ]
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/sword-short",
+    "op": "addmerge",
+    "path": "/durabilitybytype",
+    "value": {
+      "*-meteoricsteel": 1400
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/sword-short",
+    "op": "addmerge",
+    "path": "/shapeByType",
+    "value": {
+      "*-meteoricsteel": {
+        "base": "swords/sword-arming-{type}"
+      }
+    }
+  }
+]
