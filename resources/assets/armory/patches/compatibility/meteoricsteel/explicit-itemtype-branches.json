@@ -2148,62 +2148,6 @@
     "op": "addmerge",
     "path": "/behaviorsByType",
     "value": {
-      "*-iron": [
-        {
-          "properties": {
-            "stats": {
-              "DamageStatsByType": {
-                "*-meteoricsteel": {
-                  "DamageType": "PiercingAttack",
-                  "Damage": 8
-                }
-              }
-            }
-          }
-        }
-      ],
-      "*-meteoriciron": [
-        {
-          "properties": {
-            "stats": {
-              "DamageStatsByType": {
-                "*-meteoricsteel": {
-                  "DamageType": "PiercingAttack",
-                  "Damage": 8
-                }
-              }
-            }
-          }
-        }
-      ],
-      "*-steel": [
-        {
-          "properties": {
-            "stats": {
-              "DamageStatsByType": {
-                "*-meteoricsteel": {
-                  "DamageType": "PiercingAttack",
-                  "Damage": 8
-                }
-              }
-            }
-          }
-        }
-      ],
-      "*": [
-        {
-          "properties": {
-            "stats": {
-              "DamageStatsByType": {
-                "*-meteoricsteel": {
-                  "DamageType": "PiercingAttack",
-                  "Damage": 8
-                }
-              }
-            }
-          }
-        }
-      ],
       "*-meteoricsteel": [
         {
           "name": "GroundStorable",
@@ -2601,62 +2545,6 @@
     "op": "addmerge",
     "path": "/behaviorsByType",
     "value": {
-      "*-iron": [
-        {
-          "properties": {
-            "stats": {
-              "DamageStatsByType": {
-                "*-meteoricsteel": {
-                  "DamageType": "PiercingAttack",
-                  "Damage": 10
-                }
-              }
-            }
-          }
-        }
-      ],
-      "*-meteoriciron": [
-        {
-          "properties": {
-            "stats": {
-              "DamageStatsByType": {
-                "*-meteoricsteel": {
-                  "DamageType": "PiercingAttack",
-                  "Damage": 10
-                }
-              }
-            }
-          }
-        }
-      ],
-      "*-steel": [
-        {
-          "properties": {
-            "stats": {
-              "DamageStatsByType": {
-                "*-meteoricsteel": {
-                  "DamageType": "PiercingAttack",
-                  "Damage": 10
-                }
-              }
-            }
-          }
-        }
-      ],
-      "*": [
-        {
-          "properties": {
-            "stats": {
-              "DamageStatsByType": {
-                "*-meteoricsteel": {
-                  "DamageType": "PiercingAttack",
-                  "Damage": 10
-                }
-              }
-            }
-          }
-        }
-      ],
       "*-meteoricsteel": [
         {
           "name": "GroundStorable",

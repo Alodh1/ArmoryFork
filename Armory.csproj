@@ -3,7 +3,7 @@
   <PropertyGroup>
     <ModName>Combat Overhaul : Armory</ModName>
     <ModType>content</ModType>
-    <ModVersion>1.10.37</ModVersion>
+    <ModVersion>1.10.38</ModVersion>
     <ModId>armoryfork</ModId>
     <Description>Weapons, shields and armor</Description>
     <Side>Universal</Side>
@@ -45,40 +45,42 @@
   <!-- Paths -->
   <PropertyGroup>
     <ProjectDir>$(MSBuildProjectDirectory)</ProjectDir>
-    <OutputDir>bin\$(Configuration)\Mods</OutputDir>
-    <OutputPath>$(OutputDir)\$(ModId)</OutputPath>
+    <OutputDir>bin/$(Configuration)/Mods</OutputDir>
+    <OutputPath>$(OutputDir)/$(ModId)</OutputPath>
     <GameDirectory Condition="'$(GameDirectory)' == '' and '$(VINTAGE_STORY)' != ''">$(VINTAGE_STORY)</GameDirectory>
-    <AssetsDir>$(ProjectDir)\resources\assets</AssetsDir>
-    <ModIconFile>$(ProjectDir)\resources\modicon.png</ModIconFile>
-    <ReleasesDir>$(ProjectDir)\Releases</ReleasesDir>
+    <AssetsDir>$(ProjectDir)/resources/assets</AssetsDir>
+    <ModIconFile>$(ProjectDir)/resources/modicon.png</ModIconFile>
+    <ReleasesDir>$(ProjectDir)/Releases</ReleasesDir>
     <ReleaseFile>$(ModId)_$(ModVersion)</ReleaseFile>
-    <ReleasePath>$(ReleasesDir)\$(ReleaseFile).zip</ReleasePath>
-    <ReleasePathDev>$(ReleasesDir)\$(ReleaseFile)_dev.zip</ReleasePathDev>
+    <ReleasePath>$(ReleasesDir)/$(ReleaseFile).zip</ReleasePath>
+    <ReleasePathDev>$(ReleasesDir)/$(ReleaseFile)_dev.zip</ReleasePathDev>
   </PropertyGroup>
 
   <!-- Startup settings -->
   <PropertyGroup>
     <DataFolderName>VintagestoryDataDev</DataFolderName>
-    <AppDataDir>C:\Users\user\AppData\Roaming</AppDataDir>
-    <DataFolder>$(AppDataDir)\$(DataFolderName)</DataFolder>
-    <AditionalModsFolder>$(AppDataDir)\$(DataFolderName)\Mods</AditionalModsFolder>
+    <AppDataDir Condition="'$(AppDataDir)' == '' and '$(APPDATA)' != ''">$(APPDATA)</AppDataDir>
+    <AppDataDir Condition="'$(AppDataDir)' == '' and '$(HOME)' != ''">$(HOME)/.config</AppDataDir>
+    <DataFolder>$(AppDataDir)/$(DataFolderName)</DataFolder>
+    <AditionalModsFolder>$(AppDataDir)/$(DataFolderName)/Mods</AditionalModsFolder>
     <WorldName>test_$(ModId)</WorldName>
-    <ModDir>$(ProjectDir)\$(OutputDir)</ModDir>
+    <ModDir>$(ProjectDir)/$(OutputDir)</ModDir>
   </PropertyGroup>
 
   <!-- Formatting JSON files -->
   <PropertyGroup>
-    <Scripts>$(ProjectDir)\scripts</Scripts>
-    <Formatter>$(Scripts)\formatter.py</Formatter>
+    <Scripts>$(ProjectDir)/scripts</Scripts>
+    <Formatter>$(Scripts)/formatter.py</Formatter>
+    <Packager>$(Scripts)/package_zip.py</Packager>
     <SkipAssetFormatting>true</SkipAssetFormatting>
   </PropertyGroup>
   <ItemGroup>
-    <AssetsToFormat Include="$(AssetsDir)\$(ModId)\blocktypes" />
-    <AssetsToFormat Include="$(AssetsDir)\$(ModId)\itemtypes" />
-    <AssetsToFormat Include="$(AssetsDir)\$(ModId)\patches" />
-    <AssetsToFormat Include="$(AssetsDir)\$(ModId)\entities" />
-    <AssetsToFormat Include="$(AssetsDir)\$(ModId)\recipes\grid" />
-    <AssetsToFormat Include="$(AssetsDir)\$(ModId)\config\animations" />
+    <AssetsToFormat Include="$(AssetsDir)/$(ModId)/blocktypes" />
+    <AssetsToFormat Include="$(AssetsDir)/$(ModId)/itemtypes" />
+    <AssetsToFormat Include="$(AssetsDir)/$(ModId)/patches" />
+    <AssetsToFormat Include="$(AssetsDir)/$(ModId)/entities" />
+    <AssetsToFormat Include="$(AssetsDir)/$(ModId)/recipes/grid" />
+    <AssetsToFormat Include="$(AssetsDir)/$(ModId)/config/animations" />
   </ItemGroup>
 
   <!-- References to libraries that are being used in project -->
@@ -86,17 +88,17 @@
     <Reference Include="$(GameDirectory)/**/*.dll" Private="false" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Remove="resources\assets\armory\shapes\armor\lamellar\**" />
-    <Compile Remove="resources\assets\armory\shapes\shields\wip\**" />
-    <EmbeddedResource Remove="resources\assets\armory\shapes\armor\lamellar\**" />
-    <EmbeddedResource Remove="resources\assets\armory\shapes\shields\wip\**" />
-    <None Remove="resources\assets\armory\shapes\armor\lamellar\**" />
-    <None Remove="resources\assets\armory\shapes\shields\wip\**" />
+    <Compile Remove="resources/assets/armory/shapes/armor/lamellar/**" />
+    <Compile Remove="resources/assets/armory/shapes/shields/wip/**" />
+    <EmbeddedResource Remove="resources/assets/armory/shapes/armor/lamellar/**" />
+    <EmbeddedResource Remove="resources/assets/armory/shapes/shields/wip/**" />
+    <None Remove="resources/assets/armory/shapes/armor/lamellar/**" />
+    <None Remove="resources/assets/armory/shapes/shields/wip/**" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="resources\assets\armory\shapes\armor\brigandine\" />
-    <Folder Include="resources\assets\armory\shapes\halberds\" />
-    <Folder Include="resources\assets\armory\shapes\daggers\" />
+    <Folder Include="resources/assets/armory/shapes/armor/brigandine/" />
+    <Folder Include="resources/assets/armory/shapes/halberds/" />
+    <Folder Include="resources/assets/armory/shapes/daggers/" />
   </ItemGroup>
 
   <!-- Forces rebuild -->
@@ -133,36 +135,36 @@
 
   <!-- Formats asssets files -->
   <Target Name="Format" AfterTargets="ModInfo" BeforeTargets="CopyFilesToOutput" Condition="'$(SkipAssetFormatting)' != 'true'">
-    <Exec Command="python $(Formatter) -a -d %(AssetsToFormat.Identity)" />
+    <Exec Command="python &quot;$(Formatter)&quot; -a -d &quot;%(AssetsToFormat.Identity)&quot;" />
   </Target>
 
   <!-- Copies modicon, assets folder and native libraries if they exist into output directory -->
   <Target Name="CopyFilesToOutput" AfterTargets="Format" BeforeTargets="BeforeBuild">
     <ItemGroup>
-      <AssetsFolder Include="$(AssetsDir)\**\*.*" />
+      <AssetsFolder Include="$(AssetsDir)/**/*.*" />
       <ModIcon Include="$(ModIconFile)" />
     </ItemGroup>
-    <RemoveDir Directories="$(OutputPath)assets" />
+    <RemoveDir Directories="$(OutputPath)/assets" />
     <Copy SourceFiles="@(ModIcon)" DestinationFolder="$(OutputPath)" Condition="Exists('$(ModIconFile)')" OverwriteReadOnlyFiles="true" />
-    <Copy SourceFiles="@(AssetsFolder)" DestinationFiles="@(AssetsFolder->'$(OutputPath)assets\%(RecursiveDir)%(Filename)%(Extension)')" Condition="Exists('$(AssetsDir)')" OverwriteReadOnlyFiles="true" />
+    <Copy SourceFiles="@(AssetsFolder)" DestinationFiles="@(AssetsFolder->'$(OutputPath)/assets/%(RecursiveDir)%(Filename)%(Extension)')" Condition="Exists('$(AssetsDir)')" OverwriteReadOnlyFiles="true" />
   </Target>
 
   <!-- Content mod does not need empty dll, but csproj is required to build one, so we just delete it -->
   <Target Name="RemoveExtra" AfterTargets="Build" BeforeTargets="ZipFiles">
     <ItemGroup>
-      <ExtraFiles Include="$(OutputPath)\*.dll" />
-      <ExtraFiles Include="$(OutputPath)\*.pdb" />
-      <ExtraFiles Include="$(OutputPath)\*.deps.json" />
+      <ExtraFiles Include="$(OutputPath)/*.dll" />
+      <ExtraFiles Include="$(OutputPath)/*.pdb" />
+      <ExtraFiles Include="$(OutputPath)/*.deps.json" />
     </ItemGroup>
     <Delete Files="@(ExtraFiles)" />
   </Target>
 
   <!-- Archives output directory into zip and puts it into Releases folder -->
   <Target Name="ZipFiles" AfterTargets="Build" Condition=" '$(Configuration)' == 'Release' ">
-    <Message Text="Pachaging into '$(ReleaseFile)'" Importance="high" />
+    <Message Text="Packaging into '$(ReleaseFile)'" Importance="high" />
     <MakeDir Directories="$(ReleasesDir)" />
     <Delete Files="$(ReleasePath)" />
-    <ZipDirectory SourceDirectory="$(OutputPath)" DestinationFile="$(ReleasePath)" />
+    <Exec Command="python &quot;$(Packager)&quot; &quot;$(OutputPath).&quot; &quot;$(ReleasePath)&quot;" />
   </Target>
 </Project>
 
