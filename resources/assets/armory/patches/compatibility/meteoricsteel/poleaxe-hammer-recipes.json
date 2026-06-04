@@ -1,0 +1,191 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/smithing/poleaxe",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredient": {
+        "type": "item",
+        "code": "game:ingot-*",
+        "name": "metal",
+        "allowedVariants": [
+          "meteoricsteel"
+        ]
+      },
+      "name": "poleaxehead",
+      "pattern": [
+        [
+          "_____#_____",
+          "_###_#_###_",
+          "_#########_",
+          "_____#_###_",
+          "_____#_____",
+          "____###____"
+        ]
+      ],
+      "output": {
+        "type": "item",
+        "code": "armory:part-poleaxehead-{metal}"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/smithing/polehammer",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredient": {
+        "type": "item",
+        "code": "game:ingot-*",
+        "name": "metal",
+        "allowedVariants": [
+          "meteoricsteel"
+        ]
+      },
+      "name": "hammerhead",
+      "pattern": [
+        [
+          "__##__###___",
+          "_##########_",
+          "__##__###___"
+        ],
+        [
+          "__##__###___",
+          "__##__###___",
+          "__##__###___"
+        ]
+      ],
+      "output": {
+        "type": "item",
+        "code": "armory:part-hammerhead-{metal}"
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/weapons/poleaxe",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "S,H",
+      "recipeGroup": 1,
+      "ingredients": {
+        "S": {
+          "type": "item",
+          "code": "armory:part-poleaxehead-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "H": {
+          "type": "item",
+          "code": "armory:handle-medium"
+        }
+      },
+      "copyAttributesFrom": "S",
+      "width": 1,
+      "height": 2,
+      "name": "poleaxe",
+      "output": {
+        "type": "item",
+        "code": "armory:poleaxe-plain-{material}",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/weapons/maces",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "S,H",
+      "recipeGroup": 1,
+      "ingredients": {
+        "S": {
+          "type": "item",
+          "code": "armory:part-hammerhead-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "H": {
+          "type": "item",
+          "code": "armory:handle-short"
+        }
+      },
+      "copyAttributesFrom": "S",
+      "width": 1,
+      "height": 2,
+      "name": "club",
+      "output": {
+        "type": "item",
+        "code": "armory:mace-plain-{material}",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/weapons/clubs",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "S,H",
+      "recipeGroup": 1,
+      "ingredients": {
+        "S": {
+          "type": "item",
+          "code": "armory:part-hammerhead-*",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "H": {
+          "type": "item",
+          "code": "armory:handle-long"
+        }
+      },
+      "copyAttributesFrom": "S",
+      "width": 1,
+      "height": 2,
+      "name": "club",
+      "output": {
+        "type": "item",
+        "code": "armory:club-plain-{material}",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  }
+]

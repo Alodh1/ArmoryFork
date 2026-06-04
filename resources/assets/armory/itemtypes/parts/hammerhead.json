@@ -248,6 +248,11 @@
       "meltingPoint": 1502,
       "meltingDuration": 30,
       "requiresContainer": false
+    },
+    "*-meteoricsteel": {
+      "meltingPoint": 1502,
+      "meltingDuration": 30,
+      "requiresContainer": false
     }
   },
   "attributesByType": {
