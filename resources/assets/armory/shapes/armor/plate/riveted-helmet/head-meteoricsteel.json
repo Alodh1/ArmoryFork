@@ -1,4 +1,4 @@
-{
+﻿{
 	"editor": {
 		"backDropShape": "E:/Programs/VSModelCreator/seraph-faceless",
 		"collapsedPaths": "Root/GamHelmet",
@@ -10,7 +10,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"material": "game:entity/humanoid/serapharmor/plate/iron"
+		"material": "game:entity/humanoid/serapharmor/plate/meteoricsteel"
 	},
 	"elements": [
 		{

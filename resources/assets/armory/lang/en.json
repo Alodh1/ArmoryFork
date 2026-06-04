@@ -393,5 +393,8 @@
   "item-sword-arming-*-meteoricsteel": "Arming sword (Meteoric steel)",
   "item-sword-great-*-meteoricsteel": "Great sword (Meteoric steel)",
   "item-sword-long-*-meteoricsteel": "Long sword (Meteoric steel)",
-  "item-sword-short-*-meteoricsteel": "Short sword (Meteoric steel)"
+  "item-sword-short-*-meteoricsteel": "Short sword (Meteoric steel)",
+  "item-javelin-plain-meteoricsteel": "Javelin (Meteoric steel)",
+  "armory:item-javelin-plain-meteoricsteel": "Javelin (Meteoric steel)",
+  "armory:item-javelin-*-meteoricsteel": "Javelin (Meteoric steel)"
 }

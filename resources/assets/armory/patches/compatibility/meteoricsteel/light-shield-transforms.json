@@ -1,0 +1,58 @@
+[
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/shield-light",
+    "op": "addmerge",
+    "path": "/tpHandTransformByType/*-meteoricsteel",
+    "value": {
+      "translation": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": -0.2
+      },
+      "rotation": {
+        "x": -110,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 0.8
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:itemtypes/weapons/shield-light",
+    "op": "addmerge",
+    "path": "/tpOffHandTransformByType/*-meteoricsteel",
+    "value": {
+      "translation": {
+        "x": 0.5,
+        "y": -0.45,
+        "z": -0.15
+      },
+      "rotation": {
+        "x": 110,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 0.8
+    }
+  }
+]
