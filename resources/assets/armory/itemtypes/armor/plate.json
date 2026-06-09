@@ -104,6 +104,16 @@
     }
   },
   "durabilityByType": {
+    "*-armshands-copper-*": 2000,
+    "*-armshands-tinbronze-*": 4000,
+    "*-armshands-bismuthbronze-*": 3600,
+    "*-armshands-blackbronze-*": 4800,
+    "*-armshands-iron-*": 8800,
+    "*-armshands-meteoriciron-*": 11200,
+    "*-armshands-meteoricsteel-*": 24400,
+    "*-armshands-steel-*": 22000,
+    "*-armshands-gold-*": 22000,
+    "*-armshands-silver-*": 22000,
     "*-copper-*": 1000,
     "*-tinbronze-*": 2000,
     "*-bismuthbronze-*": 1800,
