@@ -83,9 +83,7 @@
           "blackbronze",
           "iron",
           "meteoriciron",
-          "steel",
-          "gold",
-          "silver"
+          "steel"
         ]
       },
       "T": {
@@ -100,9 +98,7 @@
           "blackbronze",
           "iron",
           "meteoriciron",
-          "steel",
-          "gold",
-          "silver"
+          "steel"
         ]
       }
     },
@@ -133,9 +129,7 @@
           "blackbronze",
           "iron",
           "meteoriciron",
-          "steel",
-          "gold",
-          "silver"
+          "steel"
         ]
       },
       "T": {
@@ -150,9 +144,7 @@
           "blackbronze",
           "iron",
           "meteoriciron",
-          "steel",
-          "gold",
-          "silver"
+          "steel"
         ]
       }
     },
@@ -183,9 +175,7 @@
           "blackbronze",
           "iron",
           "meteoriciron",
-          "steel",
-          "gold",
-          "silver"
+          "steel"
         ]
       },
       "T": {
@@ -200,9 +190,7 @@
           "blackbronze",
           "iron",
           "meteoriciron",
-          "steel",
-          "gold",
-          "silver"
+          "steel"
         ]
       }
     },
@@ -233,9 +221,7 @@
           "blackbronze",
           "iron",
           "meteoriciron",
-          "steel",
-          "gold",
-          "silver"
+          "steel"
         ]
       },
       "T": {
@@ -250,9 +236,7 @@
           "blackbronze",
           "iron",
           "meteoriciron",
-          "steel",
-          "gold",
-          "silver"
+          "steel"
         ]
       }
     },
@@ -299,9 +283,7 @@
           "blackbronze",
           "iron",
           "meteoriciron",
-          "steel",
-          "gold",
-          "silver"
+          "steel"
         ]
       }
     },
@@ -350,9 +332,7 @@
           "blackbronze",
           "iron",
           "meteoriciron",
-          "steel",
-          "gold",
-          "silver"
+          "steel"
         ]
       }
     },
@@ -401,9 +381,7 @@
           "blackbronze",
           "iron",
           "meteoriciron",
-          "steel",
-          "gold",
-          "silver"
+          "steel"
         ]
       }
     },
@@ -452,9 +430,7 @@
           "blackbronze",
           "iron",
           "meteoriciron",
-          "steel",
-          "gold",
-          "silver"
+          "steel"
         ]
       }
     },
@@ -467,6 +443,272 @@
     "output": {
       "type": "item",
       "code": "armory:armor-hands-chain-{material}-vanilla",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "PFM",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:armor-head-chain-steel"
+      },
+      "F": {
+        "type": "item",
+        "code": "game:powder-borax",
+        "quantity": 4
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalplate-{metal}",
+        "quantity": 1
+      }
+    },
+    "allowedVariants": {
+      "metal": [
+        "gold",
+        "silver"
+      ]
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": false,
+    "name": "chain armor plating",
+    "copyAttributesFrom": "P",
+    "output": {
+      "type": "item",
+      "code": "game:armor-head-chain-{metal}",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "PFM",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:armor-body-chain-steel"
+      },
+      "F": {
+        "type": "item",
+        "code": "game:powder-borax",
+        "quantity": 8
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalplate-{metal}",
+        "quantity": 2
+      }
+    },
+    "allowedVariants": {
+      "metal": [
+        "gold",
+        "silver"
+      ]
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": false,
+    "name": "chain armor plating",
+    "copyAttributesFrom": "P",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-chain-{metal}",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "PFM",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:armor-legs-chain-steel"
+      },
+      "F": {
+        "type": "item",
+        "code": "game:powder-borax",
+        "quantity": 4
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalplate-{metal}",
+        "quantity": 1
+      }
+    },
+    "allowedVariants": {
+      "metal": [
+        "gold",
+        "silver"
+      ]
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": false,
+    "name": "chain armor plating",
+    "copyAttributesFrom": "P",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-chain-{metal}",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "PFM",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "armory:armor-head-chain-steel-coif"
+      },
+      "F": {
+        "type": "item",
+        "code": "game:powder-borax",
+        "quantity": 4
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalplate-{metal}",
+        "quantity": 1
+      }
+    },
+    "allowedVariants": {
+      "metal": [
+        "gold",
+        "silver"
+      ]
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": false,
+    "name": "chain armor plating",
+    "copyAttributesFrom": "P",
+    "output": {
+      "type": "item",
+      "code": "armory:armor-head-chain-{metal}-coif",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "PFM",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "armory:armor-torso-chain-steel-vanilla"
+      },
+      "F": {
+        "type": "item",
+        "code": "game:powder-borax",
+        "quantity": 4
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalplate-{metal}",
+        "quantity": 1
+      }
+    },
+    "allowedVariants": {
+      "metal": [
+        "gold",
+        "silver"
+      ]
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": false,
+    "name": "chain armor plating",
+    "copyAttributesFrom": "P",
+    "output": {
+      "type": "item",
+      "code": "armory:armor-torso-chain-{metal}-vanilla",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "PFM",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "armory:armor-arms-chain-steel-vanilla"
+      },
+      "F": {
+        "type": "item",
+        "code": "game:powder-borax",
+        "quantity": 4
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalplate-{metal}",
+        "quantity": 1
+      }
+    },
+    "allowedVariants": {
+      "metal": [
+        "gold",
+        "silver"
+      ]
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": false,
+    "name": "chain armor plating",
+    "copyAttributesFrom": "P",
+    "output": {
+      "type": "item",
+      "code": "armory:armor-arms-chain-{metal}-vanilla",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "PFM",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "armory:armor-hands-chain-steel-vanilla"
+      },
+      "F": {
+        "type": "item",
+        "code": "game:powder-borax",
+        "quantity": 4
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalplate-{metal}",
+        "quantity": 1
+      }
+    },
+    "allowedVariants": {
+      "metal": [
+        "gold",
+        "silver"
+      ]
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": false,
+    "name": "chain armor plating",
+    "copyAttributesFrom": "P",
+    "output": {
+      "type": "item",
+      "code": "armory:armor-hands-chain-{metal}-vanilla",
       "recipeAttributes": {
         "applyquenchablebuffs": true
       }

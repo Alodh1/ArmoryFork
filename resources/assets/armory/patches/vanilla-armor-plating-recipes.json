@@ -1,0 +1,79 @@
+[
+  {
+    "side": "server",
+    "file": "game:recipes/grid/armor/chain",
+    "op": "replace",
+    "path": "/0/ingredients/T/allowedVariants",
+    "value": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "meteoricsteel"]
+  },
+  {
+    "side": "server",
+    "file": "game:recipes/grid/armor/chain",
+    "op": "replace",
+    "path": "/1/ingredients/T/allowedVariants",
+    "value": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "meteoricsteel"]
+  },
+  {
+    "side": "server",
+    "file": "game:recipes/grid/armor/chain",
+    "op": "replace",
+    "path": "/1/ingredients/C/allowedVariants",
+    "value": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "meteoricsteel"]
+  },
+  {
+    "side": "server",
+    "file": "game:recipes/grid/armor/chain",
+    "op": "replace",
+    "path": "/2/ingredients/T/allowedVariants",
+    "value": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "meteoricsteel"]
+  },
+  {
+    "side": "server",
+    "file": "game:recipes/grid/armor/chain",
+    "op": "replace",
+    "path": "/2/ingredients/C/allowedVariants",
+    "value": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "meteoricsteel"]
+  },
+  {
+    "side": "server",
+    "file": "game:recipes/grid/armor/plate",
+    "op": "replace",
+    "path": "/0/ingredients/P/allowedVariants",
+    "value": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "meteoricsteel"]
+  },
+  {
+    "side": "server",
+    "file": "game:recipes/grid/armor/plate",
+    "op": "replace",
+    "path": "/0/ingredients/C/allowedVariants",
+    "value": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "meteoricsteel"]
+  },
+  {
+    "side": "server",
+    "file": "game:recipes/grid/armor/plate",
+    "op": "replace",
+    "path": "/1/ingredients/P/allowedVariants",
+    "value": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "meteoricsteel"]
+  },
+  {
+    "side": "server",
+    "file": "game:recipes/grid/armor/plate",
+    "op": "replace",
+    "path": "/1/ingredients/C/allowedVariants",
+    "value": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "meteoricsteel"]
+  },
+  {
+    "side": "server",
+    "file": "game:recipes/grid/armor/plate",
+    "op": "replace",
+    "path": "/2/ingredients/P/allowedVariants",
+    "value": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "meteoricsteel"]
+  },
+  {
+    "side": "server",
+    "file": "game:recipes/grid/armor/plate",
+    "op": "replace",
+    "path": "/2/ingredients/C/allowedVariants",
+    "value": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "meteoricsteel"]
+  }
+]
