@@ -3445,5 +3445,49 @@
         "code": "armory:part-greatsword-{metal}"
       }
     }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/plate/plate-combination",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "AH",
+      "recipeGroup": 1,
+      "ingredients": {
+        "A": {
+          "type": "item",
+          "code": "armory:armor-arms-plate-*-vanilla",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "H": {
+          "type": "item",
+          "code": "armory:armor-hands-plate-*-vanilla",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "name": "plate armor",
+      "averageDurability": true,
+      "output": {
+        "type": "item",
+        "code": "armory:armor-armshands-plate-{material}-vanilla",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
   }
 ]

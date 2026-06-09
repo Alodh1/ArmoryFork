@@ -396,5 +396,15 @@
   "item-sword-short-*-meteoricsteel": "Short sword (Meteoric steel)",
   "item-javelin-plain-meteoricsteel": "Javelin (Meteoric steel)",
   "armory:item-javelin-plain-meteoricsteel": "Javelin (Meteoric steel)",
-  "armory:item-javelin-*-meteoricsteel": "Javelin (Meteoric steel)"
+  "armory:item-javelin-*-meteoricsteel": "Javelin (Meteoric steel)",
+  "item-armor-armshands-plate-copper-vanilla": "Copper plate sleeves",
+  "item-armor-armshands-plate-tinbronze-vanilla": "Tin bronze plate sleeves",
+  "item-armor-armshands-plate-blackbronze-vanilla": "Black bronze plate sleeves",
+  "item-armor-armshands-plate-bismuthbronze-vanilla": "Bismuth bronze plate sleeves",
+  "item-armor-armshands-plate-iron-vanilla": "Iron plate sleeves",
+  "item-armor-armshands-plate-meteoriciron-vanilla": "Meteoric iron plate sleeves",
+  "item-armor-armshands-plate-steel-vanilla": "Steel plate sleeves",
+  "item-armor-armshands-plate-gold-vanilla": "Gold plated steel plate sleeves",
+  "item-armor-armshands-plate-silver-vanilla": "Silver plated steel plate sleeves",
+  "item-armor-armshands-plate-meteoricsteel-vanilla": "Meteoric steel plate sleeves"
 }

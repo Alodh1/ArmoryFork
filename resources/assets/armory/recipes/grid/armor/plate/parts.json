@@ -37,7 +37,8 @@
       "recipeAttributes": {
         "applyquenchablebuffs": true
       }
-    }
+    },
+    "enabled": false
   },
   {
     "ingredientPattern": "PFM",
@@ -77,6 +78,7 @@
       "recipeAttributes": {
         "applyquenchablebuffs": true
       }
-    }
+    },
+    "enabled": false
   }
 ]

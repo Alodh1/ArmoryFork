@@ -1,178 +1,231 @@
 [
   {
-    "ingredientPattern": "PLP",
+    "ingredientPattern": "PFM",
     "recipeGroup": 1,
     "ingredients": {
-      "L": {
+      "P": {
         "type": "item",
-        "code": "game:leather-normal-plain",
+        "code": "armory:armor-torso-plate-steel-vanilla"
+      },
+      "F": {
+        "type": "item",
+        "code": "game:powder-borax",
+        "quantity": 8
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalplate-{metal}",
+        "quantity": 2
+      }
+    },
+    "allowedVariants": {
+      "metal": [
+        "gold",
+        "silver"
+      ]
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": false,
+    "name": "plate armor",
+    "copyAttributesFrom": "P",
+    "output": {
+      "type": "item",
+      "code": "armory:armor-torso-plate-{metal}-vanilla",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "PFM",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "armory:armor-arms-plate-steel-vanilla"
+      },
+      "F": {
+        "type": "item",
+        "code": "game:powder-borax",
         "quantity": 4
       },
-      "P": {
+      "M": {
         "type": "item",
-        "code": "armory:part-{part}-steel{material}plated"
+        "code": "game:metalplate-{metal}",
+        "quantity": 1
       }
     },
     "allowedVariants": {
-      "material": [
+      "metal": [
         "gold",
         "silver"
-      ],
-      "part": [
-        "breastplate"
       ]
     },
     "width": 3,
     "height": 1,
+    "shapeless": false,
     "name": "plate armor",
+    "copyAttributesFrom": "P",
     "output": {
       "type": "item",
-      "code": "armory:armor-torso-plate-{material}-vanilla",
+      "code": "armory:armor-arms-plate-{metal}-vanilla",
       "recipeAttributes": {
         "applyquenchablebuffs": true
       }
-    },
-    "copyAttributesFrom": "P"
+    }
   },
   {
-    "ingredientPattern": "PLP",
+    "ingredientPattern": "PFM",
     "recipeGroup": 1,
     "ingredients": {
-      "L": {
-        "type": "item",
-        "code": "game:leather-normal-plain",
-        "quantity": 2
-      },
       "P": {
         "type": "item",
-        "code": "armory:part-{part}-steel{material}plated"
+        "code": "armory:armor-hands-plate-steel-vanilla"
+      },
+      "F": {
+        "type": "item",
+        "code": "game:powder-borax",
+        "quantity": 4
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalplate-{metal}",
+        "quantity": 1
       }
     },
     "allowedVariants": {
-      "material": [
+      "metal": [
         "gold",
         "silver"
-      ],
-      "part": [
-        "smallarmorplate"
       ]
     },
     "width": 3,
     "height": 1,
+    "shapeless": false,
     "name": "plate armor",
+    "copyAttributesFrom": "P",
     "output": {
       "type": "item",
-      "code": "armory:armor-arms-plate-{material}-vanilla",
+      "code": "armory:armor-hands-plate-{metal}-vanilla",
       "recipeAttributes": {
         "applyquenchablebuffs": true
       }
-    },
-    "copyAttributesFrom": "P"
+    }
   },
   {
-    "ingredientPattern": "P,L,P",
+    "ingredientPattern": "PFM",
     "recipeGroup": 1,
     "ingredients": {
-      "L": {
-        "type": "item",
-        "code": "game:leather-normal-plain",
-        "quantity": 2
-      },
       "P": {
         "type": "item",
-        "code": "armory:part-{part}-steel{material}plated"
+        "code": "armory:armor-armshands-plate-steel-vanilla"
+      },
+      "F": {
+        "type": "item",
+        "code": "game:powder-borax",
+        "quantity": 8
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalplate-{metal}",
+        "quantity": 2
       }
     },
     "allowedVariants": {
-      "material": [
+      "metal": [
         "gold",
         "silver"
-      ],
-      "part": [
-        "smallarmorplate"
-      ]
-    },
-    "width": 1,
-    "height": 3,
-    "name": "plate armor",
-    "output": {
-      "type": "item",
-      "code": "armory:armor-hands-plate-{material}-vanilla",
-      "recipeAttributes": {
-        "applyquenchablebuffs": true
-      }
-    },
-    "copyAttributesFrom": "P"
-  },
-  {
-    "ingredientPattern": "PPL",
-    "recipeGroup": 1,
-    "ingredients": {
-      "L": {
-        "type": "item",
-        "code": "game:leather-normal-plain",
-        "quantity": 2
-      },
-      "P": {
-        "type": "item",
-        "code": "armory:part-{part}-steel{material}plated"
-      }
-    },
-    "allowedVariants": {
-      "material": [
-        "gold",
-        "silver"
-      ],
-      "part": [
-        "smallarmorplate"
       ]
     },
     "width": 3,
     "height": 1,
+    "shapeless": false,
     "name": "plate armor",
+    "copyAttributesFrom": "P",
     "output": {
       "type": "item",
-      "code": "armory:armor-legs-plate-{material}-vanilla",
+      "code": "armory:armor-armshands-plate-{metal}-vanilla",
       "recipeAttributes": {
         "applyquenchablebuffs": true
       }
-    },
-    "copyAttributesFrom": "P"
+    }
   },
   {
-    "ingredientPattern": "P,P,L",
+    "ingredientPattern": "PFM",
     "recipeGroup": 1,
     "ingredients": {
-      "L": {
-        "type": "item",
-        "code": "game:leather-normal-plain",
-        "quantity": 2
-      },
       "P": {
         "type": "item",
-        "code": "armory:part-{part}-steel{material}plated"
+        "code": "armory:armor-legs-plate-steel-vanilla"
+      },
+      "F": {
+        "type": "item",
+        "code": "game:powder-borax",
+        "quantity": 4
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalplate-{metal}",
+        "quantity": 1
       }
     },
     "allowedVariants": {
-      "material": [
+      "metal": [
         "gold",
         "silver"
-      ],
-      "part": [
-        "smallarmorplate"
       ]
     },
-    "width": 1,
-    "height": 3,
+    "width": 3,
+    "height": 1,
+    "shapeless": false,
     "name": "plate armor",
+    "copyAttributesFrom": "P",
     "output": {
       "type": "item",
-      "code": "armory:armor-feet-plate-{material}-vanilla",
+      "code": "armory:armor-legs-plate-{metal}-vanilla",
       "recipeAttributes": {
         "applyquenchablebuffs": true
       }
+    }
+  },
+  {
+    "ingredientPattern": "PFM",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "armory:armor-feet-plate-steel-vanilla"
+      },
+      "F": {
+        "type": "item",
+        "code": "game:powder-borax",
+        "quantity": 4
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalplate-{metal}",
+        "quantity": 1
+      }
     },
-    "copyAttributesFrom": "P"
+    "allowedVariants": {
+      "metal": [
+        "gold",
+        "silver"
+      ]
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": false,
+    "name": "plate armor",
+    "copyAttributesFrom": "P",
+    "output": {
+      "type": "item",
+      "code": "armory:armor-feet-plate-{metal}-vanilla",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
   },
   {
     "ingredientPattern": "PFM",
@@ -182,15 +235,15 @@
         "type": "item",
         "code": "armory:armor-head-plate-steel-{subtype}"
       },
-      "M": {
-        "type": "item",
-        "code": "game:metalplate-{metal}",
-        "quantity": 1
-      },
       "F": {
         "type": "item",
         "code": "game:powder-borax",
         "quantity": 4
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalplate-{metal}",
+        "quantity": 1
       }
     },
     "allowedVariants": {
@@ -200,13 +253,15 @@
       ],
       "subtype": [
         "open",
-        "riveted"
+        "riveted",
+        "light"
       ]
     },
     "width": 3,
     "height": 1,
     "shapeless": false,
-    "copyAttributesFrom": "M",
+    "name": "plate armor",
+    "copyAttributesFrom": "P",
     "output": {
       "type": "item",
       "code": "armory:armor-head-plate-{metal}-{subtype}",
@@ -223,15 +278,15 @@
         "type": "item",
         "code": "game:armor-head-plate-steel"
       },
-      "M": {
-        "type": "item",
-        "code": "game:metalplate-{metal}",
-        "quantity": 2
-      },
       "F": {
         "type": "item",
         "code": "game:powder-borax",
         "quantity": 8
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalplate-{metal}",
+        "quantity": 2
       }
     },
     "allowedVariants": {
@@ -243,10 +298,87 @@
     "width": 3,
     "height": 1,
     "shapeless": false,
-    "copyAttributesFrom": "M",
+    "name": "plate armor",
+    "copyAttributesFrom": "P",
     "output": {
       "type": "item",
       "code": "game:armor-head-plate-{metal}",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "PFM",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:armor-body-plate-steel"
+      },
+      "F": {
+        "type": "item",
+        "code": "game:powder-borax",
+        "quantity": 16
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalplate-{metal}",
+        "quantity": 4
+      }
+    },
+    "allowedVariants": {
+      "metal": [
+        "gold",
+        "silver"
+      ]
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": false,
+    "name": "plate armor",
+    "copyAttributesFrom": "P",
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-plate-{metal}",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "PFM",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:armor-legs-plate-steel"
+      },
+      "F": {
+        "type": "item",
+        "code": "game:powder-borax",
+        "quantity": 8
+      },
+      "M": {
+        "type": "item",
+        "code": "game:metalplate-{metal}",
+        "quantity": 2
+      }
+    },
+    "allowedVariants": {
+      "metal": [
+        "gold",
+        "silver"
+      ]
+    },
+    "width": 3,
+    "height": 1,
+    "shapeless": false,
+    "name": "plate armor",
+    "copyAttributesFrom": "P",
+    "output": {
+      "type": "item",
+      "code": "game:armor-legs-plate-{metal}",
       "recipeAttributes": {
         "applyquenchablebuffs": true
       }

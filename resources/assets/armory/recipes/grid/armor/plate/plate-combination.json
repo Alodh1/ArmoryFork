@@ -80,5 +80,44 @@
         "applyquenchablebuffs": true
       }
     }
+  },
+  {
+    "ingredientPattern": "AH",
+    "recipeGroup": 1,
+    "ingredients": {
+      "A": {
+        "type": "item",
+        "code": "armory:armor-arms-plate-{material}-vanilla"
+      },
+      "H": {
+        "type": "item",
+        "code": "armory:armor-hands-plate-{material}-vanilla"
+      }
+    },
+    "allowedVariants": {
+      "material": [
+        "copper",
+        "tinbronze",
+        "bismuthbronze",
+        "blackbronze",
+        "iron",
+        "meteoriciron",
+        "steel",
+        "gold",
+        "silver"
+      ]
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "name": "plate armor",
+    "averageDurability": true,
+    "output": {
+      "type": "item",
+      "code": "armory:armor-armshands-plate-{material}-vanilla",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
   }
 ]

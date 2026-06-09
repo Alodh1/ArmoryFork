@@ -8,6 +8,7 @@
         "torso",
         "arms",
         "hands",
+        "armshands",
         "legs",
         "feet"
       ]
@@ -65,14 +66,16 @@
       "*-arms-*": 4,
       "*-hands-*": 4,
       "*-legs-*": 4,
-      "*-feet-*": 4
+      "*-feet-*": 4,
+      "*-armshands-*": 8
     },
     "clothesCategoryByType": {
       "armor-torso-*": "armorbody",
       "armor-arms-*": "armorbody",
       "armor-hands-*": "armorbody",
       "armor-legs-*": "armorlegs",
-      "armor-feet-*": "armorlegs"
+      "armor-feet-*": "armorlegs",
+      "armor-armshands-*": "armorbody"
     },
     "attachableToEntity": {
       "texturePrefixCode": "armor-{bodypart}-{construction}-{material}",
@@ -284,6 +287,28 @@
         "y": 1.88,
         "z": 1.88
       }
+    },
+    "*-armshands-*": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -26,
+        "y": -46,
+        "z": -180
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 1.2,
+        "z": 0.5
+      },
+      "scaleXyz": {
+        "x": -1.48,
+        "y": 1.48,
+        "z": 1.48
+      }
     }
   },
   "groundTransformByType": {
@@ -365,6 +390,10 @@
             ],
             "*-feet-*": [
               "Feet"
+            ],
+            "*-armshands-*": [
+              "Arms",
+              "Hands"
             ]
           },
           "ResistsByType": {
@@ -446,6 +475,13 @@
               "steadyAim": 0,
               "healingeffectivness": -0.03,
               "hungerrate": 0.04
+            },
+            "*-armshands-*": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.16,
+              "steadyAim": -0.24,
+              "healingeffectivness": -0.06,
+              "hungerrate": 0.08
             }
           }
         }
@@ -476,6 +512,10 @@
             ],
             "*-feet-*": [
               "Feet"
+            ],
+            "*-armshands-*": [
+              "Arms",
+              "Hands"
             ]
           },
           "ResistsByType": {
@@ -557,6 +597,13 @@
               "steadyAim": 0,
               "healingeffectivness": -0.03,
               "hungerrate": 0.04
+            },
+            "*-armshands-*": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.16,
+              "steadyAim": -0.24,
+              "healingeffectivness": -0.06,
+              "hungerrate": 0.08
             }
           }
         }
@@ -587,6 +634,10 @@
             ],
             "*-feet-*": [
               "Feet"
+            ],
+            "*-armshands-*": [
+              "Arms",
+              "Hands"
             ]
           },
           "ResistsByType": {
@@ -668,6 +719,13 @@
               "steadyAim": 0,
               "healingeffectivness": -0.03,
               "hungerrate": 0.04
+            },
+            "*-armshands-*": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.16,
+              "steadyAim": -0.24,
+              "healingeffectivness": -0.06,
+              "hungerrate": 0.08
             }
           }
         }
@@ -698,6 +756,10 @@
             ],
             "*-feet-*": [
               "Feet"
+            ],
+            "*-armshands-*": [
+              "Arms",
+              "Hands"
             ]
           },
           "ResistsByType": {
@@ -779,6 +841,13 @@
               "steadyAim": 0,
               "healingeffectivness": -0.03,
               "hungerrate": 0.04
+            },
+            "*-armshands-*": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.16,
+              "steadyAim": -0.24,
+              "healingeffectivness": -0.06,
+              "hungerrate": 0.08
             }
           }
         }
@@ -809,6 +878,10 @@
             ],
             "*-feet-*": [
               "Feet"
+            ],
+            "*-armshands-*": [
+              "Arms",
+              "Hands"
             ]
           },
           "ResistsByType": {
@@ -890,6 +963,13 @@
               "steadyAim": 0,
               "healingeffectivness": -0.03,
               "hungerrate": 0.04
+            },
+            "*-armshands-*": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.16,
+              "steadyAim": -0.24,
+              "healingeffectivness": -0.06,
+              "hungerrate": 0.08
             }
           }
         }
@@ -920,6 +1000,10 @@
             ],
             "*-feet-*": [
               "Feet"
+            ],
+            "*-armshands-*": [
+              "Arms",
+              "Hands"
             ]
           },
           "ResistsByType": {
@@ -1001,6 +1085,13 @@
               "steadyAim": 0,
               "healingeffectivness": -0.03,
               "hungerrate": 0.04
+            },
+            "*-armshands-*": {
+              "walkspeed": 0,
+              "manipulationSpeed": -0.16,
+              "steadyAim": -0.24,
+              "healingeffectivness": -0.06,
+              "hungerrate": 0.08
             }
           }
         }
