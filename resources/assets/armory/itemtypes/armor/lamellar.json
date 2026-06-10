@@ -75,7 +75,8 @@
       }
     },
     "footStepSoundByType": {
-      "*-torso-*": "game:wearable/lamellar*"
+      "*-wood-*": "game:wearable/leather*",
+      "*": "game:wearable/brigandine*"
     },
     "handbook": {
       "groupBy": [

@@ -94,9 +94,7 @@
         "*": []
       }
     },
-    "footStepSoundByType": {
-      "*-torso-*": "game:wearable/plate*"
-    },
+    "footStepSound": "game:wearable/plate*",
     "handbook": {
       "groupBy": [
         "armor-{bodypart}-plate-*"

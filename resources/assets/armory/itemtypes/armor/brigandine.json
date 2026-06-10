@@ -89,9 +89,7 @@
         "*": []
       }
     },
-    "footStepSoundByType": {
-      "*-torso-*": "game:wearable/brigandine*"
-    },
+    "footStepSound": "game:wearable/brigandine*",
     "handbook": {
       "groupBy": [
         "armor-{bodypart}-brigadine-*"

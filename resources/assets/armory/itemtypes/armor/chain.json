@@ -89,9 +89,7 @@
         "*": []
       }
     },
-    "footStepSoundByType": {
-      "*-torso-*": "game:wearable/chain*"
-    },
+    "footStepSound": "game:wearable/chain*",
     "handbook": {
       "groupBy": [
         "armor-{bodypart}-chain-*"

@@ -78,6 +78,7 @@
   "storageFlags": 128,
   "attributes": {
     "visibleDamageEffect": true,
+    "footStepSound": "game:wearable/plate*",
     "materialCount": 4,
     "clothesCategory": "armorhead",
     "attachableToEntity": {

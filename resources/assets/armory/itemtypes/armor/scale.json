@@ -76,9 +76,7 @@
         "*": []
       }
     },
-    "footStepSoundByType": {
-      "*-torso-*": "game:wearable/scale*"
-    },
+    "footStepSound": "game:wearable/scale*",
     "handbook": {
       "groupBy": [
         "armor-{bodypart}-scale-*"
