@@ -2165,7 +2165,7 @@
     "op": "add",
     "path": "/-",
     "value": {
-      "ingredientPattern": "D,H",
+      "ingredientPattern": "D,L",
       "recipeGroup": 1,
       "ingredients": {
         "D": {
@@ -2176,9 +2176,11 @@
             "meteoricsteel"
           ]
         },
-        "H": {
+        "L": {
           "type": "item",
-          "code": "armory:handle-short"
+          "code": "game:leather-normal-*",
+          "quantity": 1,
+          "name": "color"
         }
       },
       "copyAttributesFrom": "D",
@@ -2190,6 +2192,9 @@
         "code": "armory:dagger-long-plain-{material}",
         "recipeAttributes": {
           "applyquenchablebuffs": true
+        },
+        "attributes": {
+          "handleTexture": "game:block/leather/{color}"
         }
       }
     }

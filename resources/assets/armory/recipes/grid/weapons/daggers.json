@@ -9,8 +9,7 @@
         "name": "material",
         "allowedVariants": [
           "iron",
-          "meteoriciron",
-          "steel"
+          "meteoriciron"
         ]
       },
       "H": {
@@ -25,6 +24,36 @@
     "output": {
       "type": "item",
       "code": "armory:dagger-long-plain-{material}",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
+    "ingredientPattern": "D,L",
+    "recipeGroup": 1,
+    "ingredients": {
+      "D": {
+        "type": "item",
+        "code": "armory:part-dagger-steel"
+      },
+      "L": {
+        "type": "item",
+        "code": "game:leather-normal-*",
+        "quantity": 1,
+        "name": "color"
+      }
+    },
+    "copyAttributesFrom": "D",
+    "width": 1,
+    "height": 2,
+    "name": "dagger",
+    "output": {
+      "type": "item",
+      "code": "armory:dagger-long-plain-steel",
+      "attributes": {
+        "handleTexture": "game:block/leather/{color}"
+      },
       "recipeAttributes": {
         "applyquenchablebuffs": true
       }
