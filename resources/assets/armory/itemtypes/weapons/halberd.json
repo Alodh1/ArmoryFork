@@ -32,6 +32,13 @@
     "handbook": {
       "groupBy": [
         "halberd-plain-*"
+      ],
+      "ignoreCreativeInvStacks": true,
+      "extraSections": [
+        {
+          "Title": "armory:handbook-craftingappearance-title",
+          "Text": "armory:handbook-craftingappearance-text"
+        }
       ]
     },
     "groundStorageTransform": {
@@ -809,6 +816,16 @@
     },
     "*-steel": {
       "quenchBuffKind": "weapon"
+    },
+    "*-*-meteoriciron": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-steel": {
+      "handbook": {
+        "isDuplicate": true
+      }
     }
   }
 }

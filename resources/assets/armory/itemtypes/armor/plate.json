@@ -98,30 +98,76 @@
     "handbook": {
       "groupBy": [
         "armor-{bodypart}-plate-*"
+      ],
+      "extraSections": [
+        {
+          "Title": "armory:handbook-craftingappearance-title",
+          "Text": "armory:handbook-craftingappearance-text"
+        }
       ]
     }
   },
   "durabilityByType": {
-    "*-armshands-copper-*": 2000,
-    "*-armshands-tinbronze-*": 4000,
-    "*-armshands-bismuthbronze-*": 3600,
-    "*-armshands-blackbronze-*": 4800,
-    "*-armshands-iron-*": 8800,
-    "*-armshands-meteoriciron-*": 11200,
-    "*-armshands-meteoricsteel-*": 24400,
-    "*-armshands-steel-*": 22000,
-    "*-armshands-gold-*": 22000,
-    "*-armshands-silver-*": 22000,
-    "*-copper-*": 1000,
-    "*-tinbronze-*": 2000,
-    "*-bismuthbronze-*": 1800,
-    "*-blackbronze-*": 2400,
-    "*-iron-*": 4400,
-    "*-meteoriciron-*": 5600,
-    "*-meteoricsteel-*": 12200,
-    "*-steel-*": 11000,
-    "*-gold-*": 11000,
-    "*-silver-*": 11000
+    "*-torso-plate-copper-*": 1000,
+    "*-arms-plate-copper-*": 1000,
+    "*-hands-plate-copper-*": 1000,
+    "*-legs-plate-copper-*": 1000,
+    "*-feet-plate-copper-*": 1000,
+    "*-armshands-plate-copper-*": 2000,
+    "*-torso-plate-tinbronze-*": 2000,
+    "*-arms-plate-tinbronze-*": 2000,
+    "*-hands-plate-tinbronze-*": 2000,
+    "*-legs-plate-tinbronze-*": 2000,
+    "*-feet-plate-tinbronze-*": 2000,
+    "*-armshands-plate-tinbronze-*": 4000,
+    "*-torso-plate-bismuthbronze-*": 1800,
+    "*-arms-plate-bismuthbronze-*": 1800,
+    "*-hands-plate-bismuthbronze-*": 1800,
+    "*-legs-plate-bismuthbronze-*": 1800,
+    "*-feet-plate-bismuthbronze-*": 1800,
+    "*-armshands-plate-bismuthbronze-*": 3600,
+    "*-torso-plate-blackbronze-*": 2400,
+    "*-arms-plate-blackbronze-*": 2400,
+    "*-hands-plate-blackbronze-*": 2400,
+    "*-legs-plate-blackbronze-*": 2400,
+    "*-feet-plate-blackbronze-*": 2400,
+    "*-armshands-plate-blackbronze-*": 4800,
+    "*-torso-plate-iron-*": 4400,
+    "*-arms-plate-iron-*": 4400,
+    "*-hands-plate-iron-*": 4400,
+    "*-legs-plate-iron-*": 4400,
+    "*-feet-plate-iron-*": 4400,
+    "*-armshands-plate-iron-*": 8800,
+    "*-torso-plate-meteoriciron-*": 5600,
+    "*-arms-plate-meteoriciron-*": 5600,
+    "*-hands-plate-meteoriciron-*": 5600,
+    "*-legs-plate-meteoriciron-*": 5600,
+    "*-feet-plate-meteoriciron-*": 5600,
+    "*-armshands-plate-meteoriciron-*": 11200,
+    "*-torso-plate-meteoricsteel-*": 12200,
+    "*-arms-plate-meteoricsteel-*": 12200,
+    "*-hands-plate-meteoricsteel-*": 12200,
+    "*-legs-plate-meteoricsteel-*": 12200,
+    "*-feet-plate-meteoricsteel-*": 12200,
+    "*-armshands-plate-meteoricsteel-*": 24400,
+    "*-torso-plate-steel-*": 11000,
+    "*-arms-plate-steel-*": 11000,
+    "*-hands-plate-steel-*": 11000,
+    "*-legs-plate-steel-*": 11000,
+    "*-feet-plate-steel-*": 11000,
+    "*-armshands-plate-steel-*": 22000,
+    "*-torso-plate-gold-*": 11000,
+    "*-arms-plate-gold-*": 11000,
+    "*-hands-plate-gold-*": 11000,
+    "*-legs-plate-gold-*": 11000,
+    "*-feet-plate-gold-*": 11000,
+    "*-armshands-plate-gold-*": 22000,
+    "*-torso-plate-silver-*": 11000,
+    "*-arms-plate-silver-*": 11000,
+    "*-hands-plate-silver-*": 11000,
+    "*-legs-plate-silver-*": 11000,
+    "*-feet-plate-silver-*": 11000,
+    "*-armshands-plate-silver-*": 22000
   },
   "creativeinventory": {
     "general": [
@@ -1121,6 +1167,46 @@
     },
     "*-meteoricsteel": {
       "quenchBuffKind": "armor"
+    },
+    "*-*-*-copper-*": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-*-tinbronze-*": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-*-bismuthbronze-*": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-*-blackbronze-*": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-*-meteoriciron-*": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-*-steel-*": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-*-gold-*": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-*-silver-*": {
+      "handbook": {
+        "isDuplicate": true
+      }
     }
   }
 }

@@ -24,6 +24,9 @@
       "armory:itemtypes/weapons/pike.json": {
         "attributes/TwoHandedStance/Attack/DamageTypesByType/@@*/0/Damage/Damage": "value * melee_weapons_damage_multiplier"
       },
+      "armory:itemtypes/weapons/trident.json": {
+        "attributes/TwoHandedStance/Attack/DamageTypes/0/DamageByType/@@*/Damage": "value * melee_weapons_damage_multiplier"
+      },
       "armory:itemtypes/weapons/sword-great.json": {
         "attributes/TwoHandedStance/Attack/DamageTypesByType/@@*/0/Damage/Damage": "value * melee_weapons_damage_multiplier"
       },

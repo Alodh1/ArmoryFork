@@ -56,6 +56,13 @@
     "handbook": {
       "groupBy": [
         "sword-great-*"
+      ],
+      "ignoreCreativeInvStacks": true,
+      "extraSections": [
+        {
+          "Title": "armory:handbook-craftingappearance-title",
+          "Text": "armory:handbook-craftingappearance-text"
+        }
       ]
     },
     "groundStorageTransform": {
@@ -864,6 +871,16 @@
     },
     "*-steel": {
       "quenchBuffKind": "weapon"
+    },
+    "*-*-*-steel": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-*-meteoriciron": {
+      "handbook": {
+        "isDuplicate": true
+      }
     }
   }
 }

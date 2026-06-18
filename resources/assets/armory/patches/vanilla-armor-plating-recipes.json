@@ -1,5 +1,6 @@
 [
   {
+    "enabled": true,
     "side": "server",
     "file": "game:recipes/grid/armor/chain",
     "op": "replace",
@@ -7,6 +8,7 @@
     "value": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "meteoricsteel"]
   },
   {
+    "enabled": true,
     "side": "server",
     "file": "game:recipes/grid/armor/chain",
     "op": "replace",
@@ -14,6 +16,7 @@
     "value": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "meteoricsteel"]
   },
   {
+    "enabled": true,
     "side": "server",
     "file": "game:recipes/grid/armor/chain",
     "op": "replace",
@@ -21,6 +24,7 @@
     "value": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "meteoricsteel"]
   },
   {
+    "enabled": true,
     "side": "server",
     "file": "game:recipes/grid/armor/chain",
     "op": "replace",
@@ -28,6 +32,7 @@
     "value": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "meteoricsteel"]
   },
   {
+    "enabled": true,
     "side": "server",
     "file": "game:recipes/grid/armor/chain",
     "op": "replace",
@@ -35,6 +40,7 @@
     "value": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "meteoricsteel"]
   },
   {
+    "enabled": true,
     "side": "server",
     "file": "game:recipes/grid/armor/plate",
     "op": "replace",
@@ -42,6 +48,7 @@
     "value": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "meteoricsteel"]
   },
   {
+    "enabled": true,
     "side": "server",
     "file": "game:recipes/grid/armor/plate",
     "op": "replace",
@@ -49,6 +56,7 @@
     "value": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "meteoricsteel"]
   },
   {
+    "enabled": true,
     "side": "server",
     "file": "game:recipes/grid/armor/plate",
     "op": "replace",
@@ -56,6 +64,7 @@
     "value": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "meteoricsteel"]
   },
   {
+    "enabled": true,
     "side": "server",
     "file": "game:recipes/grid/armor/plate",
     "op": "replace",
@@ -63,6 +72,7 @@
     "value": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "meteoricsteel"]
   },
   {
+    "enabled": true,
     "side": "server",
     "file": "game:recipes/grid/armor/plate",
     "op": "replace",
@@ -70,6 +80,7 @@
     "value": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel", "meteoricsteel"]
   },
   {
+    "enabled": true,
     "side": "server",
     "file": "game:recipes/grid/armor/plate",
     "op": "replace",

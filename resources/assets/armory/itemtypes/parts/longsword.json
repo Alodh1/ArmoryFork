@@ -61,6 +61,12 @@
     "handbook": {
       "groupBy": [
         "part-longsword-*"
+      ],
+      "extraSections": [
+        {
+          "Title": "armory:handbook-craftingappearance-title",
+          "Text": "armory:handbook-craftingappearance-text"
+        }
       ]
     }
   },
@@ -343,6 +349,31 @@
     "*-steel": {
       "forgable": true,
       "quenchBuffKind": "weapon"
+    },
+    "*-*-tinbronze": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-bismuthbronze": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-blackbronze": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-meteoriciron": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-steel": {
+      "handbook": {
+        "isDuplicate": true
+      }
     }
   }
 }

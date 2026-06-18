@@ -283,6 +283,13 @@
     "handbook": {
       "groupBy": [
         "mace-plain-*"
+      ],
+      "ignoreCreativeInvStacks": true,
+      "extraSections": [
+        {
+          "Title": "armory:handbook-craftingappearance-title",
+          "Text": "armory:handbook-craftingappearance-text"
+        }
       ]
     },
     "groundStorageTransformByType": {
@@ -888,6 +895,71 @@
     },
     "*-steel": {
       "quenchBuffKind": "weapon"
+    },
+    "*-*-chert": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-granite": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-andesite": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-basalt": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-obsidian": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-peridotite": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-flint": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-copper": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-tinbronze": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-bismuthbronze": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-blackbronze": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-meteoriciron": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-steel": {
+      "handbook": {
+        "isDuplicate": true
+      }
     }
   }
 }

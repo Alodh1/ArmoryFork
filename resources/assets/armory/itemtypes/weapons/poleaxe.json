@@ -30,6 +30,13 @@
     "handbook": {
       "groupBy": [
         "poleaxe-plain-*"
+      ],
+      "ignoreCreativeInvStacks": true,
+      "extraSections": [
+        {
+          "Title": "armory:handbook-craftingappearance-title",
+          "Text": "armory:handbook-craftingappearance-text"
+        }
       ]
     },
     "groundStorageTransform": {

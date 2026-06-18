@@ -140,6 +140,13 @@
     "handbook": {
       "groupBy": [
         "shield-light-plain-*"
+      ],
+      "ignoreCreativeInvStacks": true,
+      "extraSections": [
+        {
+          "Title": "armory:handbook-craftingappearance-title",
+          "Text": "armory:handbook-craftingappearance-text"
+        }
       ]
     },
     "groundStorageTransformByType": {
@@ -1296,6 +1303,36 @@
     },
     "*-steel": {
       "quenchBuffKind": "weapon"
+    },
+    "*-*-*-crude": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-*-copper": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-*-tinbronze": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-*-bismuthbronze": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-*-blackbronze": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-*-steel": {
+      "handbook": {
+        "isDuplicate": true
+      }
     }
   }
 }

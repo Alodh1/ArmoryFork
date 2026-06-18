@@ -1,0 +1,39 @@
+[
+  {
+    "enabled": false,
+    "ingredientPattern": "SSS,_H_",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:spearhead-*",
+        "quantity": 1,
+        "name": "material",
+        "allowedVariants": [
+          "copper",
+          "tinbronze",
+          "bismuthbronze",
+          "blackbronze",
+          "iron",
+          "meteoriciron",
+          "steel"
+        ]
+      },
+      "H": {
+        "type": "item",
+        "code": "armory:handle-long"
+      }
+    },
+    "copyAttributesFrom": "S",
+    "width": 3,
+    "height": 2,
+    "name": "trident",
+    "output": {
+      "type": "item",
+      "code": "armory:trident-plain-{material}",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  }
+]

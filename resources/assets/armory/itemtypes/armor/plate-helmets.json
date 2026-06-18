@@ -128,6 +128,12 @@
     "handbook": {
       "groupBy": [
         "armor-{bodypart}-plate-*-{subtype}"
+      ],
+      "extraSections": [
+        {
+          "Title": "armory:handbook-craftingappearance-title",
+          "Text": "armory:handbook-craftingappearance-text"
+        }
       ]
     }
   },
@@ -965,6 +971,46 @@
     },
     "*-meteoricsteel": {
       "quenchBuffKind": "armor"
+    },
+    "*-*-*-copper-*": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-*-tinbronze-*": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-*-bismuthbronze-*": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-*-blackbronze-*": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-*-meteoriciron-*": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-*-steel-*": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-*-gold-*": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-*-silver-*": {
+      "handbook": {
+        "isDuplicate": true
+      }
     }
   }
 }

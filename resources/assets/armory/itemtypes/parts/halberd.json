@@ -47,6 +47,12 @@
     "handbook": {
       "groupBy": [
         "part-halberd-*"
+      ],
+      "extraSections": [
+        {
+          "Title": "armory:handbook-craftingappearance-title",
+          "Text": "armory:handbook-craftingappearance-text"
+        }
       ]
     }
   },
@@ -273,6 +279,16 @@
     "*-steel": {
       "forgable": true,
       "quenchBuffKind": "weapon"
+    },
+    "*-*-steel": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-meteoriciron": {
+      "handbook": {
+        "isDuplicate": true
+      }
     }
   }
 }

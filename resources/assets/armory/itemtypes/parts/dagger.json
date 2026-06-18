@@ -61,6 +61,12 @@
     "handbook": {
       "groupBy": [
         "part-dagger-*"
+      ],
+      "extraSections": [
+        {
+          "Title": "armory:handbook-craftingappearance-title",
+          "Text": "armory:handbook-craftingappearance-text"
+        }
       ]
     }
   },
@@ -361,6 +367,16 @@
     "*-steel": {
       "forgable": true,
       "quenchBuffKind": "weapon"
+    },
+    "*-*-meteoriciron": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-steel": {
+      "handbook": {
+        "isDuplicate": true
+      }
     }
   }
 }

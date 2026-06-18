@@ -43,6 +43,45 @@
     }
   },
   {
+    "ingredientPattern": "TS",
+    "recipeGroup": 1,
+    "ingredients": {
+      "T": {
+        "type": "item",
+        "code": "armory:armor-torso-plate-{material}-vanilla"
+      },
+      "S": {
+        "type": "item",
+        "code": "armory:armor-armshands-plate-{material}-vanilla"
+      }
+    },
+    "allowedVariants": {
+      "material": [
+        "copper",
+        "tinbronze",
+        "bismuthbronze",
+        "blackbronze",
+        "iron",
+        "meteoriciron",
+        "steel",
+        "gold",
+        "silver"
+      ]
+    },
+    "width": 2,
+    "height": 1,
+    "shapeless": true,
+    "name": "plate armor",
+    "averageDurability": true,
+    "output": {
+      "type": "item",
+      "code": "game:armor-body-plate-{material}",
+      "recipeAttributes": {
+        "applyquenchablebuffs": true
+      }
+    }
+  },
+  {
     "ingredientPattern": "L,F",
     "recipeGroup": 1,
     "ingredients": {

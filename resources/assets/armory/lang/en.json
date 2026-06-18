@@ -34,6 +34,11 @@
   "item-javelin-*-meteoriciron": "Javelin (Meteoric iron)",
   "item-javelin-*-steel": "Javelin (Steel)",
   "item-javelin-*-*": "Javelin (Stone)",
+  "item-trident-*-copper": "Trident (Copper)",
+  "item-trident-*-*bronze": "Trident (Bronze)",
+  "item-trident-*-iron": "Trident (Iron)",
+  "item-trident-*-meteoriciron": "Trident (Meteoric iron)",
+  "item-trident-*-steel": "Trident (Steel)",
   "item-pike-*-*bronze": "Pike (Bronze)",
   "item-pike-*-iron": "Pike (Iron)",
   "item-pike-*-meteoriciron": "Pike (Meteoric iron)",
@@ -384,6 +389,7 @@
   "item-part-smallarmorplate-meteoricsteel": "Meteoric steel small armor plate",
   "item-part-smallarmorplate-meteoricsteelgoldplated": "Gold plated steel small armor plate",
   "item-part-smallarmorplate-meteoricsteelsilverplated": "Silver plated steel small armor plate",
+  "item-trident-*-meteoricsteel": "Trident (Meteoric steel)",
   "item-pike-*-meteoricsteel": "Pike (Meteoric steel)",
   "item-poleaxe-*-meteoricsteel": "Poleaxe (Meteoric steel)",
   "item-quarterstaff-*-meteoricsteel": "Quarterstaff (Meteoric steel)",
@@ -406,5 +412,7 @@
   "item-armor-armshands-plate-steel-vanilla": "Steel plate sleeves",
   "item-armor-armshands-plate-gold-vanilla": "Gold plated steel plate sleeves",
   "item-armor-armshands-plate-silver-vanilla": "Silver plated steel plate sleeves",
-  "item-armor-armshands-plate-meteoricsteel-vanilla": "Meteoric steel plate sleeves"
+  "item-armor-armshands-plate-meteoricsteel-vanilla": "Meteoric steel plate sleeves",
+  "handbook-craftingappearance-title": "Crafting appearance",
+  "handbook-craftingappearance-text": "Recipes may accept several matching material variants. Blades, heads, plates, handles, leather, wood, or cloth ingredients that are copied by the recipe keep their material, color, or wood appearance on the crafted item."
 }

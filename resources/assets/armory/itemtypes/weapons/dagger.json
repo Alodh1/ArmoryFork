@@ -57,6 +57,13 @@
     "handbook": {
       "groupBy": [
         "*-{handling}-*"
+      ],
+      "ignoreCreativeInvStacks": true,
+      "extraSections": [
+        {
+          "Title": "armory:handbook-craftingappearance-title",
+          "Text": "armory:handbook-craftingappearance-text"
+        }
       ]
     },
     "groundStorageTransform": {
@@ -302,7 +309,8 @@
         "Sound": "game:sounds/held/shieldblock-metal-heavy",
         "BlockTier": {
           "BluntAttack": 9,
-          "PiercingAttack": 9
+          "PiercingAttack": 9,
+          "SlashingAttack": 9
         },
         "CanBlockProjectiles": false
       },
@@ -481,7 +489,7 @@
                   0.5,
                   -0.1,
                   0.5,
-                  2.0,
+                  2,
                   -0.1,
                   0.5
                 ]
@@ -812,7 +820,8 @@
         "Sound": "game:sounds/held/shieldblock-metal-heavy",
         "BlockTier": {
           "BluntAttack": 9,
-          "PiercingAttack": 9
+          "PiercingAttack": 9,
+          "SlashingAttack": 9
         },
         "CanBlockProjectiles": false
       },
@@ -836,7 +845,8 @@
         "Sound": "game:sounds/held/shieldblock-metal-light",
         "BlockTier": {
           "BluntAttack": 7,
-          "PiercingAttack": 7
+          "PiercingAttack": 7,
+          "SlashingAttack": 7
         },
         "CanBlockProjectiles": false
       },
@@ -948,7 +958,7 @@
       "CanParry": false,
       "CanBlock": false,
       "CanSprint": true,
-      "AttackSpeedMultiplier": 1.0,
+      "AttackSpeedMultiplier": 1,
       "AttackAnimation": {
         "Main": [
           "armory:dagger-offhand-poke-1",
@@ -1641,6 +1651,16 @@
     },
     "*-steel": {
       "quenchBuffKind": "weapon"
+    },
+    "*-*-*-steel": {
+      "handbook": {
+        "isDuplicate": true
+      }
+    },
+    "*-*-*-meteoriciron": {
+      "handbook": {
+        "isDuplicate": true
+      }
     }
   }
 }

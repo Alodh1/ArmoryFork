@@ -3461,6 +3461,50 @@
     "op": "add",
     "path": "/-",
     "value": {
+      "ingredientPattern": "TS",
+      "recipeGroup": 1,
+      "ingredients": {
+        "T": {
+          "type": "item",
+          "code": "armory:armor-torso-plate-*-vanilla",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        },
+        "S": {
+          "type": "item",
+          "code": "armory:armor-armshands-plate-*-vanilla",
+          "name": "material",
+          "allowedVariants": [
+            "meteoricsteel"
+          ]
+        }
+      },
+      "width": 2,
+      "height": 1,
+      "shapeless": true,
+      "name": "plate armor",
+      "averageDurability": true,
+      "output": {
+        "type": "item",
+        "code": "game:armor-body-plate-{material}",
+        "recipeAttributes": {
+          "applyquenchablebuffs": true
+        }
+      }
+    }
+  },
+  {
+    "dependsOn": [
+      {
+        "modid": "meteoricsteel"
+      }
+    ],
+    "file": "armory:recipes/grid/armor/plate/plate-combination",
+    "op": "add",
+    "path": "/-",
+    "value": {
       "ingredientPattern": "AH",
       "recipeGroup": 1,
       "ingredients": {

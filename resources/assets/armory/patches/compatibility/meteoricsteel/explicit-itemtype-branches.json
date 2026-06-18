@@ -194,7 +194,12 @@
     "op": "addmerge",
     "path": "/durabilityByType",
     "value": {
-      "*-meteoricsteel-*": 12200
+      "*-torso-plate-meteoricsteel-*": 12200,
+      "*-arms-plate-meteoricsteel-*": 12200,
+      "*-hands-plate-meteoricsteel-*": 12200,
+      "*-legs-plate-meteoricsteel-*": 12200,
+      "*-feet-plate-meteoricsteel-*": 12200,
+      "*-armshands-plate-meteoricsteel-*": 24400
     }
   },
   {
